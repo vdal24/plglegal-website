@@ -10,6 +10,7 @@ If your new or leased vehicle keeps going back to the dealer for the same proble
 
 ## Lemon Law by Brand {#brands}
 
+- [Mercedes-Benz](/lemon-law/mercedes-benz/)
 - [Ford](/lemon-law/ford/)
 - [Chevrolet, GMC, Buick, and Cadillac](/lemon-law/chevrolet-gm/)
 - [Tesla](/lemon-law/tesla/)
@@ -19,7 +20,6 @@ If your new or leased vehicle keeps going back to the dealer for the same proble
 - [Kia](/lemon-law/kia/)
 - [Jeep, Ram, Dodge, and Chrysler](/lemon-law/jeep-stellantis/)
 - [BMW](/lemon-law/bmw/)
-- [Mercedes-Benz](/lemon-law/mercedes-benz/)
 - [Land Rover and Range Rover](/lemon-law/land-rover/)
 - [Nissan and Infiniti](/lemon-law/nissan/)
 

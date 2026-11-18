@@ -74,7 +74,7 @@ NAV = {
             ('Slip and Fall', '/practice-areas/slip-and-fall/'), ('Premises Liability', '/practice-areas/premises-liability/'),
             ('Dog Bites', '/practice-areas/dog-bite-injury/'), ('Wrongful Death', '/practice-areas/wrongful-death/')]),
         ('Lemon Law', '/practice-areas/lemon-law/', [
-            ('California Lemon Law', '/practice-areas/lemon-law/'), ('Lemon Law by Brand', '/lemon-law/#brands'),
+            ('California Lemon Law', '/practice-areas/lemon-law/'), ('Mercedes-Benz Lemon Law', '/lemon-law/mercedes-benz/'), ('Lemon Law by Brand', '/lemon-law/#brands'),
             ('Buyback Calculation', '/lemon-law/buyback-calculation/'), ('Used Cars', '/lemon-law/used-cars/'),
             ('Lemon Law FAQ', '/lemon-law/faq/')]),
         ('Areas We Serve', '/car-accident-lawyer/los-angeles-county/', [

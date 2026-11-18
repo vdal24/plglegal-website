@@ -1,0 +1,31 @@
+# Original DigitalOcean app spec (before the Nov 2026 rebuild). Paste back into
+# App Platform > prospect-law > Settings > App Spec to roll back to the old site.
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: plglegal.com
+  type: PRIMARY
+- domain: www.plglegal.com
+  type: ALIAS
+features:
+- buildpack-stack=ubuntu-22
+ingress:
+  rules:
+  - component:
+      name: prospect-law-group
+    match:
+      authority:
+        exact: ""
+      path:
+        prefix: /
+name: prospect-law
+region: sfo
+static_sites:
+- environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: Epikta2/prospect-law-group
+  name: prospect-law-group
+  source_dir: /
