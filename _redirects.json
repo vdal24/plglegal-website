@@ -1,0 +1,12 @@
+{
+ "/results/": "/#reviews",
+ "/testimonials/": "/#reviews",
+ "/hy/results/": "/hy/",
+ "/hy/testimonials/": "/hy/",
+ "/attorneys/": "/about#lead-attorney",
+ "/attorneys/vardan-daldumyan/": "/about#lead-attorney",
+ "/hy/attorneys/": "/hy/about#lead-attorney",
+ "/hy/attorneys/vardan-daldumyan/": "/hy/about#lead-attorney",
+ "/hy/privacy/": "/hy/privacy-policy",
+ "/privacy/": "/privacy-policy"
+}
