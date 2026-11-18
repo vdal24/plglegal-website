@@ -23,7 +23,7 @@ FIRM = {
     'email': 'contact@plglegal.com',
     'street': '600 W. Broadway, Ste. 320', 'city': 'Glendale', 'region': 'CA', 'zip': '91204',
     'maps': 'https://www.google.com/maps/search/?api=1&query=Prospect+Law+Group+600+W+Broadway+Suite+320+Glendale+CA+91204',
-    'social': {'Instagram': 'https://instagram.com/plglegal', 'Facebook': 'https://facebook.com/plglegal', 'X': 'https://x.com/plglegal'},
+    'social': {'Instagram': 'https://instagram.com/plglegal'},
 }
 
 REMOVED = {  # old URLs that no longer exist -> where they go now
