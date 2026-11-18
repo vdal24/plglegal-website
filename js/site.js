@@ -1,3 +1,18 @@
+// Hero background video: smaller file on phones, and retry playback if the phone blocked autoplay.
+(function () {
+  var v = document.querySelector('.hero-media');
+  if (!v) return;
+  v.muted = true; v.defaultMuted = true; v.setAttribute('muted', '');
+  v.src = window.matchMedia('(max-width: 900px)').matches ? v.dataset.srcMobile : v.dataset.src;
+  function tryPlay() { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+  v.addEventListener('loadeddata', tryPlay);
+  tryPlay();
+  ['touchstart', 'scroll', 'click'].forEach(function (ev) {
+    window.addEventListener(ev, function once() { if (v.paused) tryPlay(); window.removeEventListener(ev, once); }, { passive: true });
+  });
+  document.addEventListener('visibilitychange', function () { if (!document.hidden && v.paused) tryPlay(); });
+})();
+
 // Contact form: sends to FormSubmit (same service the old site used), then shows a confirmation.
 (function () {
   var ENDPOINT = 'https://formsubmit.co/ajax/contact@plglegal.com';
