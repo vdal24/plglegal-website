@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="{{ 'hy' if lang == 'hy' else 'es' if lang == 'es' else 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title }}</title>
+{% if description %}<meta name="description" content="{{ description | e }}">{% endif %}
+<link rel="canonical" href="{{ canonical }}">
+{% if noindex or review_note and 'REQUIRED' in review_note %}{% endif %}
+{% if noindex %}<meta name="robots" content="noindex">{% endif %}
+{% for l, u in alternates.items() %}<link rel="alternate" hreflang="{{ 'hy-AM' if l == 'hy' else 'es-US' if l == 'es' else 'en-US' }}" href="https://plglegal.com{{ u }}">
+{% endfor %}{% if alternates.en %}<link rel="alternate" hreflang="x-default" href="https://plglegal.com{{ alternates.en }}">{% endif %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ title | e }}">
+<meta property="og:description" content="{{ description | e }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="https://plglegal.com{{ hero_image }}">
+<link rel="icon" type="image/png" href="/images/logo/prospect-law-group-icon.png">
+<link rel="apple-touch-icon" href="/images/logo/prospect-law-group-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@400;600{% if lang == 'hy' %}&family=Noto+Sans+Armenian:wght@400;600{% endif %}&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css?v=1">
+{% if not is_home %}<link rel="preload" as="image" href="{{ hero_image }}">{% endif %}
+{% for j in jsonld %}<script type="application/ld+json">{{ j }}</script>
+{% endfor %}
+{% if ga_id or ads_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_id or ads_id }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());{% if ga_id %}gtag('config','{{ ga_id }}');{% endif %}{% if ads_id %}gtag('config','{{ ads_id }}');{% endif %}</script>{% endif %}
+</head>
+<body class="lang-{{ lang }}{% if is_home %} is-home{% endif %}">
+<a class="skip" href="#main">{{ s.skip }}</a>
+
+<div class="topbar">
+  <div class="wrap topbar-in">
+    <span class="topbar-tag">{{ s.consult }} · {{ s.nofee }}</span>
+    <span class="topbar-links">
+      <a href="tel:{{ firm.tel }}">{{ firm.phone }}</a>
+      <a href="mailto:{{ firm.email }}" class="hide-sm">{{ firm.email }}</a>
+      <span class="langs"><a href="{{ alternates.en or '/' }}"{% if lang == 'en' %} aria-current="true"{% endif %}>EN</a><a href="{{ alternates.hy or '/hy/' }}"{% if lang == 'hy' %} aria-current="true"{% endif %} lang="hy">Հայ</a><a href="{{ alternates.es or '/es/' }}"{% if lang == 'es' %} aria-current="true"{% endif %} lang="es">ES</a></span>
+    </span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="logo" href="{{ '/hy/' if lang == 'hy' else '/es/' if lang == 'es' else '/' }}"><img src="/images/logo/prospect-law-group-full.png" alt="Prospect Law Group" width="200" height="56"></a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-desk"><ul class="nav-list">
+        {% for label, href, children in nav %}
+          <li class="{% if children %}has-sub{% endif %}">
+            <a href="{{ href }}">{{ label }}</a>
+            {% if children %}<ul class="sub">{% for cl, ch in children %}<li><a href="{{ ch }}">{{ cl }}</a></li>{% endfor %}</ul>{% endif %}
+          </li>
+        {% endfor %}
+        </ul></div>
+      <details class="nav-mobile">
+        <summary aria-label="{{ s.menu }}"><span></span><span></span><span></span></summary>
+        <ul class="nav-list">
+        {% for label, href, children in nav %}
+          <li class="{% if children %}has-sub{% endif %}">
+            <a href="{{ href }}">{{ label }}</a>
+            {% if children %}<ul class="sub">{% for cl, ch in children %}<li><a href="{{ ch }}">{{ cl }}</a></li>{% endfor %}</ul>{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </details>
+    </nav>
+    <a class="btn btn-gold header-call" href="tel:{{ firm.tel }}">{{ firm.phone }}</a>
+  </div>
+</header>
+
+<main id="main">
+{% if is_home %}
+<section class="home-hero">
+  <video class="hero-media" autoplay muted loop playsinline preload="metadata" poster="/images/hero/glendale-poster.jpg" aria-hidden="true">
+    <source src="/videos/hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero-shade"></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ firm.short }}</p>
+      <h1>{{ h1 }}</h1>
+      {{ hero_html }}
+    </div>
+    {% include 'form.html' %}
+  </div>
+</section>
+<div class="trustbar">
+  <div class="wrap trust-in">
+    <span><b class="stars" aria-hidden="true">★★★★★</b> {{ s.stars }}</span>
+    <span>{{ s.consult }}</span>
+    <span>{{ s.nofee }}</span>
+    <span>{{ s.armenian }} · Հայերեն</span>
+  </div>
+</div>
+<div class="home-body">
+  {{ content }}
+</div>
+{% else %}
+<section class="page-hero" style="--hero:url('{{ hero_image }}')">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Breadcrumb">{% for n, u in crumbs %}{% if not loop.last %}<a href="{{ u }}">{{ n }}</a><span aria-hidden="true">/</span>{% else %}<span aria-current="page">{{ n }}</span>{% endif %}{% endfor %}</nav>
+    <h1>{{ h1 }}</h1>
+    {% if subtitle %}<p class="lede">{{ subtitle }}</p>{% elif description %}<p class="lede">{{ description }}</p>{% endif %}
+    <div class="cta-btns"><a class="btn btn-gold" href="tel:{{ firm.tel }}">{{ s.call }} {{ firm.phone }}</a><a class="btn btn-ghost" href="#case-review">{{ s.review }}</a></div>
+  </div>
+</section>
+<div class="wrap page-grid">
+  <article class="prose">
+    {{ content }}
+    {% if is_contact %}
+    <div class="contact-cards">
+      <div><h3>{{ s.office }}</h3><p>{{ firm.street }}<br>{{ firm.city }}, {{ firm.region }} {{ firm.zip }}</p><p><a href="{{ firm.maps }}">Google Maps</a></p></div>
+      <div><h3>{{ s.call }}</h3><p><a href="tel:{{ firm.tel }}">{{ firm.phone }}</a></p><h3>{{ s.text }}</h3><p><a href="sms:{{ firm.sms }}">{{ firm.sms_display }}</a></p></div>
+      <div><h3>Email</h3><p><a href="mailto:{{ firm.email }}">{{ firm.email }}</a></p></div>
+    </div>
+    <iframe class="map" title="Map to Prospect Law Group" loading="lazy" src="https://www.google.com/maps?q=600+W+Broadway+Suite+320+Glendale+CA+91204&output=embed"></iframe>
+    {% endif %}
+  </article>
+  <aside class="side">
+    {% include 'form.html' %}
+  </aside>
+</div>
+{% endif %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <img src="/images/logo/prospect-law-group-full.png" alt="Prospect Law Group" width="180" height="50" loading="lazy" class="footer-logo">
+      <p>{{ firm.name }}<br>{{ firm.street }}<br>{{ firm.city }}, {{ firm.region }} {{ firm.zip }}</p>
+      <p><a href="tel:{{ firm.tel }}">{{ firm.phone }}</a><br><a href="mailto:{{ firm.email }}">{{ firm.email }}</a></p>
+    </div>
+    <div>
+      <h4>{% if lang == 'en' %}Injury Cases{% else %}{{ nav[0][0] }}{% endif %}</h4>
+      <ul>{% for label, href in (NAVLINKS if NAVLINKS is defined else nav[0][2]) %}<li><a href="{{ href }}">{{ label }}</a></li>{% endfor %}</ul>
+    </div>
+    <div>
+      <h4>Lemon Law</h4>
+      <ul>
+        <li><a href="/practice-areas/lemon-law/">California Lemon Law</a></li>
+        <li><a href="/lemon-law/ford/">Ford</a> · <a href="/lemon-law/chevrolet-gm/">Chevrolet / GM</a></li>
+        <li><a href="/lemon-law/tesla/">Tesla</a> · <a href="/lemon-law/toyota/">Toyota</a> · <a href="/lemon-law/honda/">Honda</a></li>
+        <li><a href="/lemon-law/hyundai/">Hyundai</a> · <a href="/lemon-law/kia/">Kia</a> · <a href="/lemon-law/jeep-stellantis/">Jeep</a></li>
+        <li><a href="/lemon-law/bmw/">BMW</a> · <a href="/lemon-law/mercedes-benz/">Mercedes</a> · <a href="/lemon-law/land-rover/">Land Rover</a> · <a href="/lemon-law/nissan/">Nissan</a></li>
+      </ul>
+      <h4>Areas We Serve</h4>
+      <ul><li><a href="/car-accident-lawyer/los-angeles-county/">Los Angeles County</a> · <a href="/car-accident-lawyer/glendale/">Glendale</a> · <a href="/car-accident-lawyer/burbank/">Burbank</a> · <a href="/car-accident-lawyer/pasadena/">Pasadena</a></li></ul>
+    </div>
+    <div>
+      <h4>{{ s.follow }}</h4>
+      <ul>{% for n, u in firm.social.items() %}<li><a href="{{ u }}" rel="noopener">{{ n }}</a></li>{% endfor %}</ul>
+      <h4>Legal</h4>
+      <ul><li><a href="/privacy-policy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li><li><a href="/disclaimer/">Disclaimer</a></li><li><a href="/accessibility/">Accessibility</a></li></ul>
+    </div>
+  </div>
+  <div class="wrap footer-base">
+    <p>{{ s.ad }}</p>
+    <p>© {{ year }} {{ firm.name }}</p>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a href="tel:{{ firm.tel }}" class="btn btn-gold">{{ s.call_now }}</a>
+  <a href="sms:{{ firm.sms }}" class="btn btn-navy">{{ s.text }}</a>
+</div>
+<script src="/js/site.js?v=1" defer></script>
+</body>
+</html>

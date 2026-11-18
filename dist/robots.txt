@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://plglegal.com/sitemap-index.xml

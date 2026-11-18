@@ -1,0 +1,19 @@
+<form class="case-form" id="case-review" data-ok="{{ s.ok | e }}" data-err="{{ s.err | e }} {{ firm.phone }}." data-sending="{{ s.sending | e }}" novalidate>
+  <h2>{{ s.form_title }}</h2>
+  <p class="form-sub">{{ s.form_sub }}</p>
+  <input type="hidden" name="_subject" value="New website inquiry: Prospect Law Group">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="page" value="{{ url }}">
+  <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <label>{{ s.name }}<input name="name" autocomplete="name" required></label>
+  <label>{{ s.phone }}<input name="phone" type="tel" autocomplete="tel" required></label>
+  <label>{{ s.email }}<input name="email" type="email" autocomplete="email"></label>
+  <label>{{ s.case }}
+    <select name="case_type"><option value="">{{ s.choose }}</option>{% for c in s.cases %}<option>{{ c }}</option>{% endfor %}</select>
+  </label>
+  <label>{{ s.msg }}<textarea name="message" rows="3"></textarea></label>
+  <label class="consent"><input type="checkbox" name="consent" value="yes" required> <span>{{ s.consent }}</span></label>
+  <button class="btn btn-gold btn-block" type="submit">{{ s.send }}</button>
+  <p class="form-status" role="status" aria-live="polite"></p>
+</form>
