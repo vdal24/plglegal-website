@@ -91,10 +91,9 @@ Initial evidence gathering begins immediately, but full investigation may contin
 
 ## Related Practice Areas
 
-[### Car Accidents
+### [Car Accidents](/practice-areas/car-accidents/)
 
-](/practice-areas/car-accidents)[### Bicycle Accidents
+### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
 
-](/practice-areas/bicycle-accidents)[### Motorcycle Accidents
+### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
 
-](/practice-areas/motorcycle-accidents)

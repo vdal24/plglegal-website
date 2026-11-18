@@ -65,7 +65,7 @@ Ride logs և GPS տվյալներ կարևոր են ավարիայի ժաման�
 
 ### Ով է վճարում?
 
-Ծածկույթը կախված է app կարգավիճակից - մինչև $1 միլիոն en route ժամանակ։
+Ծածկույթը կախված է app կարգավիճակից, մինչև $1 միլիոն en route ժամանակ։
 
 ### Կարող եմ հարուցել Uber/Lyft-ի դեմ?
 
@@ -81,7 +81,7 @@ Report արեք, բայց avoid recorded statements առանց իրավական 
 
 ### Ծածկում է հետիոտնիներին?
 
-Այո - հետիոտներ և ցիկլիստներ կարող են օգտագործել rideshare policy։
+Այո, հետիոտներ և ցիկլիստներ կարող են օգտագործել rideshare policy։
 
 ### Ինչպես որոշվում է պատասխանատվությունը?
 
@@ -89,18 +89,8 @@ Report արեք, բայց avoid recorded statements առանց իրավական 
 
 ## Նման գործերի տեսակներ
 
-[### Ավտոմոբիլային ավարիաներ
+### [Ավտոմոբիլային ավարիաներ](/hy/practice-areas/car-accidents/)
 
-Իմանել ավելին →](/hy/practice-areas/car-accidents)[### Ցիկլիստների ավարիաներ
+### [Ցիկլիստների ավարիաներ](/hy/practice-areas/bicycle-accidents/)
 
-Իմանել ավելին →](/hy/practice-areas/bicycle-accidents)[### Մոտոցիկլետային ավարիաներ
-
-Իմանել ավելին →](/hy/practice-areas/motorcycle-accidents)
-
-Prospect Law Group
-
-## Վնասված? Մենք կռվի։ Դուք հաղթում եք։
-
-Կապվեք Prospect Law Group-ի հետ այսօր։
-
-[Անվճար խորհրդատվություն](/hy/contact)
+### [Մոտոցիկլետային ավարիաներ](/hy/practice-areas/motorcycle-accidents/)

@@ -21,7 +21,7 @@ Bus crash victims frequently suffer traumatic brain injuries, spinal damage, bro
 
 ## Why Hire an Attorney
 
-Bus accidents can involve public agencies, school districts, tour operators, and private carriers - each with different insurance rules and notice deadlines. Prospect Law Group navigates these complexities for injured passengers, pedestrians, and motorists.
+Bus accidents can involve public agencies, school districts, tour operators, and private carriers, each with different insurance rules and notice deadlines. Prospect Law Group navigates these complexities for injured passengers, pedestrians, and motorists.
 
 ### Government claims have special deadlines
 
@@ -87,14 +87,13 @@ A citation is helpful but not required. Negligence can be proven through witness
 
 ### What compensation is available after a bus accident?
 
-Medical bills, lost wages, pain and suffering, and wrongful death damages may be available. Policy limits and government tort caps can affect recovery - we evaluate all avenues.
+Medical bills, lost wages, pain and suffering, and wrongful death damages may be available. Policy limits and government tort caps can affect recovery, we evaluate all avenues.
 
 ## Related Practice Areas
 
-[### Car Accidents
+### [Car Accidents](/practice-areas/car-accidents/)
 
-](/practice-areas/car-accidents)[### Bicycle Accidents
+### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
 
-](/practice-areas/bicycle-accidents)[### Motorcycle Accidents
+### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
 
-](/practice-areas/motorcycle-accidents)

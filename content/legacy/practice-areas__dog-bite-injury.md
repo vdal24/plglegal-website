@@ -19,7 +19,7 @@ If you or your child was attacked in a Glendale neighborhood, park, apartment co
 
 ## Why Hire an Attorney
 
-California imposes strict liability on dog owners for bite injuries - but insurers still dispute severity, scarring, and future treatment. Prospect Law Group helps bite victims document injuries and pursue full compensation under California law.
+California imposes strict liability on dog owners for bite injuries, but insurers still dispute severity, scarring, and future treatment. Prospect Law Group helps bite victims document injuries and pursue full compensation under California law.
 
 ### Strict liability favors victims
 
@@ -73,7 +73,7 @@ Medical treatment, future surgery, lost wages, pain and suffering, scarring and 
 
 ### Can I sue if the bite happened on the owner's property?
 
-Yes. Strict liability generally applies when you were lawfully on the property - including as a guest, delivery worker, or neighbor.
+Yes. Strict liability generally applies when you were lawfully on the property, including as a guest, delivery worker, or neighbor.
 
 ### What if the owner says I provoked the dog?
 
@@ -89,10 +89,9 @@ Generally two years from the date of the bite for personal injury claims. Contac
 
 ## Related Practice Areas
 
-[### Car Accidents
+### [Car Accidents](/practice-areas/car-accidents/)
 
-](/practice-areas/car-accidents)[### Bicycle Accidents
+### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
 
-](/practice-areas/bicycle-accidents)[### Motorcycle Accidents
+### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
 
-](/practice-areas/motorcycle-accidents)

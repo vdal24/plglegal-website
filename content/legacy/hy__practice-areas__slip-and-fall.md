@@ -69,7 +69,7 @@ Government claims կարճ ժամկետներով։
 
 ### Կարող եմ հարուցել խանութում?
 
-Այո - կոմերցիոն սեփականորները պարտավոր են ապահով հատակներ։
+Այո, կոմերցիոն սեփականորները պարտավոր են ապահով հատակներ։
 
 ### Ինչ եթե wet floor sign էր?
 
@@ -81,7 +81,7 @@ Signs-ը չի excuse անում անreasonable վտանգավորություն�
 
 ### Որքան արագ պետք է բժշկին?
 
-Անմիջապես - delayed treatment օգտագործվում է որպես defense։
+Անմիջապես, delayed treatment օգտագործվում է որպես defense։
 
 ### Ինչ փոխհատուցում?
 
@@ -89,18 +89,8 @@ Signs-ը չի excuse անում անreasonable վտանգավորություն�
 
 ## Նման գործերի տեսակներ
 
-[### Ավտոմոբիլային ավարիաներ
+### [Ավտոմոբիլային ավարիաներ](/hy/practice-areas/car-accidents/)
 
-Իմանել ավելին →](/hy/practice-areas/car-accidents)[### Ցիկլիստների ավարիաներ
+### [Ցիկլիստների ավարիաներ](/hy/practice-areas/bicycle-accidents/)
 
-Իմանել ավելին →](/hy/practice-areas/bicycle-accidents)[### Մոտոցիկլետային ավարիաներ
-
-Իմանել ավելին →](/hy/practice-areas/motorcycle-accidents)
-
-Prospect Law Group
-
-## Վնասված? Մենք կռվի։ Դուք հաղթում եք։
-
-Կապվեք Prospect Law Group-ի հետ այսօր։
-
-[Անվճար խորհրդատվություն](/hy/contact)
+### [Մոտոցիկլետային ավարիաներ](/hy/practice-areas/motorcycle-accidents/)

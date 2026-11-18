@@ -21,7 +21,7 @@ Fall injuries, especially hip fractures, wrist injuries, back trauma, and head i
 
 ## Why Hire an Attorney
 
-Slip and fall injuries are often dismissed by insurers as minor - until medical bills and lost work pile up. Prospect Law Group investigates falls on commercial and residential property and proves when owners failed to keep premises safe.
+Slip and fall injuries are often dismissed by insurers as minor, until medical bills and lost work pile up. Prospect Law Group investigates falls on commercial and residential property and proves when owners failed to keep premises safe.
 
 ### Spills and hazards disappear fast
 
@@ -77,7 +77,7 @@ Yes. Commercial property owners owe customers a duty to maintain safe floors and
 
 Warning signs do not always excuse negligence. Signs may be inadequate, placed too late, or used when the hazard was unreasonably dangerous regardless of warning.
 
-### I fell at a friend's house - can I still make a claim?
+### I fell at a friend's house, can I still make a claim?
 
 Homeowner's insurance often covers guest injuries. Claims are typically against the policy, not personal assets, though each situation requires careful evaluation.
 
@@ -91,10 +91,9 @@ Medical expenses, physical therapy, lost wages, pain and suffering, and future c
 
 ## Related Practice Areas
 
-[### Car Accidents
+### [Car Accidents](/practice-areas/car-accidents/)
 
-](/practice-areas/car-accidents)[### Bicycle Accidents
+### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
 
-](/practice-areas/bicycle-accidents)[### Motorcycle Accidents
+### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
 
-](/practice-areas/motorcycle-accidents)

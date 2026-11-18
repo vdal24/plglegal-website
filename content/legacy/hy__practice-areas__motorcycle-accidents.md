@@ -87,18 +87,8 @@ Prospect Law Group-ը ներկայացնում է մոտոցիկլետային �
 
 ## Նման գործերի տեսակներ
 
-[### Ավտոմոբիլային ավարիաներ
+### [Ավտոմոբիլային ավարիաներ](/hy/practice-areas/car-accidents/)
 
-Իմանել ավելին →](/hy/practice-areas/car-accidents)[### Ցիկլիստների ավարիաներ
+### [Ցիկլիստների ավարիաներ](/hy/practice-areas/bicycle-accidents/)
 
-Իմանել ավելին →](/hy/practice-areas/bicycle-accidents)[### Բեռնատար ավարիաներ
-
-Իմանել ավելին →](/hy/practice-areas/truck-accidents)
-
-Prospect Law Group
-
-## Վնասված? Մենք կռվի։ Դուք հաղթում եք։
-
-Կապվեք Prospect Law Group-ի հետ այսօր։
-
-[Անվճար խորհրդատվություն](/hy/contact)
+### [Բեռնատար ավարիաներ](/hy/practice-areas/truck-accidents/)

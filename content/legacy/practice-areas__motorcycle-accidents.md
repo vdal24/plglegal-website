@@ -91,10 +91,9 @@ Document damage with photos first. In some cases, preserving the bike for inspec
 
 ## Related Practice Areas
 
-[### Car Accidents
+### [Car Accidents](/practice-areas/car-accidents/)
 
-](/practice-areas/car-accidents)[### Bicycle Accidents
+### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
 
-](/practice-areas/bicycle-accidents)[### Truck Accidents
+### [Truck Accidents](/practice-areas/truck-accidents/)
 
-](/practice-areas/truck-accidents)

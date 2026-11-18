@@ -39,7 +39,7 @@ Wrongful death հաճախ հետևում է car crash-ից։
 
 ### Accountability
 
-Beyond compensation - holding negligent parties accountable։
+Beyond compensation, holding negligent parties accountable։
 
 ## Ընդհանուր վնասվածքներ
 
@@ -77,7 +77,7 @@ Beyond compensation - holding negligent parties accountable։
 
 ### Կարող եմ, եթե criminal case է?
 
-Այո - criminal և civil separate են։
+Այո, criminal և civil separate են։
 
 ### Որքան է տևում?
 
@@ -89,18 +89,8 @@ Beyond compensation - holding negligent parties accountable։
 
 ## Նման գործերի տեսակներ
 
-[### Ավտոմոբիլային ավարիաներ
+### [Ավտոմոբիլային ավարիաներ](/hy/practice-areas/car-accidents/)
 
-Իմանել ավելին →](/hy/practice-areas/car-accidents)[### Ցիկլիստների ավարիաներ
+### [Ցիկլիստների ավարիաներ](/hy/practice-areas/bicycle-accidents/)
 
-Իմանել ավելին →](/hy/practice-areas/bicycle-accidents)[### Մոտոցիկլետային ավարիաներ
-
-Իմանել ավելին →](/hy/practice-areas/motorcycle-accidents)
-
-Prospect Law Group
-
-## Վնասված? Մենք կռվի։ Դուք հաղթում եք։
-
-Կապվեք Prospect Law Group-ի հետ այսօր։
-
-[Անվճար խորհրդատվություն](/hy/contact)
+### [Մոտոցիկլետային ավարիաներ](/hy/practice-areas/motorcycle-accidents/)

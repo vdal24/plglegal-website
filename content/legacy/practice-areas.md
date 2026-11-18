@@ -10,48 +10,48 @@ hero_image: /images/hero/glendale-poster.jpg
 legacy: true
 ---
 
-[### Car Accidents
+
+### [Car Accidents](/practice-areas/car-accidents/)
 
 Aggressive representation for victims of negligent drivers in Glendale and Los Angeles County.
 
-](/practice-areas/car-accidents)[### Bicycle Accidents
+### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
 
 Fighting for cyclists injured by negligent motorists and dangerous road conditions.
 
-](/practice-areas/bicycle-accidents)[### Motorcycle Accidents
+### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
 
 Protecting riders injured by negligent motorists throughout Los Angeles County.
 
-](/practice-areas/motorcycle-accidents)[### Truck Accidents
+### [Truck Accidents](/practice-areas/truck-accidents/)
 
 Holding trucking companies and negligent drivers accountable for catastrophic injuries.
 
-](/practice-areas/truck-accidents)[### Bus Accidents
+### [Bus Accidents](/practice-areas/bus-accidents/)
 
 Representing passengers and others injured in public transit and private bus crashes.
 
-](/practice-areas/bus-accidents)[### Dog Bite Injury
+### [Dog Bite Injury](/practice-areas/dog-bite-injury/)
 
 California strict liability claims for dog bite victims and their families.
 
-](/practice-areas/dog-bite-injury)[### Premises Liability
+### [Premises Liability](/practice-areas/premises-liability/)
 
 Holding property owners accountable when unsafe conditions cause serious injuries.
 
-](/practice-areas/premises-liability)[### Rideshare Accidents
+### [Rideshare Accidents](/practice-areas/rideshare-accidents/)
 
 Navigating complex rideshare insurance claims for injured passengers and drivers.
 
-](/practice-areas/rideshare-accidents)[### Slip and Fall Accidents
+### [Slip and Fall Accidents](/practice-areas/slip-and-fall/)
 
 Holding property owners accountable for dangerous conditions that cause injuries.
 
-](/practice-areas/slip-and-fall)[### Wrongful Death
+### [Wrongful Death](/practice-areas/wrongful-death/)
 
 Compassionate advocacy for families who have lost loved ones due to negligence.
 
-](/practice-areas/wrongful-death)[### Lemon Law
+### [Lemon Law](/practice-areas/lemon-law/)
 
 Helping California consumers resolve defective vehicle claims and warranty disputes.
 
-](/practice-areas/lemon-law)

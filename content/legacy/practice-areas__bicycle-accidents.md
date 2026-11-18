@@ -21,7 +21,7 @@ If you were hit while commuting, training, or riding recreationally in Glendale,
 
 ## Why Hire an Attorney
 
-Cyclists face bias after crashes - insurers often blame the rider even when a motorist violated traffic laws. Prospect Law Group investigates bicycle accidents thoroughly and fights for full compensation for injured riders in Glendale and across Los Angeles County.
+Cyclists face bias after crashes, insurers often blame the rider even when a motorist violated traffic laws. Prospect Law Group investigates bicycle accidents thoroughly and fights for full compensation for injured riders in Glendale and across Los Angeles County.
 
 ### Insurers often dispute cyclist claims
 
@@ -83,7 +83,7 @@ Yes. Property damage to your bicycle, helmet, clothing, and accessories can be i
 
 ### How long do I have to file a bicycle accident claim?
 
-The same California personal injury statute of limitations generally applies - typically two years from the date of injury. Contact us early so we can preserve scene evidence and medical documentation.
+The same California personal injury statute of limitations generally applies, typically two years from the date of injury. Contact us early so we can preserve scene evidence and medical documentation.
 
 ### Do I need a lawyer if the driver was cited by police?
 
@@ -91,10 +91,9 @@ A citation helps but does not guarantee full compensation. Insurers may still di
 
 ## Related Practice Areas
 
-[### Car Accidents
+### [Car Accidents](/practice-areas/car-accidents/)
 
-](/practice-areas/car-accidents)[### Motorcycle Accidents
+### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
 
-](/practice-areas/motorcycle-accidents)[### Truck Accidents
+### [Truck Accidents](/practice-areas/truck-accidents/)
 
-](/practice-areas/truck-accidents)

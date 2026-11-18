@@ -14,13 +14,13 @@ One of the most common questions injury victims ask is: “How much will this co
 
 ## How Contingency Fees Work
 
-A contingency fee means your attorney’s payment is contingent on - dependent on - winning your case. Instead of charging hourly rates or upfront retainers, the attorney receives a percentage of your settlement or court award.
+A contingency fee means your attorney’s payment is contingent on, dependent on, winning your case. Instead of charging hourly rates or upfront retainers, the attorney receives a percentage of your settlement or court award.
 
 ## What You Pay
 
 * **No upfront costs** for consultations or representation
 * **No hourly billing** while your case is pending
-* **Attorney fee** is typically a percentage of your recovery (standard in California is 33-40% depending on case stage)
+* **Attorney fee** is typically a percentage of your recovery (standard in California is 33 to 40% depending on case stage)
 * **Case costs** (filing fees, expert witnesses, medical records) may be advanced by the firm and recovered from your settlement
 
 ## What This Means for You

@@ -23,7 +23,9 @@ If your new or leased vehicle keeps going back to the dealer for the same proble
 - [Land Rover and Range Rover](/lemon-law/land-rover/)
 - [Nissan and Infiniti](/lemon-law/nissan/)
 
-Don't see your brand? California lemon law covers every manufacturer. [Call 323-452-5222]
+Don't see your brand? California lemon law covers every manufacturer.
+
+[Call 323-452-5222]
 
 ## Lemon Law by Defect
 

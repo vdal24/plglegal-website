@@ -13,33 +13,23 @@ legacy: true
 
 ## Overview
 
-Los Feliz's Vermont and Hillhurst corridors, Griffith Park access roads, and dense residential streets see constant vehicle and pedestrian activity. Prospect Law Group represents Los Feliz injury victims in negligence claims large and small - always with personalized attention from our Glendale office.
+Los Feliz's Vermont and Hillhurst corridors, Griffith Park access roads, and dense residential streets see constant vehicle and pedestrian activity. Prospect Law Group represents Los Feliz injury victims in negligence claims large and small, always with personalized attention from our Glendale office.
 
-[Free Consultation](/contact) [Call Us](tel:3234525222)
-
-## In Your Community - Los Feliz
-
-01
+## In Your Community: Los Feliz
 
 Vermont Avenue and Hillhurst Avenue traffic and pedestrian accident experience.
 
-02
-
 Representation near Griffith Park and Los Feliz Village commercial areas.
 
-03
-
 Accessible Glendale office via the 5 freeway from Los Feliz.
-
-04
 
 Contingency representation with no upfront legal fees.
 
 ## Why Local Representation Matters
 
-Los Feliz residents deserve an attorney who knows local roads, courts, and insurers - not a distant call center.
+Los Feliz residents deserve an attorney who knows local roads, courts, and insurers, not a distant call center.
 
-Urban density means witnesses and video evidence can disappear fast - we investigate immediately.
+Urban density means witnesses and video evidence can disappear fast, we investigate immediately.
 
 We handle high-value claims when injuries affect career and quality of life.
 
@@ -56,39 +46,25 @@ We coordinate complex medical documentation for orthopedic and neurological inju
 - Pedestrian & bicycle accidents
 - Wrongful death claims
 
-Visit Our Glendale Office
-
 ## Prospect Law Group
 
 600 W. Broadway, STE 320, Glendale, CA 91204
 
 Los Feliz residents can drive to our Glendale office in about 15 minutes via the 5 freeway or surface streets.
 
-[Free Consultation](/contact)  [Locations](https://www.google.com/maps/dir/?api=1&destination=600+W+Broadway,+Ste+320,+Glendale,+CA+91204) 
-
-Contact Prospect Law Group today for a free, no-obligation consultation.
-
-Call
-
- [323-452-5222](tel:3234525222) 
-
-Email
-
- [Contact@PLGlegal.com](mailto:Contact@PLGlegal.com)
-
-## Frequently Asked Questions - Los Feliz
+## Frequently Asked Questions: Los Feliz
 
 ### Do you handle Los Feliz personal injury cases?
 
 Yes. We represent clients injured throughout Los Feliz, Silver Lake borders, and greater Northeast LA.
 
-### I was injured near Griffith Park - can you help?
+### I was injured near Griffith Park, can you help?
 
 Yes. Accidents on park-adjacent roads, crosswalks, and parking areas may involve drivers, cyclists, or municipal entities. We evaluate all liability sources.
 
 ### What if the insurance adjuster says my injuries are minor?
 
-Insurers routinely minimize claims. Medical imaging, specialist opinions, and daily impact evidence support fair valuations - we present a complete damages picture.
+Insurers routinely minimize claims. Medical imaging, specialist opinions, and daily impact evidence support fair valuations, we present a complete damages picture.
 
 ### Can I switch attorneys if I already hired someone in Los Feliz?
 
@@ -100,4 +76,4 @@ We accommodate busy schedules with phone and video consultations and can arrange
 
 ## Nearby Communities We Serve
 
- [Eagle Rock](/service-areas/eagle-rock)  [Atwater Village](/service-areas/atwater-village)  [Glendale](/service-areas/glendale)
+ [Eagle Rock](/service-areas/eagle-rock/) · [Atwater Village](/service-areas/atwater-village/) · [Glendale](/service-areas/glendale/)

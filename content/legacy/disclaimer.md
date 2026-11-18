@@ -16,8 +16,8 @@ informational purposes only and does not constitute legal advice.
 
 ## No Attorney-Client Relationship
 
-Reading, viewing, or interacting with this website - including submitting contact forms or using
-the Connect Center - does not create an attorney-client relationship. An attorney-client
+Reading, viewing, or interacting with this website, including submitting contact forms or using
+the Connect Center, does not create an attorney-client relationship. An attorney-client
 relationship is formed only when Prospect Law Group agrees to represent you in writing.
 
 ## No Legal Advice

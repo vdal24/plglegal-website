@@ -23,7 +23,7 @@ Losing a loved one because of negligence is devastating. Families face funeral c
 
 ### Statutory beneficiaries and standing
 
-California limits who may file wrongful death claims. We determine eligible survivors - spouses, children, parents, and dependents - and protect each family member's rights.
+California limits who may file wrongful death claims. We determine eligible survivors, spouses, children, parents, and dependents, and protect each family member's rights.
 
 ### Insurers undervalue human loss
 
@@ -69,7 +69,7 @@ Spouses, children, parents of deceased children, and certain other dependents ma
 
 ### What is the statute of limitations for wrongful death?
 
-California wrongful death lawsuits generally must be filed within two years of the date of death. Some circumstances may affect deadlines - consult an attorney promptly.
+California wrongful death lawsuits generally must be filed within two years of the date of death. Some circumstances may affect deadlines, consult an attorney promptly.
 
 ### What damages are available in a wrongful death case?
 
@@ -89,10 +89,9 @@ Not always, but autopsy results can clarify cause of death in disputed cases. We
 
 ## Related Practice Areas
 
-[### Car Accidents
+### [Car Accidents](/practice-areas/car-accidents/)
 
-](/practice-areas/car-accidents)[### Bicycle Accidents
+### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
 
-](/practice-areas/bicycle-accidents)[### Motorcycle Accidents
+### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
 
-](/practice-areas/motorcycle-accidents)

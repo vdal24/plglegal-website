@@ -41,7 +41,7 @@ Assaults in parking lots, apartments, and bars may involve negligent security cl
 
 ### Insurance investigators arrive fast
 
-Retail and hospitality insurers deploy teams to the scene. Your attorney should be building your case at the same time - not weeks later.
+Retail and hospitality insurers deploy teams to the scene. Your attorney should be building your case at the same time, not weeks later.
 
 ## Common Injuries
 
@@ -83,7 +83,7 @@ Photos are valuable but not always required. Witness testimony, incident reports
 
 ### What is negligent security?
 
-When a property owner fails to provide reasonable security - such as adequate lighting, locks, or staff - and predictable criminal activity causes injury, they may be liable.
+When a property owner fails to provide reasonable security, such as adequate lighting, locks, or staff, and predictable criminal activity causes injury, they may be liable.
 
 ### How long do I have to file a premises liability claim?
 
@@ -91,10 +91,9 @@ California personal injury claims generally must be filed within two years. Gove
 
 ## Related Practice Areas
 
-[### Car Accidents
+### [Car Accidents](/practice-areas/car-accidents/)
 
-](/practice-areas/car-accidents)[### Bicycle Accidents
+### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
 
-](/practice-areas/bicycle-accidents)[### Motorcycle Accidents
+### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
 
-](/practice-areas/motorcycle-accidents)

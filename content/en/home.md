@@ -8,6 +8,7 @@ schema: [LegalService, Attorney, WebSite]
 
 <!-- HERO -->
 <!-- TRUST BAR (replaces "Millions Recovered" / "Proven Track Record"): headline tagline below, then: 5.0 stars on Google · Free consultation · No fee unless we win · We speak Armenian · Հայերեն -->
+
 ## I Used to Work for the Insurance Company. Now I Work for You.
 
 Before founding Prospect Law Group, attorney Vardan Daldumyan worked as an in-house trial attorney for an insurance company. He saw from the inside how claims are valued, how adjusters decide what to offer, and why some injured people get paid fairly while others get lowballed.

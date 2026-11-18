@@ -14,7 +14,7 @@ After a car accident in Glendale, the steps you take in the first hours and days
 
 ## Seek Medical Attention First
 
-Your health is the priority. Even if you feel fine, some injuries - like whiplash and internal bleeding - may not show symptoms immediately. Document all medical visits and keep records of every treatment.
+Your health is the priority. Even if you feel fine, some injuries, like whiplash and internal bleeding, may not show symptoms immediately. Document all medical visits and keep records of every treatment.
 
 ## Document Everything
 

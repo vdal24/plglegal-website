@@ -51,7 +51,7 @@ No. En California, su estatus migratorio generalmente no le impide reclamar una 
 
 ## Contacto
 
-600 W. Broadway, Ste. 320, Glendale, CA 91204 · [323-452-5222]
+600 W. Broadway, Ste. 320, Glendale, CA 91204 · [323-452-5222](tel:+13234525222)
 
 [English](/) · [Հայերեն](/hy/)
 
