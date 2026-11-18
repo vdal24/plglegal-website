@@ -1,3 +1,3 @@
-Campaign,Campaign state,Budget,Bid Strategy type,Campaign type,Networks,EU political ads
-PLG | Injury Search | LA County,paused,75.00,Manual CPC,Search,Google search,Doesn't have EU political ads
-PLG | Lemon Law | California,paused,40.00,Manual CPC,Search,Google search,Doesn't have EU political ads
+Campaign,Campaign type,Networks,Budget,Budget type,Bid strategy type,Campaign status,EU political ads
+PLG | Injury Search | LA County,Search,Google search,75,Daily,Manual CPC,Paused,No
+PLG | Lemon Law | California,Search,Google search,40,Daily,Manual CPC,Paused,No
