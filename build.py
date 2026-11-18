@@ -332,5 +332,23 @@ def main():
         ga_id=GA_ID, ads_id=ADS_ID, reviews=reviews, year=datetime.date.today().year, is_contact=False, noindex=True))
     print(f'Built {len(pages)} pages, {len(redirects)} redirects -> {DIST}')
 
+def make_preview(base):
+    """Copy dist/ to preview/ with every root link prefixed by base (for a GitHub Pages preview) and noindex everywhere."""
+    P = ROOT / 'preview'
+    if P.exists(): shutil.rmtree(P)
+    shutil.copytree(DIST, P)
+    for f in P.rglob('*.html'):
+        t = f.read_text()
+        t = re.sub(r'(href|src|poster|content)="/(?!/)', lambda m: f'{m.group(1)}="{base}/', t)
+        t = re.sub(r"url\('/", f"url('{base}/", t)
+        t = t.replace('<head>', '<head><meta name="robots" content="noindex, nofollow">', 1)
+        f.write_text(t)
+    (P / 'robots.txt').write_text('User-agent: *\nDisallow: /\n')
+    (P / '.nojekyll').write_text('')
+    print('Preview ->', P)
+
 if __name__ == '__main__':
+    import sys
     main()
+    if '--preview' in sys.argv:
+        make_preview(sys.argv[sys.argv.index('--preview') + 1])
