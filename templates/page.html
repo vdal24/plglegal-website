@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@400;600{% if lang == 'hy' %}&family=Noto+Sans+Armenian:wght@400;600{% endif %}&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/site.css?v=2">
+<link rel="stylesheet" href="/css/site.css?v=3">
 {% if not is_home %}<link rel="preload" as="image" href="{{ hero_image }}">{% endif %}
 {% for j in jsonld %}<script type="application/ld+json">{{ j }}</script>
 {% endfor %}
@@ -72,9 +72,7 @@
 <main id="main">
 {% if is_home %}
 <section class="home-hero">
-  <video class="hero-media" autoplay muted loop playsinline preload="metadata" poster="/images/hero/glendale-poster.jpg" aria-hidden="true">
-    <source src="/videos/hero.mp4" type="video/mp4">
-  </video>
+  <video class="hero-media" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture preload="auto" poster="/images/hero/glendale-poster.jpg" aria-hidden="true" data-src="/videos/hero.mp4" data-src-mobile="/videos/hero-mobile.mp4"></video>
   <div class="hero-shade"></div>
   <div class="wrap hero-grid">
     <div class="hero-copy">
@@ -164,6 +162,6 @@
   <a href="tel:{{ firm.tel }}" class="btn btn-gold">{{ s.call_now }}</a>
   <a href="sms:{{ firm.sms }}" class="btn btn-navy">{{ s.text }}</a>
 </div>
-<script src="/js/site.js?v=1" defer></script>
+<script src="/js/site.js?v=2" defer></script>
 </body>
 </html>

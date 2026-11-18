@@ -230,4 +230,4 @@ p, ul, ol { margin: 0 0 1em; }
   .site-footer ul.cols2, .footer-grid > div:nth-child(2) ul { columns: 2; column-gap: 16px; }
   .rcard { padding: 18px; }
 }
-@media (prefers-reduced-motion: reduce) { .hero-media { display: none; } * { scroll-behavior: auto !important; transition: none !important; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
