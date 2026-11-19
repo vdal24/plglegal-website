@@ -26,7 +26,7 @@ Now he uses that knowledge on your side.
 
 ## Practice Areas
 
-### Car and Auto Accidents
+### Car Accidents
 Rear-end collisions, freeway crashes on the 134, 2, 5 and 210, intersection accidents, and hit-and-runs anywhere in Los Angeles County. [Car accident lawyer](/practice-areas/car-accidents/)
 
 ### Uber and Lyft Accidents
