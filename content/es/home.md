@@ -29,7 +29,9 @@ Las compañías de seguros tienen ajustadores y abogados cuyo trabajo es pagarle
 
 ## Lo que dicen nuestros clientes
 
-Reseñas reales de Google (en inglés): [ver todas en Google](GOOGLE_PLACE_LINK)
+Reseñas reales de Google (en inglés): [ver todas en Google](https://www.google.com/maps/search/?api=1&query=Prospect+Law+Group+600+W+Broadway+Suite+320+Glendale+CA+91204)
+
+> "...fought to get the amount that I deserve so I would highly recommend him." Humberto A.
 
 > "...flipped liability from 0% to 100%, and got me the full policy limit." Hovik T.
 

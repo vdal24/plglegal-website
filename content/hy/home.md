@@ -29,7 +29,9 @@ review_note: "NATIVE SPEAKER REVIEW REQUIRED before publishing. Machine-assisted
 
 ## Մեր հաճախորդների կարծիքները
 
-Google-ի իրական կարծիքներ (անգլերենով)՝ [տեսնել բոլորը Google-ում](GOOGLE_PLACE_LINK)
+Google-ի իրական կարծիքներ (անգլերենով)՝ [տեսնել բոլորը Google-ում](https://www.google.com/maps/search/?api=1&query=Prospect+Law+Group+600+W+Broadway+Suite+320+Glendale+CA+91204)
+
+> «...fought to get the amount that I deserve so I would highly recommend him.» Humberto A.
 
 > «...flipped liability from 0% to 100%, and got me the full policy limit.» Hovik T.
 

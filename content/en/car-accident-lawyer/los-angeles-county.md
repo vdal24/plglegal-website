@@ -22,10 +22,11 @@ Attorney Vardan Daldumyan worked as an in-house trial attorney for an insurance 
 - **Glendale and the Verdugos:** [Glendale](/car-accident-lawyer/glendale/), La Crescenta, Montrose, La Cañada Flintridge
 - **San Fernando Valley:** [Burbank](/car-accident-lawyer/burbank/), North Hollywood, Studio City, Van Nuys, Sherman Oaks
 - **San Gabriel Valley:** [Pasadena](/car-accident-lawyer/pasadena/), Altadena, South Pasadena, Arcadia
+- **City of Los Angeles:** [Los Angeles](/car-accident-lawyer/los-angeles/)
 - **Northeast and Central LA:** Eagle Rock, Highland Park, Los Feliz, Atwater Village, Silver Lake, Hollywood, Downtown
-- **Westside and South Bay:** Santa Monica, Culver City, West LA, Inglewood, Torrance, Redondo Beach, Manhattan Beach
-- **South LA and Gateway Cities:** Long Beach, Compton, Downey, Norwalk, Whittier, Lakewood
-- **North County:** Santa Clarita, Valencia, Palmdale, Lancaster
+- **Westside and South Bay:** Santa Monica, Culver City, West LA, Inglewood, [Torrance](/car-accident-lawyer/torrance/), Redondo Beach, Manhattan Beach
+- **South LA and Gateway Cities:** [Long Beach](/car-accident-lawyer/long-beach/), Compton, Downey, Norwalk, Whittier, Lakewood
+- **North County:** [Santa Clarita](/car-accident-lawyer/santa-clarita/), Valencia, Palmdale, Lancaster
 
 ## Surrounding Counties
 
