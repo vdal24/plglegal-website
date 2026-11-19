@@ -13,7 +13,7 @@ ROOT = pathlib.Path(__file__).parent
 CONTENT, PUBLIC, DIST = ROOT / 'content', ROOT / 'public', ROOT / 'dist'
 SITE = 'https://plglegal.com'
 GA_ID = ''           # Google Analytics 4 ID, e.g. 'G-XXXXXXX' (leave blank until created)
-ADS_ID = ''          # Google Ads tag ID, e.g. 'AW-123456789'
+ADS_ID = 'AW-18436695999'  # Google Ads tag (conversion labels live in public/js/site.js)
 
 FIRM = {
     'name': 'Prospect Law Group, PC',

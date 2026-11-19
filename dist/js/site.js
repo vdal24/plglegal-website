@@ -37,7 +37,7 @@
         .then(function (d) {
           if (String(d.success) !== 'true') throw new Error(d.message || 'failed');
           form.reset(); status.textContent = form.dataset.ok; status.className = 'form-status ok';
-          if (window.gtag) gtag('event', 'generate_lead', { method: 'website_form' });
+          if (window.gtag) { gtag('event', 'generate_lead', { method: 'website_form' }); gtag('event', 'conversion', { send_to: 'AW-18436695999/HN4qCJOr1rsdEL_PptdE' }); }
         })
         .catch(function () { status.textContent = form.dataset.err; status.className = 'form-status err'; })
         .finally(function () { btn.disabled = false; });
@@ -46,7 +46,7 @@
   // Track phone and text clicks as conversions when Google tags are installed.
   document.addEventListener('click', function (e) {
     var a = e.target.closest('a[href^="tel:"], a[href^="sms:"]');
-    if (a && window.gtag) gtag('event', a.href.indexOf('tel:') === 0 ? 'phone_click' : 'text_click');
+    if (a && window.gtag) { gtag('event', a.href.indexOf('tel:') === 0 ? 'phone_click' : 'text_click'); gtag('event', 'conversion', { send_to: 'AW-18436695999/4bMFCPSy3bsdEL_PptdE' }); }
   });
   // Close the mobile menu when a link is chosen.
   document.querySelectorAll('.nav-mobile a').forEach(function (a) {
