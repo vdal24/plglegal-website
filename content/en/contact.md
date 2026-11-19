@@ -1,7 +1,7 @@
 ---
 url: /contact/
 title: "Contact Prospect Law Group | Free Consultation | 323-452-5222"
-description: "Contact Prospect Law Group for a free, confidential consultation. Call 323-452-5222, text 818-395-6464, or send the form. Office at 600 W. Broadway, Glendale."
+description: "Contact Prospect Law Group for a free, confidential consultation. Call or text 323-452-5222, or send the form. Office at 600 W. Broadway, Glendale."
 h1: "Contact Us"
 subtitle: "Free, confidential consultation. Call, text, or send the form and we will get back to you quickly."
 breadcrumb: [Home, Contact]

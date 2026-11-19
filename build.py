@@ -19,7 +19,7 @@ FIRM = {
     'name': 'Prospect Law Group, PC',
     'short': 'Prospect Law Group',
     'phone': '323-452-5222', 'tel': '+13234525222',
-    'sms': '+18183956464', 'sms_display': '818-395-6464',
+    'sms': '+13234525222', 'sms_display': '323-452-5222',
     'email': 'contact@plglegal.com',
     'street': '600 W. Broadway, Ste. 320', 'city': 'Glendale', 'region': 'CA', 'zip': '91204',
     'maps': 'https://www.google.com/maps/search/?api=1&query=Prospect+Law+Group+600+W+Broadway+Suite+320+Glendale+CA+91204',
