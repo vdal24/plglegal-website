@@ -78,7 +78,7 @@ NAV = {
             ('Buyback Calculation', '/lemon-law/buyback-calculation/'), ('Used Cars', '/lemon-law/used-cars/'),
             ('Lemon Law FAQ', '/lemon-law/faq/')]),
         ('Areas We Serve', '/car-accident-lawyer/los-angeles-county/', [
-            ('Los Angeles County', '/car-accident-lawyer/los-angeles-county/'), ('Los Angeles', '/car-accident-lawyer/los-angeles/'), ('Long Beach', '/car-accident-lawyer/long-beach/'), ('Santa Clarita', '/car-accident-lawyer/santa-clarita/'), ('Torrance', '/car-accident-lawyer/torrance/'), ('Glendale', '/car-accident-lawyer/glendale/'),
+            ('Los Angeles County', '/car-accident-lawyer/los-angeles-county/'), ('Los Angeles', '/car-accident-lawyer/los-angeles/'), ('Long Beach', '/car-accident-lawyer/long-beach/'), ('Santa Clarita', '/car-accident-lawyer/santa-clarita/'), ('Torrance', '/car-accident-lawyer/torrance/'), ('Inland Empire', '/car-accident-lawyer/inland-empire/'), ('Glendale', '/car-accident-lawyer/glendale/'),
             ('Burbank', '/car-accident-lawyer/burbank/'), ('Pasadena', '/car-accident-lawyer/pasadena/'),
             ('Eagle Rock', '/service-areas/eagle-rock/'), ('Los Feliz', '/service-areas/los-feliz/'),
             ('North Hollywood', '/service-areas/north-hollywood/'), ('La Crescenta', '/service-areas/la-crescenta/')]),
