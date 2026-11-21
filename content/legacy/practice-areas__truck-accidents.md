@@ -1,10 +1,9 @@
 ---
 url: /practice-areas/truck-accidents/
 lang: en
-title: Truck Accident Attorney | Prospect Law Group
-description: Holding trucking companies and negligent drivers accountable for catastrophic
-  injuries.
-h1: Truck Accident Attorney
+title: "Los Angeles Truck Accident Lawyer | Big Rig & Commercial Truck Crashes | Prospect Law Group"
+description: "Hurt in a crash with a big rig or commercial truck? A former insurance company trial attorney preserves the evidence and pursues every responsible party. No fee unless we recover: 323-452-5222."
+h1: "Los Angeles Truck Accident Lawyer"
 subtitle: Holding trucking companies and negligent drivers accountable for catastrophic
   injuries.
 hero_image: /images/practice-areas/truck-accidents.jpg
@@ -90,6 +89,12 @@ Small operators may still carry commercial insurance. We identify all policies, 
 Initial evidence gathering begins immediately, but full investigation may continue for months. We file suit when necessary to preserve evidence and keep your claim moving toward resolution.
 
 ## Related Practice Areas
+
+### [Commercial Vehicle Accidents](/practice-areas/commercial-vehicle-accidents/)
+
+### [Catastrophic Injuries](/practice-areas/catastrophic-injury/)
+
+### [Wrongful Death](/practice-areas/wrongful-death/)
 
 ### [Car Accidents](/practice-areas/car-accidents/)
 

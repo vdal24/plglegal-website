@@ -1,57 +1,67 @@
 ---
 url: /practice-areas/
 lang: en
-title: Practice Areas | Prospect Law Group
-description: 'Personal injury practice areas in Glendale, CA: car, motorcycle, truck,
-  and bus accidents, dog bites, slip and fall, wrongful death, lemon law, and more.'
+title: "Practice Areas | Injury Claims & California Lemon Law | Prospect Law Group"
+description: "Car, truck, commercial vehicle, rideshare, and motorcycle accidents, catastrophic injury, wrongful death, uninsured motorist claims, and California lemon law. Free consultation: 323-452-5222."
 h1: Practice Areas
-subtitle: Aggressive representation across all personal injury matters.
+subtitle: "Injury claims throughout Los Angeles County and Southern California, and lemon law claims throughout California, handled by a former insurance company trial attorney."
 hero_image: /images/hero/glendale-poster.jpg
 legacy: true
 ---
 
+Attorney Vardan Daldumyan worked as an in-house trial attorney for an insurance company before founding Prospect Law Group. Every case below is handled with that inside knowledge, before a lawsuit and in litigation. Free consultation, and no fee unless we recover for you.
 
-### [Car Accidents](/practice-areas/car-accidents/)
+## Vehicle Accidents {: .sec-cards }
 
-Aggressive representation for victims of negligent drivers in Glendale and Los Angeles County.
+### Car Accidents
+Freeway, intersection, rear-end, and hit-and-run collisions anywhere in Los Angeles County. [Car accident lawyer](/practice-areas/car-accidents/)
 
-### [Bicycle Accidents](/practice-areas/bicycle-accidents/)
+### Truck Accidents
+Big rigs and tractor trailers, federal safety rules, and evidence that has to be preserved quickly. [Truck accident lawyer](/practice-areas/truck-accidents/)
 
-Fighting for cyclists injured by negligent motorists and dangerous road conditions.
+### Commercial Vehicle Accidents
+Delivery vans, work trucks, and company cars. The employer and its commercial policy may be responsible. [Commercial vehicle accidents](/practice-areas/commercial-vehicle-accidents/)
 
-### [Motorcycle Accidents](/practice-areas/motorcycle-accidents/)
+### Uber and Lyft Accidents
+Rideshare insurance depends on the driver's app status, and California cut rideshare uninsured motorist coverage in 2026. [Rideshare accident lawyer](/practice-areas/rideshare-accidents/)
 
-Protecting riders injured by negligent motorists throughout Los Angeles County.
+### Motorcycle Accidents
+Protecting riders from the assumption that the motorcyclist was at fault. [Motorcycle accident lawyer](/practice-areas/motorcycle-accidents/)
 
-### [Truck Accidents](/practice-areas/truck-accidents/)
+### Uninsured Motorist Claims
+When the other driver has no insurance, too little insurance, or fled the scene. [UM and UIM claims](/practice-areas/uninsured-motorist-claims/)
 
-Holding trucking companies and negligent drivers accountable for catastrophic injuries.
+### Bicycle Accidents
+Cyclists injured by careless drivers and dangerous road conditions. [Bicycle accident lawyer](/practice-areas/bicycle-accidents/)
 
-### [Bus Accidents](/practice-areas/bus-accidents/)
+### Bus Accidents
+Passengers and others injured in public transit and private bus crashes. [Bus accident lawyer](/practice-areas/bus-accidents/)
 
-Representing passengers and others injured in public transit and private bus crashes.
+## Serious Injury and Wrongful Death {: .sec-cards }
 
-### [Dog Bite Injury](/practice-areas/dog-bite-injury/)
+### Catastrophic Injuries
+Brain injuries, spinal cord injuries, amputations, and other harm that requires a lifetime of care. [Catastrophic injury lawyer](/practice-areas/catastrophic-injury/)
 
-California strict liability claims for dog bite victims and their families.
+### Wrongful Death
+Claims by families who have lost a loved one because of someone else's negligence. [Wrongful death lawyer](/practice-areas/wrongful-death/)
 
-### [Premises Liability](/practice-areas/premises-liability/)
+## Other Injury Claims {: .sec-cards }
 
-Holding property owners accountable when unsafe conditions cause serious injuries.
+### Slip and Fall
+Falls caused by dangerous conditions in stores, parking lots, and apartment buildings. [Slip and fall lawyer](/practice-areas/slip-and-fall/)
 
-### [Rideshare Accidents](/practice-areas/rideshare-accidents/)
+### Premises Liability
+Property owners who fail to fix or warn about unsafe conditions. [Premises liability lawyer](/practice-areas/premises-liability/)
 
-Navigating complex rideshare insurance claims for injured passengers and drivers.
+### Dog Bites
+California holds dog owners strictly liable for most bites. [Dog bite lawyer](/practice-areas/dog-bite-injury/)
 
-### [Slip and Fall Accidents](/practice-areas/slip-and-fall/)
+## California Lemon Law {: .sec-cards }
 
-Holding property owners accountable for dangerous conditions that cause injuries.
+### Mercedes-Benz Lemon Law
+EQ battery and charging faults, Airmatic air suspension, MBUX and electrical failures, and Sprinter vans. [Mercedes-Benz lemon law](/lemon-law/mercedes-benz/)
 
-### [Wrongful Death](/practice-areas/wrongful-death/)
+### California Lemon Law, All Brands
+Buybacks, replacements, and cash settlements, with attorney fees paid by the manufacturer when you win. [Lemon law attorney](/practice-areas/lemon-law/)
 
-Compassionate advocacy for families who have lost loved ones due to negligence.
-
-### [Lemon Law](/practice-areas/lemon-law/)
-
-Helping California consumers resolve defective vehicle claims and warranty disputes.
-
+[Call 323-452-5222] [Text Us] [Get a Free Case Review]

@@ -48,6 +48,9 @@
     var a = e.target.closest('a[href^="tel:"], a[href^="sms:"]');
     if (a && window.gtag) { gtag('event', a.href.indexOf('tel:') === 0 ? 'phone_click' : 'text_click'); gtag('event', 'conversion', { send_to: 'AW-18436695999/4bMFCPSy3bsdEL_PptdE' }); }
   });
+  // Hide the sticky call bar while someone is typing in the form, so it never covers the fields or the Send button.
+  document.addEventListener('focusin', function (e) { if (e.target.closest && e.target.closest('.case-form')) document.body.classList.add('typing'); });
+  document.addEventListener('focusout', function (e) { if (e.target.closest && e.target.closest('.case-form')) document.body.classList.remove('typing'); });
   // Close the mobile menu when a link is chosen.
   document.querySelectorAll('.nav-mobile a').forEach(function (a) {
     a.addEventListener('click', function () { var d = a.closest('details'); if (d) d.removeAttribute('open'); });

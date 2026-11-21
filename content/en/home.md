@@ -7,52 +7,86 @@ schema: [LegalService, Attorney, WebSite]
 ---
 
 <!-- HERO -->
-<!-- TRUST BAR (replaces "Millions Recovered" / "Proven Track Record"): headline tagline below, then: 5.0 stars on Google · Free consultation · No fee unless we win · We speak Armenian · Հայերեն -->
 
-## I Used to Work for the Insurance Company. Now I Work for You.
+## I Used to Work for the Insurance Company. <em>Now I Work for You.</em>
 
-Before founding Prospect Law Group, attorney Vardan Daldumyan worked as an in-house trial attorney for an insurance company. He saw from the inside how claims are valued, how adjusters decide what to offer, and why some injured people get paid fairly while others get lowballed.
-
-Now he uses that knowledge on your side.
+Before founding Prospect Law Group, attorney Vardan Daldumyan worked as an in-house trial attorney for an insurance company. He saw from the inside how claims are valued and why some injured people get paid fairly while others get lowballed. Now he uses that knowledge on your side.
 
 - Free consultation, available 24/7
 - No fee unless we recover for you
 - You work directly with your attorney, not a case manager
-- We speak Armenian: Հայերեն ենք խոսում
+- We speak Armenian: Հայերեն ենք խոսում. Español disponible.
 
 [Call 323-452-5222] [Text Us] [Get a Free Case Review]
 
 <!-- /HERO -->
 
-## Practice Areas
+## Cases We Handle {: .sec-cards }
 
 ### Car Accidents
 Rear-end collisions, freeway crashes on the 134, 2, 5 and 210, intersection accidents, and hit-and-runs anywhere in Los Angeles County. [Car accident lawyer](/practice-areas/car-accidents/)
 
+### Truck and Commercial Vehicle Accidents
+Big rigs, delivery vans, and company vehicles carry commercial insurance policies and bring corporate defense teams. We move quickly to preserve the evidence. [Truck accident lawyer](/practice-areas/truck-accidents/)
+
 ### Uber and Lyft Accidents
 Rideshare claims got harder in 2026 when California cut the uninsured motorist coverage Uber and Lyft must carry. Knowing which policy applies matters more than ever. [Rideshare accident lawyer](/practice-areas/rideshare-accidents/)
 
-### Truck Accidents
-Commercial trucks carry larger policies and bring corporate defense teams. We preserve the evidence before it disappears. [Truck accident lawyer](/practice-areas/truck-accidents/)
+### Catastrophic Injuries
+Brain injuries, spinal cord injuries, fractures that need surgery, and other harm that changes how you live and work. These claims must account for a lifetime of care. [Catastrophic injury lawyer](/practice-areas/catastrophic-injury/)
+
+### Wrongful Death
+When a family loses someone because of another person's carelessness, California law lets close family members hold the responsible parties accountable. [Wrongful death lawyer](/practice-areas/wrongful-death/)
 
 ### Motorcycle Accidents
 Riders face bias from adjusters who assume the motorcyclist was at fault. We push back with evidence. [Motorcycle accident lawyer](/practice-areas/motorcycle-accidents/)
 
-### California Lemon Law
-If your new or leased car keeps going back to the dealer for the same problem, the manufacturer may owe you a buyback, a replacement, or cash, and it pays your attorney fees by law. We handle lemon law cases throughout California. [Lemon law attorney](/practice-areas/lemon-law/)
+[See all practice areas](/practice-areas/) · [Commercial vehicle accidents](/practice-areas/commercial-vehicle-accidents/) · [Uninsured motorist claims](/practice-areas/uninsured-motorist-claims/)
 
-[See all practice areas](/practice-areas/)
+## Why an Insurance Defense Background Matters {: .sec-about }
 
-## Why an Insurance Defense Background Matters
+![Attorney Vardan Daldumyan, founder of Prospect Law Group](/images/attorneys/vardan-about-headshot.jpg)
 
-Insurance companies are not guessing when they make an offer. They use software, reserve guidelines, and internal settlement authority levels. A lawyer who has worked inside that system knows:
+Insurance companies are not guessing when they make an offer. They use software, reserve guidelines, and internal settlement authority levels. Attorney Vardan Daldumyan worked inside that system as an in-house trial attorney for an insurance company. A lawyer who has been on that side knows:
 
 - **What adjusters look for** to discount a claim, so we document your case to close those gaps from day one
 - **How reserves are set**, and why the first offer is rarely the real number
 - **When an insurer is bluffing** about taking a case to trial, and when it is not
 - **What defense attorneys fear** in front of a jury, so we build that into your case early
 
-Our job is to make your claim expensive for the insurance company to ignore.
+Our job is to make your claim expensive for the insurance company to ignore. We handle cases before a lawsuit is filed and in litigation.
+
+[Call 323-452-5222] [Meet Your Attorney](/about/)
+
+## What Happens When You Contact Us {: .sec-steps }
+
+No pressure and no cost to find out where you stand.
+
+1. **Free case review.** Call, text, or send the form. Tell us what happened by phone, by video, or in person. Armenian and Spanish are available.
+2. **A straight answer.** You hear what we think of your claim, what it will involve, and whether you need a lawyer at all. No obligation.
+3. **We take over.** If we work together, we deal with the insurance companies, gather the records and evidence, and help you focus on treatment.
+4. **Resolution.** We demand full value and negotiate. If the insurer will not be fair, we are prepared to file suit. You pay no fee unless we recover.
+
+## California Lemon Law: Mercedes-Benz and Every Other Brand {: .sec-dark }
+
+If your new or leased vehicle (and many certified pre-owned vehicles) keeps going back to the dealer for the same problem, the manufacturer may owe you a **buyback, a replacement, or cash compensation**. Under the Song-Beverly Consumer Warranty Act, **the manufacturer pays your attorney fees and costs** when you prevail, so most clients pay nothing out of pocket. We represent owners and lessees anywhere in California, usually without an office visit.
+
+We focus on Mercedes-Benz claims: EQ battery and charging faults, Airmatic air suspension, MBUX and electrical failures, and Sprinter vans.
+
+- [Mercedes-Benz](/lemon-law/mercedes-benz/)
+- [BMW](/lemon-law/bmw/)
+- [Land Rover](/lemon-law/land-rover/)
+- [Tesla](/lemon-law/tesla/)
+- [Ford](/lemon-law/ford/)
+- [Chevrolet and GM](/lemon-law/chevrolet-gm/)
+- [Toyota and Lexus](/lemon-law/toyota/)
+- [Honda and Acura](/lemon-law/honda/)
+- [Hyundai](/lemon-law/hyundai/)
+- [Kia](/lemon-law/kia/)
+- [Jeep, Ram, Dodge](/lemon-law/jeep-stellantis/)
+- [Nissan](/lemon-law/nissan/)
+
+[Call 323-452-5222] [Mercedes-Benz Lemon Law](/lemon-law/mercedes-benz/) [How Buybacks Are Calculated](/lemon-law/buyback-calculation/)
 
 ## What Our Clients Say
 
@@ -72,6 +106,17 @@ Our job is to make your claim expensive for the insurance company to ignore.
 
 <small>Testimonials reflect individual client experiences. Every case is different, and past results do not guarantee or predict a similar outcome.</small>
 
+## Already Dealing With an Insurance Company? {: .sec-links }
+
+### The Offer Seems Too Low
+A first offer is a starting position, not a verdict on what your claim is worth. Learn how offers are built and what to do before you sign anything. [What to do about a lowball offer](/guides/lowball-insurance-offer/)
+
+### The Other Driver Has No Insurance
+Your own uninsured or underinsured motorist coverage may pay for your injuries, and your own insurer becomes the opponent. [Uninsured motorist claims](/practice-areas/uninsured-motorist-claims/)
+
+### You Are Unhappy With Your Lawyer
+You can change attorneys in the middle of a case, and it usually does not cost you a second fee. [How switching lawyers works](/guides/switching-lawyers/)
+
 ## Areas We Serve
 
 **Personal injury:** All of Los Angeles County, including Los Angeles, Long Beach, Glendale, Burbank, Pasadena, the San Fernando Valley, the San Gabriel Valley, Santa Clarita, the Antelope Valley, the South Bay, and the Westside, plus the surrounding counties of Orange, Ventura, Riverside, and San Bernardino.
@@ -85,24 +130,32 @@ Our job is to make your claim expensive for the insurance company to ignore.
 ### How much does it cost to hire Prospect Law Group?
 Nothing up front. Personal injury cases are handled on a contingency fee, meaning we are paid a percentage of what we recover, and nothing if we recover nothing. In lemon law cases, California law requires the manufacturer to pay your attorney fees and costs if you win, so most clients pay nothing out of pocket.
 
+### Do I really need a lawyer, or can I handle the claim myself?
+Some small claims with minor injuries can be handled without a lawyer, and we will tell you if yours is one of them. If you were seriously hurt, fault is disputed, or the insurance company is delaying or offering less than your bills, talk to an attorney before you sign or record anything. The consultation is free.
+
+### The insurance company already made me an offer. Should I take it?
+Not before you know what your claim is worth. Once you sign a release, the claim is over, even if you later need more treatment. We can review the offer for free. See [what to do about a lowball offer](/guides/lowball-insurance-offer/).
+
 ### What should I do right after a car accident?
 Get medical care, photograph the scene and the vehicles, get the other driver's insurance information, and call an attorney before you give a recorded statement to any insurance company. See our full guide: [What to do after a car accident in California](/guides/what-to-do-after-car-accident-california/).
 
 ### How long do I have to file a claim?
 For most injury claims in California, the deadline to file a lawsuit is two years from the date of the accident. Claims against a city, county, or other public agency require a written claim within six months. Lemon law deadlines depend on your warranty and the manufacturer. Call us early so no deadline is missed.
 
+### How long will my case take?
+It depends on your injuries and on how the insurance company responds. A claim should usually not be settled until your doctors understand your recovery, because you cannot go back for more later. Some cases resolve in a few months after treatment ends. Cases that require a lawsuit take longer. We will give you an honest estimate once we know the facts.
+
+### What if I was partly at fault?
+You can still recover. California uses pure comparative fault, which reduces your compensation by your percentage of fault instead of barring the claim. Insurers often overstate the injured person's share, so do not accept their version without a review.
+
+### Does my immigration status affect my injury claim?
+No. In California, anyone injured by someone else's negligence can bring a claim, and immigration status is generally not relevant to an injury case and is kept out of evidence. We do not ask about it.
+
 ### Do I have to come to your office?
-No. We represent injury victims throughout Los Angeles County and Southern California, and lemon law clients throughout California. We can meet by phone or video, or come to you if you are injured.
+No. We represent injury victims throughout Los Angeles County and Southern California, and lemon law clients throughout California. We can meet by phone or video, at our Glendale office, or come to you if you are injured.
 
-### Do you speak Armenian?
-Yes. Attorney Vardan Daldumyan speaks Armenian, and our full website is available in Armenian. [Հայերեն](/hy/)
+### I already have a lawyer. Can I switch?
+Yes. You have the right to change attorneys at any time. In a contingency case the fee is generally shared between the lawyers out of the same single fee, so switching usually does not cost you more. See [switching lawyers](/guides/switching-lawyers/).
 
-## Talk to an Attorney Today
-
-Free, confidential consultation. If we take your case, you pay nothing unless we recover.
-
-**Prospect Law Group, PC**
-600 W. Broadway, Ste. 320, Glendale, CA 91204
-[323-452-5222](tel:3234525222) · [Contact@PLGlegal.com](mailto:Contact@PLGlegal.com)
-
-<small>This website is attorney advertising. The information on this site is general and is not legal advice. Contacting us does not create an attorney-client relationship.</small>
+### Do you speak Armenian or Spanish?
+Yes. Attorney Vardan Daldumyan speaks Armenian, and Spanish is available. [Հայերեն](/hy/) · [Español](/es/)

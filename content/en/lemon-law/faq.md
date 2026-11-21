@@ -83,6 +83,6 @@ Yes. We handle lemon law cases throughout California.
 
 [Call 323-452-5222] [Start Your Free Lemon Law Review]
 
-Related: [California lemon law](/practice-areas/lemon-law/) · [Lemon law by manufacturer](/practice-areas/lemon-law/#lemon-law-by-manufacturer)
+Related: [California lemon law](/practice-areas/lemon-law/) · [Lemon law by manufacturer](/lemon-law/#brands)
 
 <small>This page is general information, not legal advice. Every case depends on its facts.</small>

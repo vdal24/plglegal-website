@@ -1,51 +1,65 @@
 ---
 url: /about/
 lang: en
-title: About Prospect Law Group
-description: Learn about Prospect Law Group, Glendale personal injury attorneys
-  led by Vardan Daldumyan, Esq. Our mission, values, and commitment to injured clients.
+title: "About Attorney Vardan Daldumyan | Former Insurance Company Trial Attorney | Prospect Law Group"
+description: "Meet Vardan Daldumyan, founder of Prospect Law Group in Glendale. A former in-house trial attorney for an insurance company who now represents injured people and lemon owners. State Bar No. 355861."
 h1: About Prospect Law Group
+subtitle: "A Glendale law firm founded by a former insurance company trial attorney. Injury claims across Southern California and lemon law claims statewide."
 hero_image: /images/hero/glendale-poster.jpg
 legacy: true
 ---
 
-## Our Story
+## Vardan Daldumyan, Founder and Attorney {#lead-attorney}
 
-Prospect Law Group was founded in Glendale, California with a singular mission: to provide premium personal injury representation to individuals and families who have been harmed by negligence. Led by Vardan Daldumyan, Esq., our firm combines the aggressive litigation approach of a large firm with the personalized attention of a boutique practice.
+![Attorney Vardan Daldumyan, founder of Prospect Law Group](/images/attorneys/vardan-about-headshot.jpg){.headshot}
 
-We believe every client deserves an attorney who will fight as hard as they would for their own family, and that is exactly what we deliver. From initial consultation through settlement or trial, we prepare every case thoroughly, communicate clearly, and pursue full compensation for medical bills, lost income, and the pain our clients endure.
+**"I used to work for the insurance company. Now I work for you."**
 
-Our Mission
+Before founding Prospect Law Group, Vardan Daldumyan worked as an in-house trial attorney for an insurance company. He has worked on both the defense and plaintiff sides of personal injury litigation, and he understands firsthand how insurance companies evaluate, defend, and resolve claims.
 
-To fight relentlessly for injured clients throughout Los Angeles County, securing the maximum compensation they deserve while providing compassionate, accessible legal representation rooted in integrity and excellence.
+That experience gave him a clear view of claim valuation, negotiation tactics, and defense strategy. He now uses that knowledge for injured people and for owners of defective vehicles.
+
+Vardan believes every client should have direct access to their attorney and should be kept informed at every step. When you hire Prospect Law Group, you work with him, not with a rotating cast of case managers.
+
+- **California State Bar No. 355861**
+- Former in-house trial attorney for an insurance company
+- Handles claims before a lawsuit is filed and in litigation
+- Speaks Armenian. Spanish is available.
+- Consultations by phone, by video, or in person at our Glendale office
+
+[Call 323-452-5222] [Text Us] [Get a Free Case Review]
+
+## What We Do
+
+**Personal injury.** We represent people hurt in [car accidents](/practice-areas/car-accidents/), [truck](/practice-areas/truck-accidents/) and [commercial vehicle](/practice-areas/commercial-vehicle-accidents/) crashes, [Uber and Lyft accidents](/practice-areas/rideshare-accidents/), and [motorcycle accidents](/practice-areas/motorcycle-accidents/), including [catastrophic injury](/practice-areas/catastrophic-injury/) and [wrongful death](/practice-areas/wrongful-death/) claims, throughout Los Angeles County and Southern California.
+
+**California lemon law.** We represent owners and lessees of defective vehicles throughout California under the Song-Beverly Consumer Warranty Act, with a focus on [Mercedes-Benz](/lemon-law/mercedes-benz/) claims. The manufacturer pays attorney fees and costs when the consumer prevails. [Learn about lemon law](/practice-areas/lemon-law/).
+
+## How We Work {: .sec-steps }
+
+1. **Direct access.** You have your attorney's attention and you get answers to your questions.
+2. **Preparation.** Every claim is documented as if it will be reviewed by a skeptical adjuster and a defense lawyer, because it will be.
+3. **Honest advice.** We tell you what we think of your case, including when you do not need a lawyer.
+4. **No fee unless we recover.** Injury cases are handled on a contingency fee. In lemon law cases the manufacturer pays the fees when you win.
 
 ## Our Values
 
 - Integrity in every interaction
-- Aggressive advocacy without compromise
-- Accessibility and transparency
-- Community commitment
-- Excellence in legal practice
+- Accessibility and clear communication
+- Thorough preparation
+- Commitment to our community
 - Compassion for our clients
-
-## Vardan Daldumyan {#lead-attorney}
-
-![Attorney Vardan Daldumyan](/images/attorneys/vardan-about-headshot.jpg){.headshot}
-
-**Founder and Lead Attorney**
-
-Lead Attorney Vardan Daldumyan combines extensive litigation experience with a client focused approach to help injury victims obtain the compensation they deserve. Having worked on both the defense and plaintiff sides of personal injury litigation, Vardan brings a unique perspective to every case and understands firsthand how insurance companies evaluate, defend, and resolve claims.
-
-Before founding Prospect Law Group, Vardan handled a wide range of personal injury and civil litigation matters. His experience representing insurance companies provided valuable insight into claim valuation, negotiation tactics, and defense strategies. He now uses that knowledge to advocate for injured clients and pursue the maximum recovery available under the law.
-
-Vardan is committed to providing personalized representation, maintaining open communication, and ensuring every client receives the attention and guidance they deserve throughout their case. He believes that every client should have direct access to their attorney and be kept informed every step of the way.
-
-Vardan understands that an accident can leave individuals facing physical injuries, financial hardship, and uncertainty about the future. He takes pride in helping clients navigate the legal process with compassion, dedication, and strong advocacy. His goal is simple: to shoulder the legal burden so his clients can focus on their recovery while he fights to secure the best possible result on their behalf.
-
-You pay nothing unless we successfully recover compensation on your behalf.
 
 ### Professional Memberships
 
 * California State Bar
 * Los Angeles County Bar Association
 * Armenian Bar Association
+
+## Visit or Contact Us
+
+**Prospect Law Group, PC**
+600 W. Broadway, Ste. 320, Glendale, CA 91204
+[323-452-5222](tel:+13234525222) (call or text) · [contact@plglegal.com](mailto:contact@plglegal.com)
+
+<small>This page is attorney advertising and general information, not legal advice. Past results do not guarantee a similar outcome.</small>

@@ -12,6 +12,8 @@ Plain-English guides written from the inside: attorney Vardan Daldumyan worked a
 - [How insurance adjusters evaluate your injury claim](/guides/insurance-adjuster-tactics/)
 - [How much is my car accident case worth?](/guides/car-accident-case-value-california/)
 - [The California car accident claim process, step by step](/guides/car-accident-claim-process/)
+- [Got a lowball insurance offer? Read this before you sign](/guides/lowball-insurance-offer/)
+- [Switching personal injury lawyers in California](/guides/switching-lawyers/)
 
 More articles on our [blog](/blog/).
 

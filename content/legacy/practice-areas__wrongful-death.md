@@ -1,9 +1,9 @@
 ---
 url: /practice-areas/wrongful-death/
 lang: en
-title: Wrongful Death Attorney | Prospect Law Group
-description: Compassionate advocacy for families who have lost loved ones due to negligence.
-h1: Wrongful Death Attorney
+title: "Los Angeles Wrongful Death Lawyer | Help for Families | Prospect Law Group"
+description: "Lost a loved one because of someone else's negligence? A former insurance company trial attorney helps California families pursue wrongful death claims. Free, confidential consultation: 323-452-5222."
+h1: "Los Angeles Wrongful Death Lawyer"
 subtitle: Compassionate advocacy for families who have lost loved ones due to negligence.
 hero_image: /images/practice-areas/wrongful-death.webp
 legacy: true
@@ -88,6 +88,12 @@ Timelines vary. Some cases settle in months when liability is clear; complex cas
 Not always, but autopsy results can clarify cause of death in disputed cases. We advise families on medical and legal considerations with sensitivity.
 
 ## Related Practice Areas
+
+### [Catastrophic Injuries](/practice-areas/catastrophic-injury/)
+
+### [Truck Accidents](/practice-areas/truck-accidents/)
+
+### [Commercial Vehicle Accidents](/practice-areas/commercial-vehicle-accidents/)
 
 ### [Car Accidents](/practice-areas/car-accidents/)
 

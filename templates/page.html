@@ -6,11 +6,14 @@
 <title>{{ title }}</title>
 {% if description %}<meta name="description" content="{{ description | e }}">{% endif %}
 <link rel="canonical" href="{{ canonical }}">
-{% if noindex or review_note and 'REQUIRED' in review_note %}{% endif %}
 {% if noindex %}<meta name="robots" content="noindex">{% endif %}
 {% for l, u in alternates.items() %}<link rel="alternate" hreflang="{{ 'hy-AM' if l == 'hy' else 'es-US' if l == 'es' else 'en-US' }}" href="https://plglegal.com{{ u }}">
 {% endfor %}{% if alternates.en %}<link rel="alternate" hreflang="x-default" href="https://plglegal.com{{ alternates.en }}">{% endif %}
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ firm.name }}">
+<meta property="og:locale" content="{{ 'hy_AM' if lang == 'hy' else 'es_US' if lang == 'es' else 'en_US' }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#13233d">
 <meta property="og:title" content="{{ title | e }}">
 <meta property="og:description" content="{{ description | e }}">
 <meta property="og:url" content="{{ canonical }}">
@@ -20,8 +23,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@400;600{% if lang == 'hy' %}&family=Noto+Sans+Armenian:wght@400;600{% endif %}&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/site.css?v=4">
-{% if not is_home %}<link rel="preload" as="image" href="{{ hero_image }}">{% endif %}
+<link rel="stylesheet" href="/css/site.css?v=5">
+<link rel="preload" as="image" href="{{ hero_bg if not is_home else '/images/hero/glendale-poster.jpg' }}">
 {% for j in jsonld %}<script type="application/ld+json">{{ j }}</script>
 {% endfor %}
 {% if ga_id or ads_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_id or ads_id }}"></script>
@@ -49,7 +52,7 @@
         {% for label, href, children in nav %}
           <li class="{% if children %}has-sub{% endif %}">
             <a href="{{ href }}">{{ label }}</a>
-            {% if children %}<ul class="sub">{% for cl, ch in children %}<li><a href="{{ ch }}">{{ cl }}</a></li>{% endfor %}</ul>{% endif %}
+            {% if children %}<ul class="sub{% if children|length > 8 %} sub-wide{% endif %}">{% for cl, ch in children %}<li><a href="{{ ch }}">{{ cl }}</a></li>{% endfor %}</ul>{% endif %}
           </li>
         {% endfor %}
         </ul></div>
@@ -59,7 +62,7 @@
         {% for label, href, children in nav %}
           <li class="{% if children %}has-sub{% endif %}">
             <a href="{{ href }}">{{ label }}</a>
-            {% if children %}<ul class="sub">{% for cl, ch in children %}<li><a href="{{ ch }}">{{ cl }}</a></li>{% endfor %}</ul>{% endif %}
+            {% if children %}<ul class="sub{% if children|length > 8 %} sub-wide{% endif %}">{% for cl, ch in children %}<li><a href="{{ ch }}">{{ cl }}</a></li>{% endfor %}</ul>{% endif %}
           </li>
         {% endfor %}
         </ul>
@@ -75,27 +78,24 @@
   <video class="hero-media" autoplay muted loop playsinline webkit-playsinline disablepictureinpicture preload="auto" poster="/images/hero/glendale-poster.jpg" aria-hidden="true" data-src="/videos/hero.mp4" data-src-mobile="/videos/hero-mobile.mp4"></video>
   <div class="hero-shade"></div>
   <div class="wrap hero-grid">
-    <div class="hero-copy">
+    <div class="hero-copy{% if '<h2' in hero_html %} has-tagline{% endif %}">
       <p class="eyebrow">{{ firm.short }}</p>
       <h1>{{ h1 }}</h1>
       {{ hero_html }}
+      <div class="hero-atty">
+        <img src="{{ headshot }}" alt="{{ s.atty_name }}" width="64" height="64">
+        <p><strong>{{ s.atty_name }}</strong><span>{{ s.atty_role }}</span><span>{{ s.bar }}</span></p>
+      </div>
     </div>
     {% include 'form.html' %}
   </div>
 </section>
-<div class="trustbar">
-  <div class="wrap trust-in">
-    <span><b class="stars" aria-hidden="true">★★★★★</b> {{ s.stars }}</span>
-    <span>{{ s.consult }}</span>
-    <span>{{ s.nofee }}</span>
-    <span>{{ s.armenian }} · Հայերեն</span>
-  </div>
-</div>
+{% include 'trust.html' %}
 <div class="home-body">
   {{ content }}
 </div>
 {% else %}
-<section class="page-hero" style="--hero:url('{{ hero_image }}')">
+<section class="page-hero" style="--hero:url('{{ hero_bg }}')">
   <div class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb">{% for n, u in crumbs %}{% if not loop.last %}<a href="{{ u }}">{{ n }}</a><span aria-hidden="true">/</span>{% else %}<span aria-current="page">{{ n }}</span>{% endif %}{% endfor %}</nav>
     <h1>{{ h1 }}</h1>
@@ -103,6 +103,7 @@
     <div class="cta-btns"><a class="btn btn-gold" href="tel:{{ firm.tel }}">{{ s.call }} {{ firm.phone }}</a><a class="btn btn-ghost" href="#case-review">{{ s.review }}</a></div>
   </div>
 </section>
+{% include 'trust.html' %}
 <div class="wrap page-grid">
   <article class="prose">
     {{ content }}
@@ -117,9 +118,50 @@
   </article>
   <aside class="side">
     {% include 'form.html' %}
+    <div class="atty-card">
+      <img src="{{ headshot }}" alt="{{ s.atty_name }}" width="72" height="72" loading="lazy">
+      <div>
+        <strong>{{ s.atty_name }}</strong>
+        <span>{{ s.atty_role }}</span>
+        <span>{{ s.bar }}</span>
+      </div>
+      <ul>
+        <li>{{ s.consult }}</li>
+        <li>{{ s.nofee }}</li>
+        <li>{{ s.direct }}</li>
+        <li>{{ s.remote }}</li>
+      </ul>
+      {% if s.about %}<a href="{{ s.about[1] }}">{{ s.about[0] }} <span aria-hidden="true">&rarr;</span></a>{% endif %}
+    </div>
   </aside>
 </div>
+{% if side_reviews and not noindex %}
+<section class="rev-band" aria-label="{{ s.reviews_h }}">
+  <div class="wrap">
+    <h2>{{ s.reviews_h }}</h2>
+    <div class="rgrid rgrid-3">
+      {% for r in side_reviews %}<figure class="rcard"><div class="stars" role="img" aria-label="5 stars">★★★★★</div><blockquote{% if lang != 'en' %} lang="en"{% endif %}><p>"{{ r.text }}"</p></blockquote><figcaption><strong>{{ r.name }}</strong>, {{ s.google_review }}</figcaption></figure>{% endfor %}
+    </div>
+    <p class="rev-more"><a href="{{ firm.maps }}" rel="noopener">{{ s.reviews_link }}</a></p>
+    <p class="rev-note">{{ s.reviews_note }}</p>
+  </div>
+</section>
 {% endif %}
+{% endif %}
+<section class="cta-band">
+  <div class="wrap cta-band-in">
+    <div>
+      <h2>{{ s.cta_h }}</h2>
+      <p>{{ s.cta_p }}</p>
+      <p class="cta-addr">{{ firm.name }} · <a href="{{ firm.maps }}" rel="noopener">{{ firm.street }}, {{ firm.city }}, {{ firm.region }} {{ firm.zip }}</a></p>
+    </div>
+    <div class="cta-btns">
+      <a class="btn btn-gold" href="tel:{{ firm.tel }}">{{ s.call }} {{ firm.phone }}</a>
+      <a class="btn btn-ghost" href="sms:{{ firm.sms }}">{{ s.text }}</a>
+      <a class="btn btn-ghost" href="#case-review">{{ s.review }}</a>
+    </div>
+  </div>
+</section>
 </main>
 
 <footer class="site-footer">
@@ -128,6 +170,7 @@
       <img src="/images/logo/prospect-law-group-full.png" alt="Prospect Law Group" width="180" height="50" loading="lazy" class="footer-logo">
       <p>{{ firm.name }}<br>{{ firm.street }}<br>{{ firm.city }}, {{ firm.region }} {{ firm.zip }}</p>
       <p><a href="tel:{{ firm.tel }}">{{ firm.phone }}</a><br><a href="mailto:{{ firm.email }}">{{ firm.email }}</a></p>
+      <p class="footer-atty">{{ s.atty_name }}<br>{{ s.bar }}</p>
     </div>
     <div>
       <h4>{% if lang == 'en' %}Injury Cases{% else %}{{ nav[0][0] }}{% endif %}</h4>
@@ -142,13 +185,15 @@
         <li><a href="/lemon-law/hyundai/">Hyundai</a> · <a href="/lemon-law/kia/">Kia</a> · <a href="/lemon-law/jeep-stellantis/">Jeep</a></li>
         <li><a href="/lemon-law/bmw/">BMW</a> · <a href="/lemon-law/land-rover/">Land Rover</a> · <a href="/lemon-law/nissan/">Nissan</a></li>
       </ul>
-      <h4>Areas We Serve</h4>
+      <h4>{{ s.areas }}</h4>
       <ul><li><a href="/car-accident-lawyer/los-angeles-county/">Los Angeles County</a> · <a href="/car-accident-lawyer/los-angeles/">Los Angeles</a> · <a href="/car-accident-lawyer/long-beach/">Long Beach</a> · <a href="/car-accident-lawyer/santa-clarita/">Santa Clarita</a> · <a href="/car-accident-lawyer/torrance/">Torrance</a> · <a href="/car-accident-lawyer/inland-empire/">Inland Empire</a> · <a href="/car-accident-lawyer/glendale/">Glendale</a> · <a href="/car-accident-lawyer/burbank/">Burbank</a> · <a href="/car-accident-lawyer/pasadena/">Pasadena</a></li></ul>
     </div>
     <div>
+      {% if lang == 'en' %}<h4>{{ s.resources }}</h4>
+      <ul><li><a href="/about/">About the Attorney</a></li><li><a href="/guides/lowball-insurance-offer/">Lowball Insurance Offer?</a></li><li><a href="/guides/switching-lawyers/">Switching Lawyers</a></li><li><a href="/guides/">Car Accident Guides</a></li><li><a href="/contact/">Contact</a></li></ul>{% endif %}
       <h4>{{ s.follow }}</h4>
       <ul>{% for n, u in firm.social.items() %}<li><a href="{{ u }}" rel="noopener">{{ n }}</a></li>{% endfor %}</ul>
-      <h4>Legal</h4>
+      <h4>{{ s.legal }}</h4>
       <ul><li><a href="/privacy-policy/">Privacy Policy</a></li><li><a href="/terms/">Terms of Use</a></li><li><a href="/disclaimer/">Disclaimer</a></li><li><a href="/accessibility/">Accessibility</a></li></ul>
     </div>
   </div>
@@ -162,6 +207,6 @@
   <a href="tel:{{ firm.tel }}" class="btn btn-gold">{{ s.call_now }}</a>
   <a href="sms:{{ firm.sms }}" class="btn btn-navy">{{ s.text }}</a>
 </div>
-<script src="/js/site.js?v=3" defer></script>
+<script src="/js/site.js?v=4" defer></script>
 </body>
 </html>
