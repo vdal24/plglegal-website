@@ -1,8 +1,8 @@
 ---
 url: /
-title: "Los Angeles Car Accident & Personal Injury Attorney | Prospect Law Group"
+title: "Car Accident Attorney | Prospect Law Group"
 description: "Former insurance company trial attorney now fighting for injured people. Serving all of Los Angeles County and Southern California. Free consultation: 323-452-5222."
-h1: "Los Angeles Car Accident & Personal Injury Attorney"
+h1: "Car Accident Attorney"
 schema: [LegalService, Attorney, WebSite]
 ---
 
