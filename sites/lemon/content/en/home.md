@@ -7,11 +7,11 @@ h1: "California Lemon Law Attorney"
 
 <!-- HERO -->
 
-## <em>%%TOTAL%%</em> in recent lemon buybacks for our clients.
+## Is your car a lemon? <em>Make them buy it back.</em>
 
 %%HERO_RESULTS%%
 
-<p class="hero-fine">Total of the results listed on our results page, from the manufacturers' repurchase documents. Past results do not guarantee a similar outcome.</p>
+<p class="hero-fine">Recent client buybacks, from the manufacturers' repurchase documents. Past results do not guarantee a similar outcome.</p>
 
 If your car keeps going back to the dealer for the same problem, California law can force the manufacturer to buy it back. The manufacturer also pays your attorney fees.
 
