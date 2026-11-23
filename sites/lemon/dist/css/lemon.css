@@ -291,3 +291,7 @@ body.typing .lemon-btn { display: none; }
 .bb-result::before { display: none; }
 .bb-calc, .bb-inputs, .bb-calc fieldset, .bb-f, .bb-result { min-width: 0; }
 @media (max-width: 560px) { .bb-calc fieldset { grid-template-columns: minmax(0,1fr); } }
+/* v13: driving lemon with driver */
+.hero-road { height: 104px; background-position: 0 calc(100% - 9px); }
+.hero-road img { width: 118px; bottom: 2px; left: -140px; }
+@keyframes roadtrip { 0% { left: -140px; } 100% { left: calc(100% + 140px); } }

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 160 152" width="160" height="152">
+  <defs>
+    <radialGradient id="peel" cx="38%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#fffbd1"/>
+      <stop offset=".18" stop-color="#ffec5c"/>
+      <stop offset=".5" stop-color="#ffd60a"/>
+      <stop offset=".8" stop-color="#e9b400"/>
+      <stop offset="1" stop-color="#b98600"/>
+    </radialGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6b4a00" stop-opacity=".35"/>
+    </linearGradient>
+    <radialGradient id="tire" cx="50%" cy="45%" r="55%">
+      <stop offset=".6" stop-color="#2b2b28"/>
+      <stop offset="1" stop-color="#0c0c0b"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".45" stop-color="#cfd2d4"/>
+      <stop offset="1" stop-color="#7d8285"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fcf5a"/>
+      <stop offset="1" stop-color="#1f7a35"/>
+    </linearGradient>
+    <pattern id="pores" width="7" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r=".7" fill="#a87a00" opacity=".28"/>
+      <circle cx="5.5" cy="5" r=".6" fill="#fff8b0" opacity=".35"/>
+    </pattern>
+    <clipPath id="body">
+      <path d="M10 54 C10 50 14 46 20 44 C30 24 54 16 80 16 C106 16 128 24 138 42 C144 44 150 49 150 54 C150 59 144 64 138 66 C128 84 106 90 80 90 C54 90 30 84 20 66 C14 64 10 59 10 54 Z"/>
+    </clipPath>
+  <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3a66"/><stop offset="1" stop-color="#141d3a"/></linearGradient>
+<radialGradient id="skin" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#f3c9a4"/><stop offset="1" stop-color="#d9a07a"/></radialGradient>
+<pattern id="stripes" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(40)"><rect width="4" height="4" fill="#1d2b55"/><rect width="1.3" height="4" fill="#c9d1e6"/></pattern></defs>
+  <g transform="translate(0 30)">
+
+  <!-- ground shadow -->
+  <ellipse cx="80" cy="104" rx="58" ry="5" fill="#000" opacity=".22"/>
+
+  <!-- far-side wheels peeking out -->
+  <circle cx="50" cy="86" r="14" fill="#141412"/>
+  <circle cx="114" cy="86" r="14" fill="#141412"/>
+
+  </g>
+  <g transform="translate(-2 -11)">
+  <!-- driver: torso -->
+  <g>
+    <path d="M70 62 C70 52 77 47 88 47 C99 47 106 52 106 62 Z" fill="url(#suit)"/>
+    <path d="M83 47 L88 58 L93 47 Z" fill="#fff"/>
+    <path d="M86.6 49.5 L89.4 49.5 L90.6 60 L88 63 L85.4 60 Z" fill="url(#stripes)"/>
+    <path d="M86.4 47.8 L89.6 47.8 L89.2 50.2 L86.8 50.2 Z" fill="#1d2b55"/>
+    <path d="M83 47 L86.5 53 L84 54 L79.5 49 Z M93 47 L89.5 53 L92 54 L96.5 49 Z" fill="#1e2c56"/>
+    <!-- neck -->
+    <path d="M84 41 L84 48 C86 49.5 90 49.5 92 48 L92 41 Z" fill="#d49b75"/>
+  </g>
+  <!-- driver: head -->
+  <g>
+    <ellipse cx="76.6" cy="31" rx="2.6" ry="3.6" fill="#e3ad87"/>
+    <ellipse cx="99.4" cy="31" rx="2.6" ry="3.6" fill="#e3ad87"/>
+    <path d="M77 28 C77 18 82 14 88 14 C94 14 99 18 99 28 L99 34 C99 43 94 47 88 47 C82 47 77 43 77 34 Z" fill="url(#skin)"/>
+    <!-- hair: short faded sides, volume on top swept up and back -->
+    <path d="M77.2 29 C76.4 23 77.4 18.6 80 16.4 C79.6 11.4 84 7.4 90.4 7.2 C96.6 7 100.6 10.4 100 15 C100.8 19 100.2 24.4 98.8 29 C98.4 25.6 97.6 22.8 96.2 21.4 C91.6 22.4 84.6 22.4 80.2 21.2 C78.8 23 77.8 25.8 77.2 29 Z" fill="#1c1916"/>
+    <path d="M81 16 C83.6 11.6 90 9.4 96.6 10.8 M82.6 18.4 C86 15 92 13.6 98 14.6 M85 20.4 C88.6 18.6 93.6 18 98.6 18.8" stroke="#4a4038" stroke-width=".9" fill="none" stroke-linecap="round" opacity=".9"/>
+    <path d="M77.2 29 C77.5 25.6 78.2 23.4 79.6 21.8 L79.8 28.4 Z M98.8 29 C98.5 25.6 97.8 23.4 96.4 21.8 L96.2 28.4 Z" fill="#6b5e54" opacity=".6"/>
+    <!-- brows -->
+    <path d="M80.6 25.6 C82.6 24 85 24 86.4 25.2" stroke="#1c1916" stroke-width="1.9" stroke-linecap="round" fill="none"/>
+    <path d="M89.6 25.2 C91 24 93.4 24 95.4 25.6" stroke="#1c1916" stroke-width="1.9" stroke-linecap="round" fill="none"/>
+    <!-- smiling eyes -->
+    <path d="M81.4 29.4 C82.4 27.9 84.6 27.9 85.6 29.4" stroke="#2a211b" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M90.4 29.4 C91.4 27.9 93.6 27.9 94.6 29.4" stroke="#2a211b" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <!-- nose -->
+    <path d="M88 29.5 C87.4 32 86.6 33.4 86.8 34.4 C87.6 35 88.6 35 89.4 34.6" stroke="#b97b58" stroke-width="1.1" stroke-linecap="round" fill="none"/>
+    <!-- cheeks -->
+    <ellipse cx="81.5" cy="34" rx="2.2" ry="1.3" fill="#e88f7a" opacity=".35"/>
+    <ellipse cx="94.5" cy="34" rx="2.2" ry="1.3" fill="#e88f7a" opacity=".35"/>
+    <!-- full beard and mustache, with an open smile -->
+    <path d="M77 31 C77.4 36 78.8 37.2 80.4 37.6 C82 36.2 85 35.4 88 35.4 C91 35.4 94 36.2 95.6 37.6 C97.2 37.2 98.6 36 99 31 C99.8 39 97 46.5 88 47.6 C79 46.5 76.2 39 77 31 Z" fill="#1c1916"/>
+    <path d="M82.6 37.6 C84.6 36.4 86.6 36.2 88 36.8 C89.4 36.2 91.4 36.4 93.4 37.6 C91.6 38.4 89.6 38.3 88 38 C86.4 38.3 84.4 38.4 82.6 37.6 Z" fill="#1c1916"/>
+    <path d="M83.6 38.6 C85 42.6 91 42.6 92.4 38.6 C90 39.4 86 39.4 83.6 38.6 Z" fill="#7a2a24"/>
+    <path d="M84.4 38.9 C86.6 39.6 89.4 39.6 91.6 38.9 L91.2 40 C89 40.5 87 40.5 84.8 40 Z" fill="#fff"/>
+  </g>
+  </g>
+  <g transform="translate(0 30)">
+  <!-- stem and leaf at the back -->
+  <path d="M34 52 C32 47 31 44 28 41" stroke="#5c4410" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M28.5 42 C22 33 6 34 1 39 C8 46 22 48 28.5 42 Z" fill="url(#leaf)"/>
+  <path d="M27.5 42 C19 39.5 9 38.6 2 39" stroke="#17602a" stroke-width="1.2" fill="none"/><!-- lemon body -->
+  <path d="M10 54 C10 50 14 46 20 44 C30 24 54 16 80 16 C106 16 128 24 138 42 C144 44 150 49 150 54 C150 59 144 64 138 66 C128 84 106 90 80 90 C54 90 30 84 20 66 C14 64 10 59 10 54 Z" fill="url(#peel)"/>
+  <g clip-path="url(#body)">
+    <rect x="0" y="0" width="160" height="112" fill="url(#pores)"/>
+    <rect x="0" y="0" width="160" height="112" fill="url(#belly)"/>
+    <!-- rim light along the bottom edge -->
+    <path d="M24 70 C36 84 58 90 80 90 C104 90 124 84 136 70" stroke="#fff3a0" stroke-width="2" fill="none" opacity=".45"/>
+  </g>
+  <!-- nubs at each end -->
+  <path d="M150 54 C150 51 153 50 156 52 C158 53 158 55 156 56 C153 58 150 57 150 54 Z" fill="#e2ad00"/>
+  <path d="M10 54 C10 51 7 50 5 52 C3 53 3 55 5 56 C7 58 10 57 10 54 Z" fill="#d9a400"/>
+
+  <!-- shine -->
+  <ellipse cx="58" cy="32" rx="22" ry="7" fill="#fff" opacity=".55" transform="rotate(-12 58 32)"/>
+  <ellipse cx="44" cy="40" rx="5" ry="2.4" fill="#fff" opacity=".7" transform="rotate(-20 44 40)"/>
+
+  <!-- headlight -->
+  <ellipse cx="141" cy="52" rx="3.2" ry="2.4" fill="#fffde8"/>
+  <ellipse cx="141" cy="52" rx="1.5" ry="1.1" fill="#fff"/>
+
+  <!-- near-side wheels -->
+  <g>
+    <circle cx="46" cy="86" r="15" fill="url(#tire)"/>
+    <circle cx="46" cy="86" r="8.5" fill="url(#rim)"/>
+    <g stroke="#8b9093" stroke-width="1.6" stroke-linecap="round">
+      <path d="M46 79 V93 M39 86 H53 M41 81 L51 91 M51 81 L41 91"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 46 86" to="360 46 86" dur=".7s" repeatCount="indefinite"/></g>
+    <circle cx="46" cy="86" r="3" fill="#ffd60a" stroke="#7a5f00" stroke-width=".8"/>
+  </g>
+  <g>
+    <circle cx="112" cy="86" r="15" fill="url(#tire)"/>
+    <circle cx="112" cy="86" r="8.5" fill="url(#rim)"/>
+    <g stroke="#8b9093" stroke-width="1.6" stroke-linecap="round">
+      <path d="M112 79 V93 M105 86 H119 M107 81 L117 91 M117 81 L107 91"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 112 86" to="360 112 86" dur=".7s" repeatCount="indefinite"/></g>
+    <circle cx="112" cy="86" r="3" fill="#ffd60a" stroke="#7a5f00" stroke-width=".8"/>
+  </g>
+</g>
+  <!-- windshield -->
+  <path d="M99 47 C100 40 102 35 106 32 L109 33 C107 37 106 42 106 47.5 Z" fill="#d6eefa" opacity=".7" stroke="#1a1a17" stroke-width="1.3" stroke-linejoin="round"/>
+  <path d="M101.4 44 C102 40 103.4 37 105 35" stroke="#fff" stroke-width="1.1" opacity=".9" stroke-linecap="round" fill="none"/>
+</svg>
