@@ -2,21 +2,24 @@
 url: /
 title: "California Lemon Law Attorney | Car Buybacks Paid by the Manufacturer | Prospect Law Group"
 description: "Is your car a lemon? California lemon law can require the manufacturer to buy back your car and pay your attorney fees. Prospect Law Group, PC. Free case review: 323-452-5222."
-h1: "Is Your Car a Lemon? Make the Manufacturer Buy It Back."
+h1: "California Lemon Law Attorney"
 ---
 
 <!-- HERO -->
 
-## California Lemon Law Attorney
+## <em>%%TOTAL%%</em> in recent lemon buybacks for our clients.
 
-If your new or leased car keeps going back to the dealer for the same problem, California law can require the manufacturer to buy it back, replace it, or pay you cash. The manufacturer also pays your attorney fees when you win.
+%%HERO_RESULTS%%
 
-- Free case review, statewide
+<p class="hero-fine">Total of the results listed on our results page, from the manufacturers' repurchase documents. Past results do not guarantee a similar outcome.</p>
+
+If your car keeps going back to the dealer for the same problem, California law can force the manufacturer to buy it back. The manufacturer also pays your attorney fees.
+
+- Find out if your car qualifies in 2 minutes
 - No fees out of pocket
 - You work directly with your attorney
-- Hablamos español. Հայերեն ենք խոսում.
 
-[Call 323-452-5222] [Text Us] [Get a Free Case Review]
+[Call 323-452-5222] [Does My Car Qualify?]
 
 <!-- /HERO -->
 
