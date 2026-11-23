@@ -399,3 +399,16 @@ ol.steps > li strong:first-child { display: block; color: var(--navy); font-fami
   .page-hero + .trustbar .trust-in { font-size: .74rem; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+
+/* Available now indicator next to the call button */
+.avail { display: inline-flex; align-items: center; gap: 7px; margin-right: 12px; font-size: .82rem; font-weight: 700; color: #22c55e; white-space: nowrap; }
+.live-dot { position: relative; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #22c55e; flex: none; }
+.live-dot::after { content: ''; position: absolute; inset: 0; border-radius: 50%; background: #22c55e; animation: livepulse 1.8s ease-out infinite; }
+@keyframes livepulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(2.6); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .live-dot::after { animation: none; } }
+.header-call { display: inline-flex; align-items: center; gap: 8px; }
+.header-call .ph-ico { flex: none; }
+.mobile-bar .live-dot { margin-right: 8px; vertical-align: 1px; }
+@media (max-width: 1100px) { .avail { display: none; } }
+.nav-list > li > a { white-space: nowrap; }
+@media (max-width: 1440px) { .nav-list > li > a { padding-left: 8px; padding-right: 8px; } .avail { margin-right: 8px; } }
