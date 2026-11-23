@@ -1,7 +1,7 @@
 # Lemon law website settings. Loaded by build.py when run as: python3 build.py --site lemon
 # Same firm, same phone and email; lemon law only.
 
-REMOVED = {}
+REMOVED = {'/es/lemon-law/': '/es/', '/practice-areas/lemon-law/': '/california-lemon-law/'}
 
 for _l in STRINGS:
     STRINGS[_l] = dict(STRINGS[_l])
