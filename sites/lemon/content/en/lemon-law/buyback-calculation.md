@@ -14,6 +14,12 @@ faq:
     a: "If the manufacturer willfully failed to comply with the lemon law, a court can award a civil penalty of up to two times your actual damages, on top of those damages."
 ---
 
+## Buyback Calculator
+
+Enter the numbers from your purchase contract and first repair order for a rough estimate.
+
+%%CALC%%
+
 ## What the Manufacturer Refunds in a Buyback
 
 When a California lemon law case resolves as a repurchase, the manufacturer generally must pay:

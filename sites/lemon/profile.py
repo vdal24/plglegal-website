@@ -71,7 +71,43 @@ def _hero_results():
     top = [r for r in _RES if r['amount']][:3]
     return '<div class="hero-results">' + ''.join(f'<div><b>{_short(r["amount"])}</b><span>{r["vehicle"].replace("2025 ", "").replace("2023 ", "").replace(" with EQ Technology", "")} buyback</span><small>Results vary</small></div>' for r in top) + '</div>'
 
+def _field(name, label, hint='', money=True, ph=''):
+    attrs = 'inputmode="decimal" data-money' if money else 'inputmode="numeric"'
+    pre = '<span class="bb-pre">$</span>' if money else ''
+    hint = f'<small>{hint}</small>' if hint else ''
+    return (f'<label class="bb-f"><span class="bb-l">{label}</span>'
+            f'<span class="bb-in">{pre}<input name="{name}" type="text" autocomplete="off" {attrs} placeholder="{ph}"></span>{hint}</label>')
+
+_CALC = (
+    '<form id="bb-calc" class="bb-calc" novalidate>'
+    '<div class="bb-inputs">'
+    '<fieldset><legend>What you paid</legend>'
+    + _field('price', 'Vehicle price', 'The cash price on your contract, before tax.', ph='48,000')
+    + _field('fees', 'Sales tax, registration and fees', ph='5,200')
+    + _field('finance', 'Finance charges paid so far', 'Optional. Interest you have already paid.', ph='0')
+    + _field('incidentals', 'Towing, rentals and other costs', 'Optional. Costs caused by the defect.', ph='0')
+    + '</fieldset><fieldset><legend>Mileage</legend>'
+    + _field('miles_start', 'Miles when you got the car', money=False, ph='12')
+    + _field('miles_repair', 'Miles at the first repair visit for the problem', 'Look at your first repair order for this defect.', money=False, ph='6,000')
+    + '</fieldset><fieldset><legend>Your loan</legend>'
+    + _field('owed', 'Loan balance today', 'Optional. Shows how much goes to your lender and how much to you.', ph='0')
+    + '</fieldset></div>'
+    '<div class="bb-result" aria-live="polite">'
+    '<span class="bb-kicker">Estimated buyback</span>'
+    '<strong class="bb-total" data-out="total">$0</strong>'
+    '<dl><div><dt>Total you paid</dt><dd data-out="paid">$0</dd></div>'
+    '<div><dt>Mileage offset</dt><dd data-out="offset">$0</dd></div>'
+    '<div class="bb-loan"><dt>Paid to your lender</dt><dd data-out="lender">$0</dd></div>'
+    '<div class="bb-loan"><dt>Refunded to you</dt><dd data-out="you">$0</dd></div></dl>'
+    '<p class="bb-fees">Attorney fees are paid by the manufacturer on top of this, not taken out of it.</p>'
+    '<a class="btn btn-gold bb-cta" href="#case-review">Get my free buyback review</a>'
+    '<small class="bb-disc">Estimate only, not legal advice. The offset uses the standard California formula: miles before the first repair visit, divided by 120,000, times the vehicle price. Your actual buyback depends on your contract, repair history, and the facts of your case. Leases are calculated differently. Results vary.</small>'
+    '</div></form>'
+    '<script src="/js/calc.js?v=1" defer></script>'
+)
+
 def PAGE_HOOK(html, url):
+    html = re.sub(r'<p>\s*%%CALC%%\s*</p>', lambda m: _CALC, html)
     html = html.replace('%%TOTAL%%', _total())
     html = re.sub(r'<p>\s*%%HERO_RESULTS%%\s*</p>', lambda m: _hero_results(), html)
     html = re.sub(r'<p>\s*%%RESULTS%%\s*</p>', lambda m: _cards(_RES), html)

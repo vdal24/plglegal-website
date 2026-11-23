@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 112" width="160" height="112">
+  <defs>
+    <radialGradient id="peel" cx="38%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#fffbd1"/>
+      <stop offset=".18" stop-color="#ffec5c"/>
+      <stop offset=".5" stop-color="#ffd60a"/>
+      <stop offset=".8" stop-color="#e9b400"/>
+      <stop offset="1" stop-color="#b98600"/>
+    </radialGradient>
+    <linearGradient id="belly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#6b4a00" stop-opacity=".35"/>
+    </linearGradient>
+    <radialGradient id="tire" cx="50%" cy="45%" r="55%">
+      <stop offset=".6" stop-color="#2b2b28"/>
+      <stop offset="1" stop-color="#0c0c0b"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".45" stop-color="#cfd2d4"/>
+      <stop offset="1" stop-color="#7d8285"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fcf5a"/>
+      <stop offset="1" stop-color="#1f7a35"/>
+    </linearGradient>
+    <pattern id="pores" width="7" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r=".7" fill="#a87a00" opacity=".28"/>
+      <circle cx="5.5" cy="5" r=".6" fill="#fff8b0" opacity=".35"/>
+    </pattern>
+    <clipPath id="body">
+      <path d="M10 54 C10 50 14 46 20 44 C30 24 54 16 80 16 C106 16 128 24 138 42 C144 44 150 49 150 54 C150 59 144 64 138 66 C128 84 106 90 80 90 C54 90 30 84 20 66 C14 64 10 59 10 54 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- ground shadow -->
+  <ellipse cx="80" cy="104" rx="58" ry="5" fill="#000" opacity=".22"/>
+
+  <!-- far-side wheels peeking out -->
+  <circle cx="50" cy="86" r="14" fill="#141412"/>
+  <circle cx="114" cy="86" r="14" fill="#141412"/>
+
+  <!-- lemon body -->
+  <path d="M10 54 C10 50 14 46 20 44 C30 24 54 16 80 16 C106 16 128 24 138 42 C144 44 150 49 150 54 C150 59 144 64 138 66 C128 84 106 90 80 90 C54 90 30 84 20 66 C14 64 10 59 10 54 Z" fill="url(#peel)"/>
+  <g clip-path="url(#body)">
+    <rect x="0" y="0" width="160" height="112" fill="url(#pores)"/>
+    <rect x="0" y="0" width="160" height="112" fill="url(#belly)"/>
+    <!-- rim light along the bottom edge -->
+    <path d="M24 70 C36 84 58 90 80 90 C104 90 124 84 136 70" stroke="#fff3a0" stroke-width="2" fill="none" opacity=".45"/>
+  </g>
+  <!-- nubs at each end -->
+  <path d="M150 54 C150 51 153 50 156 52 C158 53 158 55 156 56 C153 58 150 57 150 54 Z" fill="#e2ad00"/>
+  <path d="M10 54 C10 51 7 50 5 52 C3 53 3 55 5 56 C7 58 10 57 10 54 Z" fill="#d9a400"/>
+
+  <!-- shine -->
+  <ellipse cx="58" cy="32" rx="22" ry="7" fill="#fff" opacity=".55" transform="rotate(-12 58 32)"/>
+  <ellipse cx="44" cy="40" rx="5" ry="2.4" fill="#fff" opacity=".7" transform="rotate(-20 44 40)"/>
+
+  <!-- window: a soft lighter oval on the upper body -->
+  <path d="M70 30 C82 26 104 27 116 36 C112 40 100 42 86 42 C76 42 70 38 70 30 Z" fill="#3a3a33" opacity=".78"/>
+  <path d="M76 31 C86 29 100 30 108 35" stroke="#fff" stroke-width="1.6" fill="none" opacity=".45" stroke-linecap="round"/>
+
+  <!-- headlight -->
+  <ellipse cx="141" cy="52" rx="3.2" ry="2.4" fill="#fffde8"/>
+  <ellipse cx="141" cy="52" rx="1.5" ry="1.1" fill="#fff"/>
+
+  <!-- stem and leaf -->
+  <path d="M84 17 C85 12 86 9 88 6" stroke="#5c4410" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M88 7 C96 -2 114 -1 120 4 C112 12 96 14 88 7 Z" fill="url(#leaf)"/>
+  <path d="M89 7 C99 4 110 3 119 4" stroke="#17602a" stroke-width="1.2" fill="none"/>
+  <path d="M96 5.5 L99 9 M104 4.4 L107 8.5" stroke="#17602a" stroke-width=".8" opacity=".7"/>
+
+  <!-- near-side wheels -->
+  <g>
+    <circle cx="46" cy="86" r="15" fill="url(#tire)"/>
+    <circle cx="46" cy="86" r="8.5" fill="url(#rim)"/>
+    <g stroke="#8b9093" stroke-width="1.6" stroke-linecap="round">
+      <path d="M46 79 V93 M39 86 H53 M41 81 L51 91 M51 81 L41 91"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 46 86" to="360 46 86" dur=".7s" repeatCount="indefinite"/></g>
+    <circle cx="46" cy="86" r="3" fill="#ffd60a" stroke="#7a5f00" stroke-width=".8"/>
+  </g>
+  <g>
+    <circle cx="112" cy="86" r="15" fill="url(#tire)"/>
+    <circle cx="112" cy="86" r="8.5" fill="url(#rim)"/>
+    <g stroke="#8b9093" stroke-width="1.6" stroke-linecap="round">
+      <path d="M112 79 V93 M105 86 H119 M107 81 L117 91 M117 81 L107 91"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 112 86" to="360 112 86" dur=".7s" repeatCount="indefinite"/></g>
+    <circle cx="112" cy="86" r="3" fill="#ffd60a" stroke="#7a5f00" stroke-width=".8"/>
+  </g>
+</svg>

@@ -23,6 +23,12 @@ If your car keeps going back to the dealer for the same problem, California law 
 
 <!-- /HERO -->
 
+## Buyback Calculator: What Is Your Lemon Worth? {: .sec-wide #calculator }
+
+Plug in the numbers from your purchase contract and first repair order to get a rough idea of what a California lemon law repurchase could look like.
+
+%%CALC%%
+
 ## Recent Buybacks {: .sec-wide }
 
 %%RESULTS3%%

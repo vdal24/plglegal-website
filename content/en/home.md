@@ -1,8 +1,8 @@
 ---
 url: /
-title: "Los Angeles Car Accident & California Lemon Law Attorney | Prospect Law Group"
+title: "Car Accident Attorney | Prospect Law Group"
 description: "Former insurance company trial attorney now fighting for injured drivers and lemon owners. Serving all of Los Angeles County, Southern California, and lemon law clients statewide. Free consultation: 323-452-5222."
-h1: "Los Angeles Car Accident & California Lemon Law Attorney"
+h1: "Car Accident Attorney"
 schema: [LegalService, Attorney, WebSite]
 ---
 

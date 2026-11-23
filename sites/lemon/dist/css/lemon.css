@@ -243,3 +243,51 @@ body.typing .lemon-btn { display: none; }
   .cta-band-in { grid-template-columns: 1fr; gap: 18px; }
 }
 @media (max-width: 760px) { .hero-copy > p.hero-fine { display: block; } }
+
+/* ---------- v12: buyback calculator ---------- */
+.bb-calc { display: grid; grid-template-columns: 1.35fr 1fr; gap: 0; margin: 28px 0 8px; background: #fff; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: 0 18px 50px rgba(26,26,23,.10); text-align: left; }
+.bb-inputs { padding: 26px 28px 10px; display: grid; gap: 4px; }
+.bb-calc fieldset { border: 0; margin: 0 0 14px; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 16px; }
+.bb-calc legend { font-weight: 800; font-size: .74rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-deep); margin-bottom: 10px; padding: 0; }
+.bb-f { display: flex; flex-direction: column; gap: 6px; font-size: .9rem; }
+.bb-l { font-weight: 600; color: var(--ink); line-height: 1.25; }
+.bb-f small { color: var(--muted); font-size: .76rem; line-height: 1.35; }
+.bb-in { position: relative; display: flex; align-items: center; background: var(--cream); border: 1.5px solid var(--line); border-radius: 10px; transition: border-color .15s, box-shadow .15s, background .15s; }
+.bb-in:focus-within { border-color: var(--navy-dark); background: #fff; box-shadow: 0 0 0 4px rgba(255,214,10,.45); }
+.bb-pre { padding-left: 12px; font-weight: 700; color: var(--muted); }
+.bb-in input { flex: 1; min-width: 0; border: 0; background: transparent; padding: 12px 12px 12px 6px; font: 600 1.02rem/1.2 var(--sans); color: var(--ink); outline: none; }
+.bb-in input:not([data-money]) { padding-left: 12px; }
+.bb-in input::placeholder { color: #b5b3a8; font-weight: 500; }
+.bb-result { position: relative; background: var(--navy-dark); color: #fff; padding: 30px 28px 26px; display: flex; flex-direction: column; overflow: hidden; }
+.bb-result::before { content: ''; position: absolute; right: -60px; top: -60px; width: 220px; height: 220px; background: url(/images/logo/lemon-pattern-dark.svg) center / 120px repeat; opacity: .5; border-radius: 50%; pointer-events: none; }
+.bb-kicker { position: relative; font-weight: 800; font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
+.bb-total { position: relative; display: block; font-size: clamp(2.4rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -.02em; line-height: 1.05; margin: 6px 0 18px; color: #fff; font-variant-numeric: tabular-nums; }
+.bb-calc.has-value .bb-total { color: var(--gold); }
+.bb-result dl { margin: 0 0 16px; display: grid; gap: 0; }
+.bb-result dl > div { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-top: 1px solid rgba(255,255,255,.12); font-size: .95rem; }
+.bb-result dt { color: rgba(255,255,255,.72); }
+.bb-result dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; }
+.bb-loan { display: none !important; }
+.bb-calc.has-loan .bb-loan { display: flex !important; }
+.bb-fees { position: relative; margin: 0 0 16px; padding: 10px 12px; background: rgba(255,214,10,.12); border-left: 3px solid var(--gold); border-radius: 6px; font-size: .86rem; color: #fff; }
+.bb-cta { position: relative; align-self: stretch; text-align: center; margin-bottom: 14px; }
+.bb-disc { position: relative; color: rgba(255,255,255,.55); font-size: .72rem; line-height: 1.45; }
+@media (max-width: 900px) { .bb-calc { grid-template-columns: 1fr; } }
+@media (max-width: 560px) {
+  .bb-inputs { padding: 20px 16px 4px; }
+  .bb-calc fieldset { grid-template-columns: 1fr; gap: 12px; }
+  .bb-result { padding: 24px 18px 22px; }
+  .bb-calc { border-radius: 14px; margin-top: 20px; }
+}
+
+/* ---------- v12: rounder driving lemon ---------- */
+.hero-road { height: 52px; }
+.hero-road img { width: 92px; bottom: 4px; filter: drop-shadow(0 3px 2px rgba(0,0,0,.18)); }
+.hero-road img { animation: roadtrip 16s linear infinite, bob .5s ease-in-out infinite alternate; }
+@keyframes bob { from { translate: 0 0; } to { translate: 0 -1.5px; } }
+@media (prefers-reduced-motion: reduce) { .hero-road img { animation: none; } }
+.bb-calc .bb-f small { margin: -2px 0 0; display: block; }
+.bb-calc .bb-f, .bb-calc .bb-in, .bb-calc input { margin: 0; }
+.bb-result::before { display: none; }
+.bb-calc, .bb-inputs, .bb-calc fieldset, .bb-f, .bb-result { min-width: 0; }
+@media (max-width: 560px) { .bb-calc fieldset { grid-template-columns: minmax(0,1fr); } }
