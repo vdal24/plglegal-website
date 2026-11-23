@@ -10,17 +10,17 @@ If your new or leased vehicle keeps going back to the dealer for the same proble
 
 ## Lemon Law by Brand {#brands}
 
-- [Mercedes-Benz](/lemon-law/mercedes-benz/)
+- [Tesla](/lemon-law/tesla/)
 - [Ford](/lemon-law/ford/)
 - [Chevrolet, GMC, Buick, and Cadillac](/lemon-law/chevrolet-gm/)
-- [Tesla](/lemon-law/tesla/)
-- [Honda and Acura](/lemon-law/honda/)
+- [Jeep, Ram, Dodge, and Chrysler](/lemon-law/jeep-stellantis/)
+- [Land Rover, Range Rover, and Jaguar](/lemon-law/land-rover/)
+- [Mercedes-Benz](/lemon-law/mercedes-benz/)
+- [Toyota and Lexus](/lemon-law/toyota/)
 - [Hyundai and Genesis](/lemon-law/hyundai/)
 - [Kia](/lemon-law/kia/)
-- [Jeep, Ram, Dodge, and Chrysler](/lemon-law/jeep-stellantis/)
+- [Honda and Acura](/lemon-law/honda/)
 - [Nissan and Infiniti](/lemon-law/nissan/)
-- [Toyota and Lexus](/lemon-law/toyota/)
-- [Land Rover, Range Rover, and Jaguar](/lemon-law/land-rover/)
 
 **We also handle claims against:** Audi, Volkswagen, Porsche, Volvo, Polestar, Subaru, Mazda, Mitsubishi, Lincoln, GMC, Buick, Cadillac, Genesis, Acura, Infiniti, Alfa Romeo, Fiat, Maserati, Mini, Rivian, Lucid, VinFast, Fisker, and Harley-Davidson.
 

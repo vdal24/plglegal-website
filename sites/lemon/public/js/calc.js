@@ -35,6 +35,17 @@
     if (e.target.dataset.money !== undefined) money(e.target);
     calc();
   });
+  // When someone asks for a review from the calculator, carry their numbers into the case review form so they do not retype them.
+  var cta = f.querySelector('.bb-cta');
+  if (cta) cta.addEventListener('click', function () {
+    var msg = document.querySelector('#case-review textarea[name="message"]');
+    if (!msg || !num('price')) return;
+    var note = 'Buyback calculator: vehicle price ' + usd(num('price')) + ', tax and fees ' + usd(num('fees')) +
+      ', miles at delivery ' + num('miles_start').toLocaleString('en-US') + ', miles at first repair ' + num('miles_repair').toLocaleString('en-US') +
+      (num('owed') ? ', loan balance ' + usd(num('owed')) : '') + ', estimate ' + f.querySelector('[data-out="total"]').textContent + '.';
+    var cur = msg.value.replace(/\s*Buyback calculator:[^\n]*$/, '').trim();
+    msg.value = (cur ? cur + '\n' : '') + note;
+  });
   f.addEventListener('submit', function (e) { e.preventDefault(); calc(); });
   calc();
 })();

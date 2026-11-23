@@ -25,7 +25,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@400;600{% if lang == 'hy' %}&family=Noto+Sans+Armenian:wght@400;600{% endif %}&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css?v=6">
-<link rel="stylesheet" href="/css/lemon.css?v=17">
+<link rel="stylesheet" href="/css/lemon.css?v=18">
 {% if not is_home %}<link rel="preload" as="image" href="{{ hero_bg }}">{% endif %}
 {% for j in jsonld %}<script type="application/ld+json">{{ j }}</script>
 {% endfor %}
@@ -178,10 +178,10 @@
     <div>
       <h4>Brands</h4>
       <ul>
-        <li><a href="/lemon-law/mercedes-benz/">Mercedes-Benz</a> · <a href="/lemon-law/tesla/">Tesla</a> · <a href="/lemon-law/ford/">Ford</a></li>
-        <li><a href="/lemon-law/jeep-stellantis/">Jeep and Ram</a> · <a href="/lemon-law/chevrolet-gm/">Chevrolet and GM</a></li>
-        <li><a href="/lemon-law/hyundai/">Hyundai</a> · <a href="/lemon-law/kia/">Kia</a> · <a href="/lemon-law/honda/">Honda</a> · <a href="/lemon-law/nissan/">Nissan</a></li>
-        <li><a href="/lemon-law/toyota/">Toyota and Lexus</a> · <a href="/lemon-law/land-rover/">Land Rover</a> · <a href="/lemon-law/#brands">All manufacturers</a></li>
+        <li><a href="/lemon-law/tesla/">Tesla</a> · <a href="/lemon-law/ford/">Ford</a> · <a href="/lemon-law/chevrolet-gm/">Chevrolet and GM</a></li>
+        <li><a href="/lemon-law/jeep-stellantis/">Jeep and Ram</a> · <a href="/lemon-law/land-rover/">Land Rover</a> · <a href="/lemon-law/mercedes-benz/">Mercedes-Benz</a></li>
+        <li><a href="/lemon-law/toyota/">Toyota and Lexus</a> · <a href="/lemon-law/hyundai/">Hyundai</a> · <a href="/lemon-law/kia/">Kia</a></li>
+        <li><a href="/lemon-law/honda/">Honda</a> · <a href="/lemon-law/nissan/">Nissan</a> · <a href="/lemon-law/#brands">All manufacturers</a></li>
       </ul>
     </div>
     <div>
@@ -197,14 +197,14 @@
   </div>
 </footer>
 
-<a class="lemon-btn" href="#case-review" aria-label="Is my car a lemon? Free case review">
-  <span>Is my car<br>a lemon?</span>
+<a class="lemon-btn" href="#case-review" aria-label="{{ '¿Mi auto es un lemon? Evaluación gratis' if lang == 'es' else 'Is my car a lemon? Free case review' }}">
+  <span>{% if lang == 'es' %}¿Mi auto es<br>un lemon?{% else %}Is my car<br>a lemon?{% endif %}</span>
 </a>
 
 <div class="mobile-bar">
   <a href="tel:{{ firm.tel }}" class="btn btn-gold">{{ s.call_now }}</a>
   <a href="sms:{{ firm.sms }}" class="btn btn-navy">{{ s.text }}</a>
 </div>
-<script src="/js/site.js?v=4" defer></script>
+<script src="/js/site.js?v=5" defer></script>
 </body>
 </html>

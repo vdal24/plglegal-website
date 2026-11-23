@@ -281,7 +281,7 @@ def jsonld(url, fm, h1, html, crumbs, desc=''):
         'areaServed': [{'@type': 'AdministrativeArea', 'name': n} for n in
                        ['Los Angeles County', 'Orange County', 'Ventura County', 'Riverside County', 'San Bernardino County', 'California']],
         'knowsLanguage': ['en', 'hy', 'es'], 'availableLanguage': ['English', 'Armenian', 'Spanish'], 'priceRange': 'Free consultation',
-        'knowsAbout': ['Personal injury law', 'Car accident claims', 'Truck accident claims', 'Rideshare accident claims',
+        'knowsAbout': globals().get('KNOWS_ABOUT') or ['Personal injury law', 'Car accident claims', 'Truck accident claims', 'Rideshare accident claims',
                        'Wrongful death claims', 'Uninsured motorist claims', 'California lemon law', 'Song-Beverly Consumer Warranty Act'],
         'founder': person if url in ('/', '/about/') else {'@type': 'Person', '@id': SITE + '/about/#attorney', 'name': FIRM['attorney'], 'jobTitle': 'Attorney'},
         'sameAs': list(FIRM['social'].values()),
@@ -499,6 +499,8 @@ def main():
         hero_html = ''
         h1 = sanitize(fm.get('h1') or fm.get('title', ''))
         title = sanitize(fm.get('title') or h1)
+        if len(title) > 65 and title.endswith(' | ' + FIRM['short']):   # long titles get cut off in search results; keep the keywords, drop the firm suffix
+            title = title[:-len(' | ' + FIRM['short'])]
         desc = sanitize(fm.get('description', ''))
         crumbs = breadcrumbs(url, fm, h1, s)
         alts = alternates(url)
@@ -506,6 +508,10 @@ def main():
         if is_home and '<!-- /HERO -->' in body:
             hero_md, rest = body.split('<!-- /HERO -->', 1)
             hero_html, html = render_md(hero_md, s), home_sections(render_md(rest, s), s)
+        elif is_home:   # a home page written without a hero block still gets call and review buttons and the banded layout
+            hero_html = (f'<div class="cta-btns"><a class="btn btn-gold" href="tel:{FIRM["tel"]}">{s["call"]} {FIRM["phone"]}</a>'
+                         f'<a class="btn btn-outline" href="#case-review">{s["review"]}</a></div>')
+            html = home_sections(html, s)
         else:
             html = shrink_images(faq_accordion(mark_steps(interior_sections(html))))
         side_reviews = [r for r in reviews if len(r['text']) < 260][:3]

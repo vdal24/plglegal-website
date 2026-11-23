@@ -76,7 +76,7 @@ These are examples of problems that frequently lead to lemon law claims when the
 
 Every manufacturer handles claims differently, and some opted into California's 2025 lemon law procedures while others did not. We know how each one defends these cases.
 
-[Mercedes-Benz](/lemon-law/mercedes-benz/) · [Ford](/lemon-law/ford/) · [Chevrolet and GM](/lemon-law/chevrolet-gm/) · [Tesla](/lemon-law/tesla/) · [Toyota and Lexus](/lemon-law/toyota/) · [Honda and Acura](/lemon-law/honda/) · [Hyundai and Genesis](/lemon-law/hyundai/) · [Kia](/lemon-law/kia/) · [Jeep, Ram, Dodge and Chrysler](/lemon-law/jeep-stellantis/) · [BMW](/lemon-law/bmw/) · [Land Rover and Jaguar](/lemon-law/land-rover/) · [Nissan and Infiniti](/lemon-law/nissan/)
+[Mercedes-Benz](/lemon-law/mercedes-benz/) · [Ford](/lemon-law/ford/) · [Chevrolet and GM](/lemon-law/chevrolet-gm/) · [Tesla](/lemon-law/tesla/) · [Toyota and Lexus](/lemon-law/toyota/) · [Honda and Acura](/lemon-law/honda/) · [Hyundai and Genesis](/lemon-law/hyundai/) · [Kia](/lemon-law/kia/) · [Jeep, Ram, Dodge and Chrysler](/lemon-law/jeep-stellantis/) · [Land Rover and Jaguar](/lemon-law/land-rover/) · [Nissan and Infiniti](/lemon-law/nissan/)
 
 ## How a Lemon Law Case Works
 

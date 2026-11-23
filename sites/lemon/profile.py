@@ -7,7 +7,7 @@ for _l in STRINGS:
     STRINGS[_l] = dict(STRINGS[_l])
 
 STRINGS['en'].update(
-    cases=['Car keeps going back to the dealer', 'Engine or transmission', 'Electrical or infotainment', 'EV battery or charging', 'Used car under warranty', 'Other lemon law question'],
+    cases=['Car keeps going back to the dealer', 'Leased vehicle with repeat problems', 'Engine or transmission', 'Electrical or infotainment', 'EV battery or charging', 'Used car under warranty', 'Other lemon law question'],
     form_title='Free Lemon Law Case Review', form_sub='Tell us about your vehicle. We respond quickly.',
     msg='Year, make, model, and the problem',
     stars='Manufacturer pays attorney fees', atty_role='Lemon law attorney, Prospect Law Group, PC',
@@ -33,9 +33,9 @@ NAV = {
             ('California Lemon Law', '/california-lemon-law/'), ('How Buybacks Are Calculated', '/lemon-law/buyback-calculation/'),
             ('Used Cars', '/lemon-law/used-cars/'), ('Lemon Law FAQ', '/lemon-law/faq/')]),
         ('Brands', '/lemon-law/#brands', [
-            ('Mercedes-Benz', '/lemon-law/mercedes-benz/'), ('Tesla', '/lemon-law/tesla/'), ('Ford', '/lemon-law/ford/'),
-            ('Chevrolet and GM', '/lemon-law/chevrolet-gm/'), ('Jeep and Stellantis', '/lemon-law/jeep-stellantis/'),
-            ('Hyundai', '/lemon-law/hyundai/'), ('Kia', '/lemon-law/kia/'), ('Honda', '/lemon-law/honda/'), ('Nissan', '/lemon-law/nissan/'), ('Toyota and Lexus', '/lemon-law/toyota/'), ('Land Rover', '/lemon-law/land-rover/'),
+            ('Tesla', '/lemon-law/tesla/'), ('Ford', '/lemon-law/ford/'), ('Chevrolet and GM', '/lemon-law/chevrolet-gm/'),
+            ('Jeep and Stellantis', '/lemon-law/jeep-stellantis/'), ('Land Rover', '/lemon-law/land-rover/'), ('Mercedes-Benz', '/lemon-law/mercedes-benz/'),
+            ('Toyota and Lexus', '/lemon-law/toyota/'), ('Hyundai', '/lemon-law/hyundai/'), ('Kia', '/lemon-law/kia/'), ('Honda', '/lemon-law/honda/'), ('Nissan', '/lemon-law/nissan/'),
             ('All Manufacturers', '/lemon-law/#brands')]),
         ('Defects', '/lemon-law/', [
             ('Engine', '/lemon-law/defects/engine/'), ('Transmission', '/lemon-law/defects/transmission/'),
@@ -50,6 +50,22 @@ NAV = {
 
 import json as _json
 _RES = _json.loads((CONTENT / 'results.json').read_text())
+
+def _lead_mix(items):
+    # Display order: one result per manufacturer first (largest of each, no single brand leading the list), then the rest by amount.
+    val = lambda r: float(r['amount'].strip('$').replace(',', '')) if r['amount'] else 0
+    best = {}
+    for r in sorted(items, key=val, reverse=True):
+        best.setdefault(r['make'], r)
+    lead = sorted(best.values(), key=val, reverse=True)
+    if len(lead) > 1 and lead[0]['make'] == 'Mercedes-Benz':
+        lead[0], lead[1] = lead[1], lead[0]
+    rest = [r for r in sorted(items, key=val, reverse=True) if r not in lead]
+    return lead + rest
+_RES = _lead_mix(_RES)
+
+KNOWS_ABOUT = ['California lemon law', 'Song-Beverly Consumer Warranty Act', 'Vehicle repurchase and replacement claims',
+               'Electric vehicle and hybrid battery defects', 'Vehicle warranty disputes']
 
 def _cards(items):
     out = []
@@ -103,7 +119,7 @@ _CALC = (
     '<a class="btn btn-gold bb-cta" href="#case-review">Get my free buyback review</a>'
     '<small class="bb-disc">Estimate only, not legal advice. The offset uses the standard California formula: miles before the first repair visit, divided by 120,000, times the vehicle price. Your actual buyback depends on your contract, repair history, and the facts of your case. Leases are calculated differently. Results vary.</small>'
     '</div></form>'
-    '<script src="/js/calc.js?v=1" defer></script>'
+    '<script src="/js/calc.js?v=2" defer></script>'
 )
 
 def PAGE_HOOK(html, url):

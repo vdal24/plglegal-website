@@ -9,6 +9,20 @@ schema: [LegalService, FAQPage, BreadcrumbList]
 review_note: "Have a native Spanish speaker review before publishing."
 ---
 
+<!-- HERO -->
+
+## Si su auto sigue fallando, <em>el fabricante puede tener que recomprarlo.</em>
+
+Si su auto vuelve al concesionario una y otra vez por el mismo problema, la ley de California puede obligar al fabricante a recomprarlo. Si su caso tiene éxito, el fabricante también paga los honorarios de su abogado.
+
+- Sepa en 2 minutos si su auto califica
+- Sin costo de su bolsillo
+- Trato directo con su abogado
+
+[Llame al 323-452-5222] [¿Mi auto califica?]
+
+<!-- /HERO -->
+
 ## ¿Qué es la Lemon Law?
 
 La Ley de Garantía al Consumidor Song-Beverly de California (la "Lemon Law") protege a quienes compran o rentan (lease) un vehículo nuevo. Si el fabricante no puede reparar un defecto cubierto por la garantía después de un número razonable de intentos, puede estar obligado a:

@@ -7,6 +7,8 @@ h1: "About Prospect Law Group"
 
 ## Vardan Daldumyan, Founder and Attorney
 
+<figure class="about-fig"><img src="/images/attorneys/vardan-bw.jpg" alt="Attorney Vardan Daldumyan" width="896" height="1152" decoding="async"></figure>
+
 Before founding Prospect Law Group, PC, Vardan Daldumyan worked as an in-house trial attorney for an insurance company. He saw how corporate legal teams value and defend claims. Today he uses that experience for consumers whose new or leased vehicles keep failing.
 
 When you hire Prospect Law Group, you work directly with your attorney. We handle lemon law claims across California by phone, text, email, and video, so most clients never need to visit the office.

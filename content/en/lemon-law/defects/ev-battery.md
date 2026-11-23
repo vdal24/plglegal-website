@@ -32,7 +32,7 @@ More electric vehicles are sold in California than anywhere else in the U.S. EVs
 
 ## Common EV Recalls and Complaints
 
-Examples include battery fire-risk recalls affecting the Chevy Bolt and certain Jeep 4xe plug-in hybrids, charging control unit recalls on some Hyundai and Kia EVs, and high-voltage system recalls on some Ford Mustang Mach-E vehicles. Owners of [Tesla](/lemon-law/tesla/), [Ford](/lemon-law/ford/), [GM](/lemon-law/chevrolet-gm/), [Hyundai](/lemon-law/hyundai/), [Kia](/lemon-law/kia/), [BMW](/lemon-law/bmw/), [Mercedes-Benz](/lemon-law/mercedes-benz/), and [Toyota](/lemon-law/toyota/) EVs have all reported charging and battery complaints.
+Examples include battery fire-risk recalls affecting the Chevy Bolt and certain Jeep 4xe plug-in hybrids, charging control unit recalls on some Hyundai and Kia EVs, and high-voltage system recalls on some Ford Mustang Mach-E vehicles. Owners of [Tesla](/lemon-law/tesla/), [Ford](/lemon-law/ford/), [GM](/lemon-law/chevrolet-gm/), [Hyundai](/lemon-law/hyundai/), [Kia](/lemon-law/kia/), [Mercedes-Benz](/lemon-law/mercedes-benz/), and [Toyota](/lemon-law/toyota/) EVs have all reported charging and battery complaints.
 
 ## Waiting for Parts Counts
 

@@ -72,7 +72,6 @@ If your new or leased vehicle (and many certified pre-owned vehicles) keeps goin
 We focus on Mercedes-Benz claims: EQ battery and charging faults, Airmatic air suspension, MBUX and electrical failures, and Sprinter vans.
 
 - [Mercedes-Benz](/lemon-law/mercedes-benz/)
-- [BMW](/lemon-law/bmw/)
 - [Land Rover](/lemon-law/land-rover/)
 - [Tesla](/lemon-law/tesla/)
 - [Ford](/lemon-law/ford/)

@@ -19,7 +19,6 @@ If your new or leased vehicle keeps going back to the dealer for the same proble
 - [Hyundai and Genesis](/lemon-law/hyundai/)
 - [Kia](/lemon-law/kia/)
 - [Jeep, Ram, Dodge, and Chrysler](/lemon-law/jeep-stellantis/)
-- [BMW](/lemon-law/bmw/)
 - [Land Rover and Range Rover](/lemon-law/land-rover/)
 - [Nissan and Infiniti](/lemon-law/nissan/)
 

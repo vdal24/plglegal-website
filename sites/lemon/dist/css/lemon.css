@@ -307,3 +307,10 @@ body.typing .lemon-btn { display: none; }
 .lw > img { width: 82px; }
 @media (max-width: 900px) { .lw > img { width: 70px; } }
 @media (max-width: 560px) { .lw > img { width: 62px; } }
+/* About page: attorney portrait beside the text on desktop, full width above the text on phones */
+.about-fig { float: right; width: min(340px, 42%); margin: 6px 0 22px 34px; }
+.about-fig img { display: block; width: 100%; height: auto; border-radius: 16px; box-shadow: 0 14px 30px rgba(0,0,0,.18); }
+@media (max-width: 760px) { .about-fig { float: none; width: 100%; margin: 0 0 20px; } }
+/* Home pages without a tagline (Armenian): dark heading on the yellow hero so it stays readable */
+.home-hero .hero-copy:not(.has-tagline) h1 { color: var(--navy-dark); text-shadow: none; }
+.home-hero .hero-copy:not(.has-tagline) .eyebrow { color: var(--navy-dark) !important; opacity: .8; }

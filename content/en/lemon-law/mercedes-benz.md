@@ -147,6 +147,6 @@ Many cases resolve within a few months of the demand. Cases that go to litigatio
 ### Do I have to keep driving the car while the case is pending?
 Usually you keep the vehicle, keep making payments, and keep it insured and maintained until the case resolves. If the vehicle is unsafe, tell the dealer in writing and talk to us about your options.
 
-Related: [California lemon law](/practice-areas/lemon-law/) · [Buyback calculation](/lemon-law/buyback-calculation/) · [Lemon law FAQ](/lemon-law/faq/) · [BMW lemon law](/lemon-law/bmw/) · [Land Rover lemon law](/lemon-law/land-rover/)
+Related: [California lemon law](/practice-areas/lemon-law/) · [Buyback calculation](/lemon-law/buyback-calculation/) · [Lemon law FAQ](/lemon-law/faq/) · [Land Rover lemon law](/lemon-law/land-rover/)
 
 <small>Mercedes-Benz, MBUX, Airmatic, and Sprinter are trademarks of Mercedes-Benz Group AG. Prospect Law Group is not affiliated with Mercedes-Benz. This page is general information, not legal advice. Past results do not guarantee a similar outcome.</small>

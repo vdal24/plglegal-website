@@ -57,9 +57,6 @@ Battery, charging, and software faults on EVs and plug-in hybrids. [EV battery c
 
 ## Lemon Law by Brand {: .sec-links }
 
-### Mercedes-Benz
-EQ, AMG, GLE, GLC, S-Class, and Sprinter claims. [Mercedes-Benz lemon law](/lemon-law/mercedes-benz/)
-
 ### Tesla
 Battery, charging, suspension, and software problems. [Tesla lemon law](/lemon-law/tesla/)
 
@@ -71,6 +68,9 @@ Transmission, engine, and electrical defects. [Ford lemon law](/lemon-law/ford/)
 
 ### Chevrolet and GM
 Engine, transmission, and EV battery claims. [GM lemon law](/lemon-law/chevrolet-gm/)
+
+### Mercedes-Benz
+EQ, AMG, GLE, GLC, S-Class, and Sprinter claims. [Mercedes-Benz lemon law](/lemon-law/mercedes-benz/)
 
 ### Toyota and Lexus
 Hybrid system, electrical, and engine problems. [Toyota lemon law](/lemon-law/toyota/)
@@ -113,6 +113,12 @@ Yes. Leased vehicles with a manufacturer's new vehicle warranty are covered.
 
 ### What documents do I need?
 Your purchase or lease contract, your registration, and every repair order from the dealer. If you do not have the repair orders, we can request them.
+
+### Does it matter how new or expensive my car is?
+The law covers vehicles at every price. Newer vehicles still under the manufacturer's warranty usually have the clearest claims, and because a buyback refunds what you paid, a higher purchase price generally means a larger refund. The [buyback calculator](#calculator) above gives a rough estimate.
+
+### My car is financed. What happens to the loan?
+In a buyback, the manufacturer pays off the remaining loan or lease balance directly to the lender and refunds the payments you made, minus the usage offset.
 
 ### How long does a buyback take?
 It depends on the manufacturer and the facts. Many claims resolve without a lawsuit, and some require litigation. We keep you updated at every step.

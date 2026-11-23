@@ -40,7 +40,7 @@ Electrical problems are often intermittent, so dealers write "could not duplicat
 
 ## Brands Where Owners Commonly Report Electronic Issues
 
-Electronic complaints cross every brand, from [Tesla](/lemon-law/tesla/) and [Mercedes-Benz](/lemon-law/mercedes-benz/) to [Land Rover](/lemon-law/land-rover/), [BMW](/lemon-law/bmw/), [Honda](/lemon-law/honda/), and [Ford](/lemon-law/ford/).
+Electronic complaints cross every brand, from [Tesla](/lemon-law/tesla/) and [Mercedes-Benz](/lemon-law/mercedes-benz/) to [Land Rover](/lemon-law/land-rover/), [Honda](/lemon-law/honda/), and [Ford](/lemon-law/ford/).
 
 [Call 323-452-5222] [Start Your Free Lemon Law Review]
 
