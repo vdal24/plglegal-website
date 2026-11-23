@@ -33,7 +33,8 @@
     </clipPath>
   <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3a66"/><stop offset="1" stop-color="#141d3a"/></linearGradient>
 <radialGradient id="skin" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#f0c6a2"/><stop offset=".7" stop-color="#deaa84"/><stop offset="1" stop-color="#c88f6a"/></radialGradient>
-<pattern id="stripes" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(40)"><rect width="4" height="4" fill="#1d2b55"/><rect width="1.3" height="4" fill="#c9d1e6"/></pattern></defs>
+<pattern id="stripes" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(40)"><rect width="4" height="4" fill="#1d2b55"/><rect width="1.3" height="4" fill="#c9d1e6"/></pattern><linearGradient id="hair" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#3a3029"/><stop offset=".55" stop-color="#4a3e35"/><stop offset=".8" stop-color="#6a5c50"/><stop offset="1" stop-color="#3f352e"/></linearGradient>
+<linearGradient id="beard" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a3d34"/><stop offset="1" stop-color="#352b24"/></linearGradient></defs>
   <g transform="translate(0 30)">
 
   <!-- ground shadow -->
@@ -62,17 +63,13 @@
     <path d="M77.5 26 C77.5 18 82 14.5 88 14.5 C94 14.5 98.5 18 98.5 26 L98.5 33 C98.5 41 94 46.5 88 46.5 C82 46.5 77.5 41 77.5 33 Z" fill="url(#skin)"/>
     <path d="M77.5 26 C77.5 18 82 14.5 88 14.5 C84 15.5 80.5 19 80 26 L80 34 C80 39 82 43 85 45.6 C80.6 44.4 77.5 39.6 77.5 33 Z" fill="#b97a56" opacity=".28"/>
     <!-- slicked back hair, faded sides -->
-    <path d="M78 25.5 C77.5 20.5 78.4 17 80.4 15.2 C80.8 10.6 84.4 7.8 89 7.8 C93.8 7.8 97.4 10.6 97.8 15.2 C99.8 17 100.6 20.5 100 25.5 C99.6 23 98.8 21 97.6 20 C96.6 18.6 94.8 17.8 92.6 17.9 C91 18.4 89.4 18.6 88 18.6 C86.6 18.6 85 18.4 83.4 17.9 C81.2 17.8 79.4 18.6 78.4 20 C78.2 21.6 78 23.4 78 25.5 Z" fill="#191613"/>
-    <path d="M78.2 20 C77.8 22 77.8 24 78 26.5 L80 27 C79.8 24.6 79.8 22 80.4 19.8 Z M97.8 20 C98.2 22 98.2 24 98 26.5 L96 27 C96.2 24.6 96.2 22 95.6 19.8 Z" fill="#3d3530" opacity=".45"/>
-    <g stroke="#4f463f" stroke-width=".55" fill="none" stroke-linecap="round" opacity=".8">
-      <path d="M83.6 17.6 C83.4 14 85.2 11 88.4 9.6"/>
-      <path d="M87.6 18.3 C87.8 14.4 89.6 11.6 92.6 10.4"/>
-      <path d="M91.8 17.8 C92.6 15 94.2 13 96.4 12.4"/>
-      <path d="M80.4 18.6 C80.2 15.6 81.2 13.2 83.4 11.6"/>
+    <path d="M78 25.5 C77.5 20.5 78.4 17 80.4 15.2 C80.8 10.6 84.4 7.8 89 7.8 C93.8 7.8 97.4 10.6 97.8 15.2 C99.8 17 100.6 20.5 100 25.5 C99.6 23 98.8 21 97.6 20 C96.6 18.6 94.8 17.8 92.6 17.9 C91 18.4 89.4 18.6 88 18.6 C86.6 18.6 85 18.4 83.4 17.9 C81.2 17.8 79.4 18.6 78.4 20 C78.2 21.6 78 23.4 78 25.5 Z" fill="url(#hair)"/>
+    <path d="M78.2 20 C77.8 22 77.8 24 78 26.5 L80 27 C79.8 24.6 79.8 22 80.4 19.8 Z M97.8 20 C98.2 22 98.2 24 98 26.5 L96 27 C96.2 24.6 96.2 22 95.6 19.8 Z" fill="#5a4c42" opacity=".5"/>
+    <g stroke="#2c241f" stroke-width=".35" fill="none" stroke-linecap="round" opacity=".45">
+      <path d="M81 18.6 C81.4 14.6 84 11.4 88 10.2"/><path d="M84 18.2 C84.4 14.4 86.8 11.4 90.4 10.2"/><path d="M87 18.5 C87.4 14.6 89.6 11.6 92.8 10.6"/><path d="M90 18.4 C90.6 14.8 92.6 12.2 95.2 11.4"/><path d="M93 18.1 C93.8 15.2 95.4 13.2 97.2 12.8"/>
     </g>
-    <path d="M85 12.4 C87 10.6 90.4 10 93.6 11" stroke="#8a7e73" stroke-width=".8" fill="none" stroke-linecap="round" opacity=".45"/>
     <!-- brows -->
-    <path d="M80.2 23.4 C82.2 22.2 84.8 22.2 86.8 23.2 L86.6 24.5 C84.6 23.9 82.4 23.9 80.4 24.7 Z" fill="#191613"/>
+    <path d="M80.2 23.4 C82.2 22.2 84.8 22.2 86.8 23.2 L86.6 24.5 C84.6 23.9 82.4 23.9 80.4 24.7 Z" fill="#2e251f"/>
     <path d="M95.8 23.4 C93.8 22.2 91.2 22.2 89.2 23.2 L89.4 24.5 C91.4 23.9 93.6 23.9 95.6 24.7 Z" fill="#191613"/>
     <!-- eyes -->
     <ellipse cx="83.6" cy="27.3" rx="2" ry="1.15" fill="#fff"/>
@@ -87,10 +84,10 @@
     <path d="M88.4 27.5 C88.6 30 89.4 31.6 89.8 32.6" stroke="#b47552" stroke-width=".8" fill="none" stroke-linecap="round" opacity=".8"/>
     <path d="M86.2 33 C86.8 33.7 87.4 33.8 88 33.6 C88.6 33.8 89.2 33.7 89.8 33" stroke="#9c6040" stroke-width=".8" fill="none" stroke-linecap="round"/>
     <!-- trimmed full beard -->
-    <path d="M77.5 28.6 C78 31.6 79.4 33.4 81.4 34.2 C83.4 34.9 85.6 34.6 88 34.5 C90.4 34.6 92.6 34.9 94.6 34.2 C96.6 33.4 98 31.6 98.5 28.6 C99 37.6 96 45.6 88 46.6 C80 45.6 77 37.6 77.5 28.6 Z" fill="#1d1916"/>
-    <path d="M77.5 28.6 C78 31.6 79.4 33.4 81.4 34.2 C80.6 35.6 80.4 38 81 40.4 C78.2 38 77.2 33.4 77.5 28.6 Z" fill="#3a332d" opacity=".6"/>
+    <path d="M77.5 28.6 C78 31.6 79.4 33.4 81.4 34.2 C83.4 34.9 85.6 34.6 88 34.5 C90.4 34.6 92.6 34.9 94.6 34.2 C96.6 33.4 98 31.6 98.5 28.6 C99 37.6 96 45.6 88 46.6 C80 45.6 77 37.6 77.5 28.6 Z" fill="url(#beard)"/>
+    <path d="M77.5 28.6 C78 31.6 79.4 33.4 81.4 34.2 C80.6 35.6 80.4 38 81 40.4 C78.2 38 77.2 33.4 77.5 28.6 Z" fill="#5a4a3f" opacity=".55"/>
     <!-- mustache and smile -->
-    <path d="M83 36.9 C84.8 35.6 86.8 35.4 88 36 C89.2 35.4 91.2 35.6 93 36.9 C91.4 37.5 89.6 37.4 88 37.1 C86.4 37.4 84.6 37.5 83 36.9 Z" fill="#14110f"/>
+    <path d="M83 36.9 C84.8 35.6 86.8 35.4 88 36 C89.2 35.4 91.2 35.6 93 36.9 C91.4 37.5 89.6 37.4 88 37.1 C86.4 37.4 84.6 37.5 83 36.9 Z" fill="#2c231d"/>
     <path d="M84.2 38 C86 40.4 90 40.4 91.8 38 C89.8 38.6 86.2 38.6 84.2 38 Z" fill="#6e2a22"/>
     <path d="M84.8 38.2 C86.8 38.8 89.2 38.8 91.2 38.2 L90.8 38.9 C89 39.3 87 39.3 85.2 38.9 Z" fill="#fff"/>
     <path d="M84.6 41.4 C86.6 42.2 89.4 42.2 91.4 41.4" stroke="#3a332d" stroke-width=".6" fill="none" opacity=".7"/>

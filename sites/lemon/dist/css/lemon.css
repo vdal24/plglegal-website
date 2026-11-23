@@ -300,3 +300,6 @@ body.typing .lemon-btn { display: none; }
   .hero-road { display: block !important; height: 86px; }
   .hero-road img { width: 96px; animation-duration: 9s, .5s; }
 }
+/* v15: room for the driver's head */
+.hero-road { height: 126px; }
+@media (max-width: 760px) { .home-hero { padding-bottom: 112px !important; } .hero-road { height: 104px; } }
