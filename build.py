@@ -55,11 +55,11 @@ REMOVED = {  # old URLs that no longer exist -> where they go now
     '/lemon-law/hyundai/': 'https://bestlemonlawattorneyca.com/lemon-law/hyundai/',
     '/lemon-law/jeep-stellantis/': 'https://bestlemonlawattorneyca.com/lemon-law/jeep-stellantis/',
     '/lemon-law/kia/': 'https://bestlemonlawattorneyca.com/lemon-law/kia/',
-    '/lemon-law/land-rover/': 'https://bestlemonlawattorneyca.com/lemon-law/',
+    '/lemon-law/land-rover/': 'https://bestlemonlawattorneyca.com/lemon-law/land-rover/',
     '/lemon-law/mercedes-benz/': 'https://bestlemonlawattorneyca.com/lemon-law/mercedes-benz/',
     '/lemon-law/nissan/': 'https://bestlemonlawattorneyca.com/lemon-law/nissan/',
     '/lemon-law/tesla/': 'https://bestlemonlawattorneyca.com/lemon-law/tesla/',
-    '/lemon-law/toyota/': 'https://bestlemonlawattorneyca.com/lemon-law/',
+    '/lemon-law/toyota/': 'https://bestlemonlawattorneyca.com/lemon-law/toyota/',
     '/lemon-law/used-cars/': 'https://bestlemonlawattorneyca.com/lemon-law/used-cars/',
     '/practice-areas/lemon-law/': 'https://bestlemonlawattorneyca.com/california-lemon-law/',
 }
