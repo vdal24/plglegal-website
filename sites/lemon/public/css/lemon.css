@@ -295,3 +295,8 @@ body.typing .lemon-btn { display: none; }
 .hero-road { height: 104px; background-position: 0 calc(100% - 9px); }
 .hero-road img { width: 118px; bottom: 2px; left: -140px; }
 @keyframes roadtrip { 0% { left: -140px; } 100% { left: calc(100% + 140px); } }
+@media (max-width: 760px) {
+  .home-hero { padding-bottom: 96px !important; position: relative; }
+  .hero-road { display: block !important; height: 86px; }
+  .hero-road img { width: 96px; animation-duration: 9s, .5s; }
+}
