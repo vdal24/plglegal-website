@@ -7,7 +7,7 @@ h1: "California Lemon Law Attorney"
 
 <!-- HERO -->
 
-## When life gives you a lemon, <em>we get you a buyback.</em>
+## Stuck with a lemon? <em>Let's squeeze the manufacturer.</em>
 
 %%HERO_RESULTS%%
 
