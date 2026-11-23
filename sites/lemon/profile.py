@@ -59,7 +59,20 @@ def _cards(items):
                    f'<strong>{r["vehicle"]}</strong><span class="res-type">{r["type"]}</span></div>')
     return '<div class="res-grid">' + ''.join(out) + '</div>'
 
+def _total():
+    return '$' + format(int(sum(float(r['amount'].strip('$').replace(',', '')) for r in _RES if r['amount'])), ',')
+
+def _short(a):
+    v = float(a.strip('$').replace(',', ''))
+    return f'${round(v / 1000):,}K'
+
+def _hero_results():
+    top = [r for r in _RES if r['amount']][:3]
+    return '<div class="hero-results">' + ''.join(f'<div><b>{_short(r["amount"])}</b><span>{r["vehicle"].replace("2025 ", "").replace("2023 ", "").replace(" with EQ Technology", "")} buyback</span></div>' for r in top) + '</div>'
+
 def PAGE_HOOK(html, url):
+    html = html.replace('%%TOTAL%%', _total())
+    html = re.sub(r'<p>\s*%%HERO_RESULTS%%\s*</p>', lambda m: _hero_results(), html)
     html = re.sub(r'<p>\s*%%RESULTS%%\s*</p>', lambda m: _cards(_RES), html)
     html = re.sub(r'<p>\s*%%RESULTS3%%\s*</p>', lambda m: _cards(_RES[:3]), html)
     return html

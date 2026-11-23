@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 84" width="120" height="84">
+  <ellipse cx="60" cy="78" rx="40" ry="4" fill="#000" opacity=".18"/>
+  <!-- wheels -->
+  <circle cx="36" cy="64" r="12" fill="#141412"/><circle cx="36" cy="64" r="5.5" fill="#ffd60a"/><circle cx="36" cy="64" r="2" fill="#141412"/>
+  <circle cx="84" cy="64" r="12" fill="#141412"/><circle cx="84" cy="64" r="5.5" fill="#ffd60a"/><circle cx="84" cy="64" r="2" fill="#141412"/>
+  <!-- lemon body with pointed ends -->
+  <path d="M6 41 C6 41 9 36 14 33 C24 18 44 13 62 13 C82 13 98 19 106 32 C111 35 114 40 114 41 C114 42 111 47 106 50 C98 61 82 66 62 66 C42 66 24 62 14 50 C9 47 6 42 6 41 Z" fill="#ffd60a"/>
+  <path d="M14 50 C24 62 42 66 62 66 C82 66 98 61 106 50 C111 47 114 42 114 41 C112 46 100 56 62 57 C30 57 16 49 14 50 Z" fill="#e6b800"/>
+  <ellipse cx="44" cy="26" rx="14" ry="5" fill="#fff3a0" opacity=".85" transform="rotate(-10 44 26)"/>
+  <!-- stem and leaf -->
+  <path d="M70 14 L73 6" stroke="#5c4a12" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M73 7 C80 -1 94 0 98 4 C92 10 80 12 73 7 Z" fill="#2f9a47"/>
+  <path d="M74 7 C82 4 90 3 97 4" stroke="#1d6e31" stroke-width="1.2" fill="none"/>
+</svg>
