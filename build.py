@@ -24,8 +24,7 @@ FIRM = {
     'street': '600 W. Broadway, Ste. 320', 'city': 'Glendale', 'region': 'CA', 'zip': '91204',
     'maps': 'https://www.google.com/maps/search/?api=1&query=Prospect+Law+Group+600+W+Broadway+Suite+320+Glendale+CA+91204',
     'social': {'Instagram': 'https://instagram.com/plglegal'},
-    'attorney': 'Vardan Daldumyan', 'bar': '355861',
-    'headshot': '/images/attorneys/vardan-about-headshot.jpg',
+    'attorney': 'Vardan Daldumyan',
 }
 
 REMOVED = {  # old URLs that no longer exist -> where they go now
@@ -46,7 +45,7 @@ STRINGS = {
                ad='This website is attorney advertising. The information on this site is general information, not legal advice. Contacting us does not create an attorney-client relationship.',
                home='Home', skip='Skip to content', menu='Menu', call_now='Call Now',
                form_note='Free and confidential. No obligation.', atty_name='Vardan Daldumyan, Esq.',
-               atty_role='Former insurance company trial attorney', bar='California State Bar No. 355861',
+               atty_role='Former insurance company trial attorney',
                cta_h='Talk to an Attorney Today',
                cta_p='Free, confidential consultation by phone, video, or in person. If we take your case, you pay nothing unless we recover.',
                reviews_h='What Our Clients Say', google_review='Google review', reviews_link='Read all reviews on Google',
@@ -65,7 +64,7 @@ STRINGS = {
                ad='Այս կայքը փաստաբանական գովազդ է։ Տեղեկատվությունը իրավաբանական խորհուրդ չէ։ Մեզ հետ կապվելը չի ստեղծում փաստաբան-հաճախորդ հարաբերություն։',
                home='Գլխավոր', skip='Անցնել բովանդակությանը', menu='Մենյու', call_now='Զանգահարել',
                form_note='Անվճար և գաղտնի։ Առանց պարտավորության։', atty_name='Վարդան Դալդումյան, փաստաբան',
-               atty_role='Ապահովագրական ընկերության նախկին դատական փաստաբան', bar='California State Bar No. 355861',
+               atty_role='Ապահովագրական ընկերության նախկին դատական փաստաբան',
                cta_h='Խոսեք փաստաբանի հետ այսօր',
                cta_p='Անվճար և գաղտնի խորհրդատվություն հեռախոսով, տեսազանգով կամ անձամբ։ Եթե ստանձնենք Ձեր գործը, Դուք ոչինչ չեք վճարում, քանի դեռ փոխհատուցում չենք ստացել։',
                reviews_h='Մեր հաճախորդների կարծիքները', google_review='Google կարծիք', reviews_link='Տեսնել բոլոր կարծիքները Google-ում',
@@ -84,7 +83,7 @@ STRINGS = {
                ad='Este sitio web es publicidad de abogados. La información es general y no es asesoría legal. Contactarnos no crea una relación abogado-cliente.',
                home='Inicio', skip='Ir al contenido', menu='Menú', call_now='Llamar',
                form_note='Gratis y confidencial. Sin compromiso.', atty_name='Vardan Daldumyan, Esq.',
-               atty_role='Ex abogado litigante de una compañía de seguros', bar='California State Bar No. 355861',
+               atty_role='Ex abogado litigante de una compañía de seguros',
                cta_h='Hable con un abogado hoy',
                cta_p='Consulta gratis y confidencial por teléfono, video o en persona. Si tomamos su caso, no paga nada a menos que obtengamos una compensación.',
                reviews_h='Lo que dicen nuestros clientes', google_review='Reseña de Google', reviews_link='Ver todas las reseñas en Google',
@@ -257,10 +256,9 @@ def jsonld(url, fm, h1, html, crumbs, desc=''):
     lang = lang_of(url)
     person = {
         '@type': 'Person', '@id': SITE + '/about/#attorney', 'name': FIRM['attorney'], 'jobTitle': 'Attorney',
-        'honorificSuffix': 'Esq.', 'url': SITE + '/about/', 'image': SITE + FIRM['headshot'],
+        'honorificSuffix': 'Esq.', 'url': SITE + '/about/',
         'knowsLanguage': ['en', 'hy'], 'worksFor': {'@id': SITE + '/#firm'},
-        'description': 'Founder of Prospect Law Group, PC. Former in-house trial attorney for an insurance company. California State Bar No. ' + FIRM['bar'] + '.',
-        'identifier': {'@type': 'PropertyValue', 'propertyID': 'California State Bar Number', 'value': FIRM['bar']},
+        'description': 'Founder of Prospect Law Group, PC. Former in-house trial attorney for an insurance company.',
     }
     org = {
         '@context': 'https://schema.org', '@type': ['LegalService', 'Attorney'], '@id': SITE + '/#firm', 'name': FIRM['name'],
@@ -484,7 +482,7 @@ def main():
         else:
             html = shrink_images(faq_accordion(mark_steps(interior_sections(html))))
         side_reviews = [r for r in reviews if len(r['text']) < 260][:3]
-        headshot = variant(FIRM['headshot'], 320)[0]
+        headshot = ''
         out = tpl.render(
             url=url, lang=lang, s=s, firm=FIRM, nav=NAV[lang], title=title, description=desc, h1=h1,
             subtitle=sanitize(fm.get('subtitle', '')), hero_image=hero_image_for(url, fm), hero_bg=variant(hero_image_for(url, fm), 1280, 60)[0],   # page-top photo sits under a dark overlay, so a lighter file is fine
@@ -518,7 +516,7 @@ def main():
         hero_image='/images/hero/glendale-poster.jpg', hero_bg='/images/hero/glendale-poster.jpg', content='<p><a href="/">Home</a> · <a href="/practice-areas/">Practice Areas</a> · <a href="/practice-areas/car-accidents/">Car Accidents</a> · <a href="/practice-areas/lemon-law/">Lemon Law</a> · <a href="/lemon-law/mercedes-benz/">Mercedes-Benz Lemon Law</a> · <a href="/guides/">Guides</a> · <a href="/contact/">Contact</a></p>',
         hero_html='', is_home=False, crumbs=[('Home', '/')], jsonld=[], alternates={}, canonical=SITE + '/404/', review_note=None,
         ga_id=GA_ID, ads_id=ADS_ID, reviews=reviews, year=datetime.date.today().year, is_contact=False, noindex=True,
-        side_reviews=[r for r in reviews if len(r['text']) < 260][:3], headshot=variant(FIRM['headshot'], 320)[0]))
+        side_reviews=[r for r in reviews if len(r['text']) < 260][:3], headshot=''))
     print(f'Built {len(pages)} pages, {len(redirects)} redirects -> {DIST}')
 
 def make_preview(base):

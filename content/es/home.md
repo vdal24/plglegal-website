@@ -42,8 +42,6 @@ Si su auto nuevo o arrendado ha ido al taller una y otra vez por el mismo proble
 
 ## Por qué importa la experiencia del lado de las aseguradoras {: .sec-about }
 
-![Abogado Vardan Daldumyan, fundador de Prospect Law Group](/images/attorneys/vardan-about-headshot.jpg)
-
 Las compañías de seguros tienen ajustadores y abogados cuyo trabajo es pagarle lo menos posible. El abogado Daldumyan trabajó de ese lado. Por eso sabe:
 
 - **Qué buscan los ajustadores** para reducir el valor de un reclamo

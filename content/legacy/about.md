@@ -2,7 +2,7 @@
 url: /about/
 lang: en
 title: "About Attorney Vardan Daldumyan | Former Insurance Company Trial Attorney | Prospect Law Group"
-description: "Meet Vardan Daldumyan, founder of Prospect Law Group in Glendale. A former in-house trial attorney for an insurance company who now represents injured people and lemon owners. State Bar No. 355861."
+description: "Meet Vardan Daldumyan, founder of Prospect Law Group in Glendale. A former in-house trial attorney for an insurance company who now represents injured people and lemon owners."
 h1: About Prospect Law Group
 subtitle: "A Glendale law firm founded by a former insurance company trial attorney. Injury claims across Southern California and lemon law claims statewide."
 hero_image: /images/hero/glendale-poster.jpg
@@ -10,8 +10,6 @@ legacy: true
 ---
 
 ## Vardan Daldumyan, Founder and Attorney {#lead-attorney}
-
-![Attorney Vardan Daldumyan, founder of Prospect Law Group](/images/attorneys/vardan-about-headshot.jpg){.headshot}
 
 **"I used to work for the insurance company. Now I work for you."**
 
@@ -21,7 +19,6 @@ That experience gave him a clear view of claim valuation, negotiation tactics, a
 
 Vardan believes every client should have direct access to their attorney and should be kept informed at every step. When you hire Prospect Law Group, you work with him, not with a rotating cast of case managers.
 
-- **California State Bar No. 355861**
 - Former in-house trial attorney for an insurance company
 - Handles claims before a lawsuit is filed and in litigation
 - Speaks Armenian. Spanish is available.

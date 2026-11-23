@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Montserrat:wght@400;600{% if lang == 'hy' %}&family=Noto+Sans+Armenian:wght@400;600{% endif %}&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/site.css?v=5">
+<link rel="stylesheet" href="/css/site.css?v=6">
 <link rel="preload" as="image" href="{{ hero_bg if not is_home else '/images/hero/glendale-poster.jpg' }}">
 {% for j in jsonld %}<script type="application/ld+json">{{ j }}</script>
 {% endfor %}
@@ -83,8 +83,7 @@
       <h1>{{ h1 }}</h1>
       {{ hero_html }}
       <div class="hero-atty">
-        <img src="{{ headshot }}" alt="{{ s.atty_name }}" width="64" height="64">
-        <p><strong>{{ s.atty_name }}</strong><span>{{ s.atty_role }}</span><span>{{ s.bar }}</span></p>
+        <p><strong>{{ s.atty_name }}</strong><span>{{ s.atty_role }}</span></p>
       </div>
     </div>
     {% include 'form.html' %}
@@ -119,11 +118,9 @@
   <aside class="side">
     {% include 'form.html' %}
     <div class="atty-card">
-      <img src="{{ headshot }}" alt="{{ s.atty_name }}" width="72" height="72" loading="lazy">
       <div>
         <strong>{{ s.atty_name }}</strong>
         <span>{{ s.atty_role }}</span>
-        <span>{{ s.bar }}</span>
       </div>
       <ul>
         <li>{{ s.consult }}</li>
@@ -170,7 +167,7 @@
       <img src="/images/logo/prospect-law-group-full.png" alt="Prospect Law Group" width="180" height="50" loading="lazy" class="footer-logo">
       <p>{{ firm.name }}<br>{{ firm.street }}<br>{{ firm.city }}, {{ firm.region }} {{ firm.zip }}</p>
       <p><a href="tel:{{ firm.tel }}">{{ firm.phone }}</a><br><a href="mailto:{{ firm.email }}">{{ firm.email }}</a></p>
-      <p class="footer-atty">{{ s.atty_name }}<br>{{ s.bar }}</p>
+      <p class="footer-atty">{{ s.atty_name }}</p>
     </div>
     <div>
       <h4>{% if lang == 'en' %}Injury Cases{% else %}{{ nav[0][0] }}{% endif %}</h4>

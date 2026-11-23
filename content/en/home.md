@@ -45,8 +45,6 @@ Riders face bias from adjusters who assume the motorcyclist was at fault. We pus
 
 ## Why an Insurance Defense Background Matters {: .sec-about }
 
-![Attorney Vardan Daldumyan, founder of Prospect Law Group](/images/attorneys/vardan-about-headshot.jpg)
-
 Insurance companies are not guessing when they make an offer. They use software, reserve guidelines, and internal settlement authority levels. Attorney Vardan Daldumyan worked inside that system as an in-house trial attorney for an insurance company. A lawyer who has been on that side knows:
 
 - **What adjusters look for** to discount a claim, so we document your case to close those gaps from day one

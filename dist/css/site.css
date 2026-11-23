@@ -324,7 +324,7 @@ ol.steps > li strong:first-child { display: block; color: var(--navy); font-fami
 .cta-band .cta-btns { margin: 0; flex-direction: column; align-items: stretch; min-width: 260px; }
 
 /* sidebar attorney card */
-.atty-card { margin-top: 20px; background: var(--cream); border: 1px solid var(--line); border-radius: 14px; padding: 20px; display: grid; grid-template-columns: 72px 1fr; gap: 14px; align-items: center; font-size: .86rem; line-height: 1.45; }
+.atty-card { margin-top: 20px; background: var(--cream); border: 1px solid var(--line); border-radius: 14px; padding: 20px; display: grid; grid-template-columns: 1fr; gap: 14px; align-items: center; font-size: .86rem; line-height: 1.45; }
 .atty-card img { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: 50% 18%; border: 2px solid var(--gold); }
 .atty-card strong { display: block; font-family: var(--serif); font-size: 1.25rem; color: var(--navy); }
 .atty-card span { display: block; color: var(--muted); }
