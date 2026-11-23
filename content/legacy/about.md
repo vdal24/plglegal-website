@@ -2,9 +2,9 @@
 url: /about/
 lang: en
 title: "About Attorney Vardan Daldumyan | Former Insurance Company Trial Attorney | Prospect Law Group"
-description: "Meet Vardan Daldumyan, founder of Prospect Law Group in Glendale. A former in-house trial attorney for an insurance company who now represents injured people and lemon owners."
+description: "Meet Vardan Daldumyan, founder of Prospect Law Group in Glendale. A former in-house trial attorney for an insurance company who now represents injured people."
 h1: About Prospect Law Group
-subtitle: "A Glendale law firm founded by a former insurance company trial attorney. Injury claims across Southern California and lemon law claims statewide."
+subtitle: "A Glendale law firm founded by a former insurance company trial attorney. Injury claims across Los Angeles County and Southern California."
 hero_image: /images/hero/glendale-poster.jpg
 legacy: true
 ---
@@ -30,14 +30,14 @@ Vardan believes every client should have direct access to their attorney and sho
 
 **Personal injury.** We represent people hurt in [car accidents](/practice-areas/car-accidents/), [truck](/practice-areas/truck-accidents/) and [commercial vehicle](/practice-areas/commercial-vehicle-accidents/) crashes, [Uber and Lyft accidents](/practice-areas/rideshare-accidents/), and [motorcycle accidents](/practice-areas/motorcycle-accidents/), including [catastrophic injury](/practice-areas/catastrophic-injury/) and [wrongful death](/practice-areas/wrongful-death/) claims, throughout Los Angeles County and Southern California.
 
-**California lemon law.** We represent owners and lessees of defective vehicles throughout California under the Song-Beverly Consumer Warranty Act, with a focus on [Mercedes-Benz](/lemon-law/mercedes-benz/) claims. The manufacturer pays attorney fees and costs when the consumer prevails. [Learn about lemon law](/practice-areas/lemon-law/).
+**Lemon law.** Lemon law cases are handled on our separate lemon law website, [BestLemonLawAttorneyCA.com](https://bestlemonlawattorneyca.com).
 
 ## How We Work {: .sec-steps }
 
 1. **Direct access.** You have your attorney's attention and you get answers to your questions.
 2. **Preparation.** Every claim is documented as if it will be reviewed by a skeptical adjuster and a defense lawyer, because it will be.
 3. **Honest advice.** We tell you what we think of your case, including when you do not need a lawyer.
-4. **No fee unless we recover.** Injury cases are handled on a contingency fee. In lemon law cases the manufacturer pays the fees when you win.
+4. **No fee unless we recover.** Injury cases are handled on a contingency fee.
 
 ## Our Values
 

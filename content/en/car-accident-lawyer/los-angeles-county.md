@@ -30,7 +30,7 @@ Attorney Vardan Daldumyan worked as an in-house trial attorney for an insurance 
 
 ## Surrounding Counties
 
-We also represent people injured in Orange, Ventura, Riverside, and San Bernardino counties. Lemon law clients can be anywhere in California.
+We also represent people injured in Orange, Ventura, Riverside, and San Bernardino counties.
 
 ## Cases We Handle
 

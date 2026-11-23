@@ -1,10 +1,10 @@
 ---
 url: /practice-areas/
 lang: en
-title: "Practice Areas | Injury Claims & California Lemon Law | Prospect Law Group"
-description: "Car, truck, commercial vehicle, rideshare, and motorcycle accidents, catastrophic injury, wrongful death, uninsured motorist claims, and California lemon law. Free consultation: 323-452-5222."
+title: "Practice Areas | Personal Injury Claims | Prospect Law Group"
+description: "Car, truck, commercial vehicle, rideshare, and motorcycle accidents, catastrophic injury, wrongful death, and uninsured motorist claims. Free consultation: 323-452-5222."
 h1: Practice Areas
-subtitle: "Injury claims throughout Los Angeles County and Southern California, and lemon law claims throughout California, handled by a former insurance company trial attorney."
+subtitle: "Injury claims throughout Los Angeles County and Southern California, handled by a former insurance company trial attorney."
 hero_image: /images/hero/glendale-poster.jpg
 legacy: true
 ---
@@ -55,13 +55,5 @@ Property owners who fail to fix or warn about unsafe conditions. [Premises liabi
 
 ### Dog Bites
 California holds dog owners strictly liable for most bites. [Dog bite lawyer](/practice-areas/dog-bite-injury/)
-
-## California Lemon Law {: .sec-cards }
-
-### Mercedes-Benz Lemon Law
-EQ battery and charging faults, Airmatic air suspension, MBUX and electrical failures, and Sprinter vans. [Mercedes-Benz lemon law](/lemon-law/mercedes-benz/)
-
-### California Lemon Law, All Brands
-Buybacks, replacements, and cash settlements, with attorney fees paid by the manufacturer when you win. [Lemon law attorney](/practice-areas/lemon-law/)
 
 [Call 323-452-5222] [Text Us] [Get a Free Case Review]

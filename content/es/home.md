@@ -2,8 +2,8 @@
 url: /es/
 lang: es
 hreflang_en: /
-title: "Abogado de Accidentes de Auto y Lemon Law en Los Ángeles | Prospect Law Group"
-description: "Abogado de accidentes de auto, lesiones personales y Lemon Law en todo el condado de Los Ángeles y el sur de California. Ex abogado de compañía de seguros. Consulta gratis, no cobramos si no ganamos: 323-452-5222."
+title: "Abogado de Accidentes de Auto en Los Ángeles | Prospect Law Group"
+description: "Abogado de accidentes de auto, y lesiones personales en todo el condado de Los Ángeles y el sur de California. Ex abogado de compañía de seguros. Consulta gratis, no cobramos si no ganamos: 323-452-5222."
 h1: "Antes trabajaba para la compañía de seguros. Ahora trabajo para usted."
 schema: [LegalService, FAQPage]
 review_note: "Have a native Spanish speaker review before publishing."
@@ -36,9 +36,6 @@ Lesiones cerebrales, de columna y otras lesiones que cambian su vida, y reclamos
 
 ### Accidentes de motocicleta
 Las aseguradoras suelen culpar al motociclista. Respondemos con pruebas. [Más información](/es/abogado-accidentes-de-auto/)
-
-### Lemon Law (autos defectuosos)
-Si su auto nuevo o arrendado ha ido al taller una y otra vez por el mismo problema, el fabricante puede estar obligado a recomprarlo o reemplazarlo. El fabricante paga los honorarios de abogado cuando usted gana. Mercedes-Benz y todas las marcas. [Lemon Law de California](/es/lemon-law/)
 
 ## Por qué importa la experiencia del lado de las aseguradoras {: .sec-about }
 
@@ -74,7 +71,7 @@ Reseñas reales de Google (en inglés): [ver todas en Google](https://www.google
 ## Preguntas frecuentes
 
 ### ¿Cuánto cuesta la consulta?
-La consulta es gratis. En casos de accidentes, solo cobramos si obtenemos una compensación para usted. En casos de Lemon Law, la ley de California exige que el fabricante pague los honorarios de abogado cuando usted gana.
+La consulta es gratis. En casos de accidentes, solo cobramos si obtenemos una compensación para usted.
 
 ### ¿Necesito papeles o documentos de inmigración para hacer un reclamo?
 No. En California, su estatus migratorio generalmente no le impide reclamar una compensación por sus lesiones, y no le preguntamos sobre su estatus.

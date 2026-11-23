@@ -1,8 +1,8 @@
 ---
 url: /
-title: "Los Angeles Car Accident & California Lemon Law Attorney | Prospect Law Group"
-description: "Former insurance company trial attorney now fighting for injured drivers and lemon owners. Serving all of Los Angeles County, Southern California, and lemon law clients statewide. Free consultation: 323-452-5222."
-h1: "Los Angeles Car Accident & California Lemon Law Attorney"
+title: "Los Angeles Car Accident & Personal Injury Attorney | Prospect Law Group"
+description: "Former insurance company trial attorney now fighting for injured people. Serving all of Los Angeles County and Southern California. Free consultation: 323-452-5222."
+h1: "Los Angeles Car Accident & Personal Injury Attorney"
 schema: [LegalService, Attorney, WebSite]
 ---
 
@@ -65,27 +65,6 @@ No pressure and no cost to find out where you stand.
 3. **We take over.** If we work together, we deal with the insurance companies, gather the records and evidence, and help you focus on treatment.
 4. **Resolution.** We demand full value and negotiate. If the insurer will not be fair, we are prepared to file suit. You pay no fee unless we recover.
 
-## California Lemon Law: Mercedes-Benz and Every Other Brand {: .sec-dark }
-
-If your new or leased vehicle (and many certified pre-owned vehicles) keeps going back to the dealer for the same problem, the manufacturer may owe you a **buyback, a replacement, or cash compensation**. Under the Song-Beverly Consumer Warranty Act, **the manufacturer pays your attorney fees and costs** when you prevail, so most clients pay nothing out of pocket. We represent owners and lessees anywhere in California, usually without an office visit.
-
-We focus on Mercedes-Benz claims: EQ battery and charging faults, Airmatic air suspension, MBUX and electrical failures, and Sprinter vans.
-
-- [Mercedes-Benz](/lemon-law/mercedes-benz/)
-- [BMW](/lemon-law/bmw/)
-- [Land Rover](/lemon-law/land-rover/)
-- [Tesla](/lemon-law/tesla/)
-- [Ford](/lemon-law/ford/)
-- [Chevrolet and GM](/lemon-law/chevrolet-gm/)
-- [Toyota and Lexus](/lemon-law/toyota/)
-- [Honda and Acura](/lemon-law/honda/)
-- [Hyundai](/lemon-law/hyundai/)
-- [Kia](/lemon-law/kia/)
-- [Jeep, Ram, Dodge](/lemon-law/jeep-stellantis/)
-- [Nissan](/lemon-law/nissan/)
-
-[Call 323-452-5222] [Mercedes-Benz Lemon Law](/lemon-law/mercedes-benz/) [How Buybacks Are Calculated](/lemon-law/buyback-calculation/)
-
 ## What Our Clients Say
 
 > "Amazing lawyer helped me settle a case that happened two years ago and not only kept me updated on everything about the case, but also fought to get the amount that I deserve so I would highly recommend him."
@@ -119,14 +98,12 @@ You can change attorneys in the middle of a case, and it usually does not cost y
 
 **Personal injury:** All of Los Angeles County, including Los Angeles, Long Beach, Glendale, Burbank, Pasadena, the San Fernando Valley, the San Gabriel Valley, Santa Clarita, the Antelope Valley, the South Bay, and the Westside, plus the surrounding counties of Orange, Ventura, Riverside, and San Bernardino.
 
-**Lemon law:** All of California. Lemon law cases rarely require you to come to our office.
-
 [Los Angeles County](/car-accident-lawyer/los-angeles-county/) · [Glendale](/service-areas/glendale/) · [Burbank](/service-areas/burbank/) · [Pasadena](/service-areas/pasadena/) · [Eagle Rock](/service-areas/eagle-rock/) · [Los Feliz](/service-areas/los-feliz/) · [Atwater Village](/service-areas/atwater-village/) · [La Crescenta](/service-areas/la-crescenta/) · [Montrose](/service-areas/montrose/) · [La Cañada Flintridge](/service-areas/la-canada-flintridge/) · [North Hollywood](/service-areas/north-hollywood/)
 
 ## Frequently Asked Questions
 
 ### How much does it cost to hire Prospect Law Group?
-Nothing up front. Personal injury cases are handled on a contingency fee, meaning we are paid a percentage of what we recover, and nothing if we recover nothing. In lemon law cases, California law requires the manufacturer to pay your attorney fees and costs if you win, so most clients pay nothing out of pocket.
+Nothing up front. Personal injury cases are handled on a contingency fee, meaning we are paid a percentage of what we recover, and nothing if we recover nothing.
 
 ### Do I really need a lawyer, or can I handle the claim myself?
 Some small claims with minor injuries can be handled without a lawyer, and we will tell you if yours is one of them. If you were seriously hurt, fault is disputed, or the insurance company is delaying or offering less than your bills, talk to an attorney before you sign or record anything. The consultation is free.
@@ -138,7 +115,7 @@ Not before you know what your claim is worth. Once you sign a release, the claim
 Get medical care, photograph the scene and the vehicles, get the other driver's insurance information, and call an attorney before you give a recorded statement to any insurance company. See our full guide: [What to do after a car accident in California](/guides/what-to-do-after-car-accident-california/).
 
 ### How long do I have to file a claim?
-For most injury claims in California, the deadline to file a lawsuit is two years from the date of the accident. Claims against a city, county, or other public agency require a written claim within six months. Lemon law deadlines depend on your warranty and the manufacturer. Call us early so no deadline is missed.
+For most injury claims in California, the deadline to file a lawsuit is two years from the date of the accident. Claims against a city, county, or other public agency require a written claim within six months. Call us early so no deadline is missed.
 
 ### How long will my case take?
 It depends on your injuries and on how the insurance company responds. A claim should usually not be settled until your doctors understand your recovery, because you cannot go back for more later. Some cases resolve in a few months after treatment ends. Cases that require a lawsuit take longer. We will give you an honest estimate once we know the facts.
@@ -150,7 +127,7 @@ You can still recover. California uses pure comparative fault, which reduces you
 No. In California, anyone injured by someone else's negligence can bring a claim, and immigration status is generally not relevant to an injury case and is kept out of evidence. We do not ask about it.
 
 ### Do I have to come to your office?
-No. We represent injury victims throughout Los Angeles County and Southern California, and lemon law clients throughout California. We can meet by phone or video, at our Glendale office, or come to you if you are injured.
+No. We represent injury victims throughout Los Angeles County and Southern California. We can meet by phone or video, at our Glendale office, or come to you if you are injured.
 
 ### I already have a lawyer. Can I switch?
 Yes. You have the right to change attorneys at any time. In a contingency case the fee is generally shared between the lawyers out of the same single fee, so switching usually does not cost you more. See [switching lawyers](/guides/switching-lawyers/).

@@ -7,4 +7,4 @@ subtitle: "Free, confidential consultation. Call, text, or send the form and we 
 breadcrumb: [Home, Contact]
 ---
 
-Tell us what happened. If we take your case, you pay nothing unless we recover. We represent injured people throughout Los Angeles County and Southern California, and lemon law clients throughout California. We can meet by phone, by video, at our Glendale office, or come to you if you are injured.
+Tell us what happened. If we take your case, you pay nothing unless we recover. We represent injured people throughout Los Angeles County and Southern California. We can meet by phone, by video, at our Glendale office, or come to you if you are injured.
