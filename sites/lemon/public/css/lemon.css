@@ -185,3 +185,6 @@ body.typing .lemon-fab { display: none; }
 @media (max-width: 900px) { .lemon-btn { display: none; } }
 @media (prefers-reduced-motion: reduce) { .lemon-btn { animation: none; } }
 body.typing .lemon-btn { display: none; }
+
+.res-disc { display: block; margin-top: 8px; font-size: .68rem; line-height: 1.35; color: #8d8b80; }
+.hero-results small { display: block; margin-top: 4px; font-size: .64rem; color: #a9a79c; }

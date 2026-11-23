@@ -56,7 +56,8 @@ def _cards(items):
     for r in items:
         amt = r['amount'] or 'Buyback'
         out.append(f'<div class="res-card"><span class="res-amt">{amt}</span>'
-                   f'<strong>{r["vehicle"]}</strong><span class="res-type">{r["type"]}</span></div>')
+                   f'<strong>{r["vehicle"]}</strong><span class="res-type">{r["type"]}</span>'
+                   f'<small class="res-disc">Results vary. Past results do not guarantee a similar outcome.</small></div>')
     return '<div class="res-grid">' + ''.join(out) + '</div>'
 
 def _total():
@@ -68,7 +69,7 @@ def _short(a):
 
 def _hero_results():
     top = [r for r in _RES if r['amount']][:3]
-    return '<div class="hero-results">' + ''.join(f'<div><b>{_short(r["amount"])}</b><span>{r["vehicle"].replace("2025 ", "").replace("2023 ", "").replace(" with EQ Technology", "")} buyback</span></div>' for r in top) + '</div>'
+    return '<div class="hero-results">' + ''.join(f'<div><b>{_short(r["amount"])}</b><span>{r["vehicle"].replace("2025 ", "").replace("2023 ", "").replace(" with EQ Technology", "")} buyback</span><small>Results vary</small></div>' for r in top) + '</div>'
 
 def PAGE_HOOK(html, url):
     html = html.replace('%%TOTAL%%', _total())
