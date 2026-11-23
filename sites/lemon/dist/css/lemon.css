@@ -303,3 +303,7 @@ body.typing .lemon-btn { display: none; }
 /* v15: room for the driver's head */
 .hero-road { height: 126px; }
 @media (max-width: 760px) { .home-hero { padding-bottom: 112px !important; } .hero-road { height: 104px; } }
+/* v16: logo with big #1 */
+.lw > img { width: 82px; }
+@media (max-width: 900px) { .lw > img { width: 70px; } }
+@media (max-width: 560px) { .lw > img { width: 62px; } }
