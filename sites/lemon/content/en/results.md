@@ -10,7 +10,7 @@ subtitle: "Real repurchases our clients received, with the total repurchase amou
 
 %%RESULTS%%
 
-Each amount is the total repurchase amount stated in the manufacturer's repurchase worksheet, offer letter, or release. Where no amount is shown, the terms are confidential or the final payoff figure is not public. It generally includes the loan or lease payoff paid to the lender and the refund paid to our client, and in some cases attorney fees paid by the manufacturer. Client names are kept private.
+Each amount is the total repurchase amount stated in the manufacturer's repurchase worksheet, offer letter, or release. It generally includes the loan or lease payoff paid to the lender and the refund paid to our client, and in some cases attorney fees paid by the manufacturer. Client names are kept private.
 
 ## What a Buyback Can Include
 

@@ -63,8 +63,14 @@ Transmission, engine, and electrical defects. [Ford lemon law](/lemon-law/ford/)
 ### Chevrolet and GM
 Engine, transmission, and EV battery claims. [GM lemon law](/lemon-law/chevrolet-gm/)
 
-### Hyundai, Kia, Honda, Nissan
-Engine, electrical, and infotainment defects. [All brands](/lemon-law/#brands)
+### Toyota and Lexus
+Hybrid system, electrical, and engine problems. [Toyota lemon law](/lemon-law/toyota/)
+
+### Land Rover and Range Rover
+Air suspension, electrical, and engine faults. [Land Rover lemon law](/lemon-law/land-rover/)
+
+### Hyundai, Kia, Honda, Nissan, and More
+Audi, VW, Porsche, Volvo, Subaru, Rivian, Lucid, and every other brand. [All manufacturers](/lemon-law/#brands)
 
 ## Why Prospect Law Group {: .sec-dark }
 

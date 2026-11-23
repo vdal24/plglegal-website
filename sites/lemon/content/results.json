@@ -6,6 +6,12 @@
   "type": "Full repurchase"
  },
  {
+  "vehicle": "2025 Audi RS 7 Performance",
+  "make": "Audi",
+  "amount": "$160,359.55",
+  "type": "Full repurchase"
+ },
+ {
   "vehicle": "2025 Mercedes-AMG E 53 Hybrid",
   "make": "Mercedes-Benz",
   "amount": "$114,498.44",
@@ -45,24 +51,6 @@
   "vehicle": "2025 Jeep Wrangler",
   "make": "Jeep",
   "amount": "$58,958.91",
-  "type": "Full repurchase"
- },
- {
-  "vehicle": "2025 Audi RS 7 Performance",
-  "make": "Audi",
-  "amount": "",
-  "type": "Full repurchase"
- },
- {
-  "vehicle": "2025 Kia Sportage Plug-in Hybrid",
-  "make": "Kia",
-  "amount": "",
-  "type": "Full repurchase"
- },
- {
-  "vehicle": "2025 Acura Integra",
-  "make": "Acura",
-  "amount": "",
   "type": "Full repurchase"
  }
 ]

@@ -35,8 +35,8 @@ NAV = {
         ('Brands', '/lemon-law/#brands', [
             ('Mercedes-Benz', '/lemon-law/mercedes-benz/'), ('Tesla', '/lemon-law/tesla/'), ('Ford', '/lemon-law/ford/'),
             ('Chevrolet and GM', '/lemon-law/chevrolet-gm/'), ('Jeep and Stellantis', '/lemon-law/jeep-stellantis/'),
-            ('Hyundai', '/lemon-law/hyundai/'), ('Kia', '/lemon-law/kia/'), ('Honda', '/lemon-law/honda/'), ('Nissan', '/lemon-law/nissan/'),
-            ('All Brands', '/lemon-law/#brands')]),
+            ('Hyundai', '/lemon-law/hyundai/'), ('Kia', '/lemon-law/kia/'), ('Honda', '/lemon-law/honda/'), ('Nissan', '/lemon-law/nissan/'), ('Toyota and Lexus', '/lemon-law/toyota/'), ('Land Rover', '/lemon-law/land-rover/'),
+            ('All Manufacturers', '/lemon-law/#brands')]),
         ('Defects', '/lemon-law/', [
             ('Engine', '/lemon-law/defects/engine/'), ('Transmission', '/lemon-law/defects/transmission/'),
             ('Electrical and Infotainment', '/lemon-law/defects/electrical-infotainment/'), ('EV Battery', '/lemon-law/defects/ev-battery/')]),
