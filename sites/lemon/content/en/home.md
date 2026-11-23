@@ -63,12 +63,36 @@ Transmission, engine, and electrical defects. [Ford lemon law](/lemon-law/ford/)
 ### Chevrolet and GM
 Engine, transmission, and EV battery claims. [GM lemon law](/lemon-law/chevrolet-gm/)
 
-### Hyundai, Kia, Honda, Nissan
-Engine, electrical, and infotainment defects. [All brands](/lemon-law/#brands)
+### Toyota and Lexus
+Hybrid system, electrical, and engine problems. [Toyota lemon law](/lemon-law/toyota/)
+
+### Land Rover and Range Rover
+Air suspension, electrical, and engine faults. [Land Rover lemon law](/lemon-law/land-rover/)
+
+### Hyundai, Kia, Honda, Nissan, and More
+Audi, VW, Porsche, Volvo, Subaru, Rivian, Lucid, and every other brand. [All manufacturers](/lemon-law/#brands)
 
 ## Why Prospect Law Group {: .sec-dark }
 
 Attorney Vardan Daldumyan worked as an in-house trial attorney for an insurance company before founding Prospect Law Group, PC. Manufacturers defend lemon law claims the same way insurers defend claims: by measuring risk. We build every case so the manufacturer sees real risk in saying no.
+
+## What Our Clients Say
+
+> "Amazing lawyer helped me settle a case that happened two years ago and not only kept me updated on everything about the case, but also fought to get the amount that I deserve so I would highly recommend him."
+> **Humberto A.**, Google review
+
+> "My previous attorney wasn't getting any offers because liability was disputed. Vardan took over, flipped liability from 0% to 100%, and got me the full policy limit. Couldn't be happier with the result."
+> **Hovik T.**, Google review
+
+> "I had a great experience working with Vardan Daldumyan and Prospect Law Group. Vardan was professional, responsive, and made the entire process much easier and less stressful than I expected. He kept me informed throughout the case and genuinely made me feel like I was in good hands."
+> **Alisa B.**, Google review
+
+> "I am very satisfied with the work done. They are true professionals in their field. Highly recommended."
+> **Karen D.**, Google review
+
+5.0 stars on Google. [Read all reviews on Google](https://www.google.com/maps/search/?api=1&query=Prospect+Law+Group+600+W+Broadway+Suite+320+Glendale+CA+91204)
+
+<small>Testimonials reflect individual client experiences. Every case is different, and past results do not guarantee or predict a similar outcome.</small>
 
 ## Frequently Asked Questions
 

@@ -74,3 +74,67 @@ h2 { font-size: clamp(1.6rem, 2.7vw, 2.2rem); }
 .site-footer h4 { color: var(--gold); }
 .site-footer a:hover { color: var(--gold); }
 .mobile-bar .btn-navy { background: var(--navy-dark); color: var(--gold); }
+
+/* ---------- fun lemon touches ---------- */
+.home-hero .hero-lemon { display: none; }
+.hero-pattern { position: absolute; inset: 0; background: url('/images/lemon-pattern.svg') 0 0 / 240px 240px repeat; opacity: .28; pointer-events: none; }
+.float-lemon { position: absolute; pointer-events: none; filter: drop-shadow(0 10px 14px rgba(120,90,0,.25)); }
+.fl1 { width: 140px; right: 3%; top: 8%; animation: bob 6s ease-in-out infinite; }
+.fl2 { width: 110px; left: 44%; bottom: 6%; animation: spin 40s linear infinite; opacity: .9; }
+.fl3 { width: 90px; left: 2%; bottom: 10%; animation: bob 7s ease-in-out infinite reverse; }
+@keyframes bob { 0%, 100% { transform: translateY(0) rotate(-10deg); } 50% { transform: translateY(-14px) rotate(6deg); } }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* hero checklist uses little lemons */
+.hero-copy li::before { content: ''; width: 18px; height: 18px; top: 4px; background: url('/images/logo/lemon-icon.png') center / contain no-repeat; }
+
+/* section headings get a lemon slice instead of a plain bar */
+.hsec h2::before { width: 34px; height: 34px; background: url('/images/lemon-slice.svg') center / contain no-repeat; border-radius: 50%; margin-bottom: 12px; }
+.hsec.alt { background: #fffbea; position: relative; }
+.hsec.alt::after { content: ''; position: absolute; inset: 0; background: url('/images/lemon-pattern.svg') 0 0 / 240px 240px repeat; opacity: .14; pointer-events: none; }
+.hsec.alt > .wrap { position: relative; z-index: 1; }
+
+/* result cards: lemon stamp */
+.res-card { position: relative; overflow: hidden; }
+.res-card::after { content: ''; position: absolute; right: -18px; bottom: -18px; width: 86px; height: 86px; background: url('/images/lemon-slice.svg') center / contain no-repeat; opacity: .35; transform: rotate(15deg); }
+
+/* the lemon button: a big lemon that opens the case review form */
+.lemon-fab { position: fixed; right: 22px; bottom: 22px; z-index: 60; width: 132px; height: 112px; text-decoration: none; display: block; }
+.lemon-fab-body { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at 35% 30%, #fff3a0 0, #ffe033 35%, #f5c400 75%, #d9a900 100%);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; clip-path: ellipse(48% 42% at 50% 52%);
+  box-shadow: inset 0 -6px 12px rgba(150,110,0,.35); transform: rotate(-14deg); transition: transform .25s; }
+.lemon-fab::before, .lemon-fab::after { content: ''; position: absolute; top: 50%; width: 16px; height: 16px; background: #e8b800; border-radius: 50%; transform: translateY(-40%); }
+.lemon-fab::before { left: 2px; } .lemon-fab::after { right: 2px; }
+.lemon-fab-body::before { content: ''; position: absolute; top: 4px; left: 54%; width: 34px; height: 16px; background: #34a04a; border-radius: 0 100% 0 100%; transform: rotate(-20deg); }
+.lemon-fab-text { font-weight: 800; font-size: .86rem; line-height: 1.1; color: #1f1f1a; text-align: center; transform: rotate(14deg); letter-spacing: .01em; }
+.lemon-fab { filter: drop-shadow(0 10px 16px rgba(0,0,0,.25)); animation: wiggle 5s ease-in-out infinite; }
+.lemon-fab:hover .lemon-fab-body { transform: rotate(0deg) scale(1.08); }
+.lemon-fab:hover .lemon-fab-text { transform: rotate(0deg); }
+@keyframes wiggle { 0%, 88%, 100% { transform: rotate(0); } 91% { transform: rotate(-8deg); } 94% { transform: rotate(7deg); } 97% { transform: rotate(-4deg); } }
+@media (max-width: 900px) { .lemon-fab { display: none; } .fl1 { width: 90px; top: auto; bottom: 46%; } .fl2, .fl3 { display: none; } }
+@media (prefers-reduced-motion: reduce) { .float-lemon, .lemon-fab { animation: none !important; } }
+.is-typing .lemon-fab, body.typing .lemon-fab { display: none; }
+
+/* wordmark: The Best Lemon Law Attorney, by Prospect Law Group */
+.logo { text-decoration: none; }
+.lw { display: flex; align-items: center; gap: 10px; color: var(--navy-dark); }
+.lw > img { width: 46px; height: 46px; flex: none; transform: rotate(-12deg); }
+.lw-txt { display: flex; flex-direction: column; line-height: 1.05; }
+.lw-name { font-weight: 800; font-size: 1.22rem; letter-spacing: -.02em; white-space: nowrap; }
+.lw-name b { background: linear-gradient(transparent 58%, var(--gold) 58%); padding: 0 2px; }
+.lw-by { display: flex; align-items: center; gap: 6px; font-size: .68rem; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin-top: 5px; white-space: nowrap; }
+.lw-by img { display: none; }
+.lw-foot { color: #fff; margin-bottom: 14px; }
+.lw-foot .lw-name b { background: none; color: var(--gold); }
+.lw-foot .lw-by { color: #aaa58c; }
+@media (max-width: 1100px) { .lw-name { font-size: 1.02rem; } .nav-list > li > a { padding-left: 7px; padding-right: 7px; } }
+@media (max-width: 560px) { .lw > img { width: 36px; height: 36px; } .lw-name { font-size: .95rem; } .lw-by { font-size: .58rem; } }
+.lw > img { width: 58px; height: 58px; transform: none; margin: -6px 0; }
+.lw-foot > img { background: #fff8d0; border-radius: 50%; padding: 4px; }
+.fl1 { width: 170px; }
+@keyframes drive { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(-10px) translateY(-3px); } }
+.fl1 { animation: drive 3.5s ease-in-out infinite; }
+@media (max-width: 560px) { .lw > img { width: 44px; height: 44px; } }
+.fl1 { right: auto; left: 39%; top: 3%; width: 150px; }
+.lw > img { width: 64px; height: 64px; }
+@media (max-width: 900px) { .fl1 { left: auto; right: 4%; top: 2%; width: 100px; } }

@@ -1,8 +1,56 @@
 [
- {"vehicle": "2025 Mercedes-Benz G 580 with EQ Technology", "make": "Mercedes-Benz", "amount": "$219,306.22", "type": "Full repurchase"},
- {"vehicle": "2025 Mercedes-Benz GLC 300", "make": "Mercedes-Benz", "amount": "$78,713.75", "type": "Full repurchase"},
- {"vehicle": "2025 Jeep Wrangler", "make": "Jeep", "amount": "$58,958.91", "type": "Full repurchase"},
- {"vehicle": "2025 Mercedes-AMG GLC 43", "make": "Mercedes-Benz", "amount": "$88,964.07", "type": "Full repurchase"},
- {"vehicle": "2025 Mercedes-Benz GLE 450e 4MATIC", "make": "Mercedes-Benz", "amount": "$89,247.17", "type": "Full repurchase"},
- {"vehicle": "2023 Mercedes-AMG SL 43 Roadster", "make": "Mercedes-Benz", "amount": "$104,029.83", "type": "Full repurchase"}
+ {
+  "vehicle": "2025 Mercedes-Benz G 580 with EQ Technology",
+  "make": "Mercedes-Benz",
+  "amount": "$219,306.22",
+  "type": "Full repurchase"
+ },
+ {
+  "vehicle": "2025 Audi RS 7 Performance",
+  "make": "Audi",
+  "amount": "$160,359.55",
+  "type": "Full repurchase"
+ },
+ {
+  "vehicle": "2025 Mercedes-AMG E 53 Hybrid",
+  "make": "Mercedes-Benz",
+  "amount": "$114,498.44",
+  "type": "Full repurchase"
+ },
+ {
+  "vehicle": "2023 Mercedes-AMG SL 43 Roadster",
+  "make": "Mercedes-Benz",
+  "amount": "$104,029.83",
+  "type": "Full repurchase"
+ },
+ {
+  "vehicle": "2025 Mercedes-Benz GLE 450e 4MATIC",
+  "make": "Mercedes-Benz",
+  "amount": "$89,247.17",
+  "type": "Full repurchase"
+ },
+ {
+  "vehicle": "2025 Mercedes-AMG GLC 43",
+  "make": "Mercedes-Benz",
+  "amount": "$88,964.07",
+  "type": "Full repurchase"
+ },
+ {
+  "vehicle": "2025 Mercedes-Benz GLC 300",
+  "make": "Mercedes-Benz",
+  "amount": "$78,713.75",
+  "type": "Full repurchase"
+ },
+ {
+  "vehicle": "2023 Mercedes-Benz EQE 350 4MATIC",
+  "make": "Mercedes-Benz",
+  "amount": "$69,862.29",
+  "type": "Full repurchase"
+ },
+ {
+  "vehicle": "2025 Jeep Wrangler",
+  "make": "Jeep",
+  "amount": "$58,958.91",
+  "type": "Full repurchase"
+ }
 ]

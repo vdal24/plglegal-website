@@ -19,8 +19,12 @@ If your new or leased vehicle keeps going back to the dealer for the same proble
 - [Kia](/lemon-law/kia/)
 - [Jeep, Ram, Dodge, and Chrysler](/lemon-law/jeep-stellantis/)
 - [Nissan and Infiniti](/lemon-law/nissan/)
+- [Toyota and Lexus](/lemon-law/toyota/)
+- [Land Rover, Range Rover, and Jaguar](/lemon-law/land-rover/)
 
-Don't see your brand? California lemon law covers every manufacturer.
+**We also handle claims against:** Audi, Volkswagen, Porsche, Volvo, Polestar, Subaru, Mazda, Mitsubishi, Lincoln, GMC, Buick, Cadillac, Genesis, Acura, Infiniti, Alfa Romeo, Fiat, Maserati, Mini, Rivian, Lucid, VinFast, Fisker, and Harley-Davidson.
+
+Don't see your brand? California lemon law covers vehicles from every manufacturer sold with a new vehicle warranty.
 
 [Call 323-452-5222]
 
