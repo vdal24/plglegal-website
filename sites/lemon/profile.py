@@ -54,7 +54,8 @@ _RES = _json.loads((CONTENT / 'results.json').read_text())
 def _cards(items):
     out = []
     for r in items:
-        out.append(f'<div class="res-card"><span class="res-amt">{r["amount"]}</span>'
+        amt = r['amount'] or 'Buyback'
+        out.append(f'<div class="res-card"><span class="res-amt">{amt}</span>'
                    f'<strong>{r["vehicle"]}</strong><span class="res-type">{r["type"]}</span></div>')
     return '<div class="res-grid">' + ''.join(out) + '</div>'
 
