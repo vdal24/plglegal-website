@@ -29,7 +29,7 @@ STRINGS['hy'].update(
 
 NAV = {
     'en': [
-        ('Is My Car a Lemon?', '/california-lemon-law/', [
+        ('Lemon Law', '/california-lemon-law/', [
             ('California Lemon Law', '/california-lemon-law/'), ('How Buybacks Are Calculated', '/lemon-law/buyback-calculation/'),
             ('Used Cars', '/lemon-law/used-cars/'), ('Lemon Law FAQ', '/lemon-law/faq/')]),
         ('Brands', '/lemon-law/#brands', [
