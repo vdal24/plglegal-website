@@ -15,7 +15,7 @@ PROFILE = sys.argv[sys.argv.index('--site') + 1] if '--site' in sys.argv else 'm
 CONTENT, PUBLIC, DIST = ROOT / 'content', ROOT / 'public', ROOT / 'dist'
 SITE = 'https://plglegal.com'
 MAIN_SITE = 'https://plglegal.com'
-LEMON_SITE = 'https://bestlemonlawattorneyca.com'
+LEMON_SITE = 'https://thebestlemonlawattorney.com'
 SITE_DIR = ROOT / 'sites' / PROFILE if PROFILE != 'main' else None
 if SITE_DIR:   # a second website built from the same engine: its own content, templates and assets layered over the main ones
     CONTENT, DIST = SITE_DIR / 'content', SITE_DIR / 'dist'
