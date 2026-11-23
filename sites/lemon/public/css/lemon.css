@@ -1,0 +1,76 @@
+/* Lemon law site: yellow theme layered over the shared site styles */
+:root {
+  --navy: #1f1f1a;
+  --navy-dark: #141410;
+  --gold: #ffd60a;
+  --gold-light: #ffe45c;
+  --gold-deep: #7a5f00;
+  --cream: #fffbe6;
+  --line: #ece4c3;
+  --serif: "Montserrat", "Segoe UI", system-ui, sans-serif;
+}
+h1, h2, h3, h4 { font-family: var(--sans); font-weight: 700; letter-spacing: -.01em; }
+h1 { font-size: clamp(2rem, 4.2vw, 3.1rem); }
+h2 { font-size: clamp(1.6rem, 2.7vw, 2.2rem); }
+.btn-gold { background: var(--gold); color: var(--navy-dark); box-shadow: 0 6px 18px rgba(255,214,10,.35); }
+.btn-gold:hover { background: var(--gold-light); color: var(--navy-dark); }
+
+/* header: white bar, dark text, yellow accents */
+.topbar { background: var(--navy-dark); }
+.topbar-tag { color: var(--gold); }
+.site-header { background: #fff; box-shadow: 0 2px 14px rgba(0,0,0,.08); border-bottom: 4px solid var(--gold); }
+.nav-list > li > a { color: var(--navy); }
+.nav-list > li > a:hover, .nav-list > li:focus-within > a { color: var(--gold-deep); }
+.nav-mobile summary span { background: var(--navy) !important; }
+@media (max-width: 900px) {
+  .nav-mobile[open] .nav-list { background: #fff; }
+  .nav-mobile[open] .nav-list a { color: var(--navy); }
+}
+
+/* home hero: lemon yellow */
+.home-hero { background: radial-gradient(circle at 85% 20%, #fff3a6 0, var(--gold) 45%, #f5c400 100%); color: var(--navy-dark); }
+.hero-lemon { position: absolute; right: -60px; bottom: -70px; width: 380px; height: auto; opacity: .22; transform: rotate(-12deg); pointer-events: none; }
+.hero-copy h1, .hero-copy.has-tagline h2 { color: var(--navy-dark); }
+.hero-copy.has-tagline h1 { color: var(--navy-dark); opacity: .75; }
+.hero-copy h2, .hero-copy.has-tagline h2 em { color: var(--navy-dark); }
+.hero-copy p, .hero-copy li { color: #2c2a1c; }
+.hero-copy li::before { color: var(--navy-dark); }
+.eyebrow { color: var(--navy-dark) !important; }
+.hero-copy .btn-gold { background: var(--navy-dark); color: var(--gold); box-shadow: 0 6px 18px rgba(0,0,0,.2); }
+.hero-copy .btn-ghost, .hero-copy .btn-outline { border-color: var(--navy-dark); color: var(--navy-dark); }
+.hero-copy .btn-ghost:hover, .hero-copy .btn-outline:hover { background: rgba(0,0,0,.06); color: var(--navy-dark); }
+.hero-atty { border-top-color: rgba(0,0,0,.18); }
+.hero-atty p, .hero-atty strong { color: var(--navy-dark); }
+.case-form { border-top-color: var(--navy-dark); }
+
+.trustbar { background: var(--navy-dark); color: var(--gold); border-bottom: 0; }
+.trustbar .stars { color: var(--gold); }
+
+/* interior pages */
+.page-hero { background: linear-gradient(100deg, rgba(20,20,16,.94), rgba(20,20,16,.78)), var(--hero) center/cover no-repeat, var(--navy); border-bottom: 4px solid var(--gold); }
+.page-hero .btn-ghost { border-color: var(--gold); color: var(--gold); }
+.crumbs a { color: var(--gold); }
+.prose a { color: var(--gold-deep); }
+.hsec h2::before, .rev-band h2::before { background: var(--gold); }
+.lcard { border-top-color: var(--gold); }
+.hsec.dark ul li:first-child a { color: var(--navy-dark); }
+
+/* results */
+.res-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin: 22px 0 18px; }
+.res-card { background: #fff; border: 1px solid var(--line); border-left: 6px solid var(--gold); border-radius: 12px; padding: 20px 22px; display: flex; flex-direction: column; gap: 4px; }
+.res-amt { font-size: clamp(1.6rem, 2.6vw, 2.1rem); font-weight: 700; color: var(--navy-dark); letter-spacing: -.01em; }
+.res-card strong { font-size: 1rem; color: var(--navy); }
+.res-type { font-size: .82rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+.page-grid .res-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 760px) { .res-grid, .page-grid .res-grid { grid-template-columns: 1fr; } .hero-lemon { width: 220px; right: -40px; bottom: -40px; } }
+
+.cta-band { background: var(--gold); color: var(--navy-dark); }
+.cta-band h2 { color: var(--navy-dark); }
+.cta-band p, .cta-band .cta-addr, .cta-band .cta-addr a { color: #2c2a1c; }
+.cta-band .btn-gold { background: var(--navy-dark); color: var(--gold); }
+.cta-band .btn-ghost { border-color: var(--navy-dark); color: var(--navy-dark); }
+.cta-band .btn-ghost:hover { background: rgba(0,0,0,.06); color: var(--navy-dark); }
+
+.site-footer h4 { color: var(--gold); }
+.site-footer a:hover { color: var(--gold); }
+.mobile-bar .btn-navy { background: var(--navy-dark); color: var(--gold); }

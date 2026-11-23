@@ -9,9 +9,17 @@ import json, re, shutil, pathlib, datetime
 import yaml, markdown
 from jinja2 import Environment, FileSystemLoader
 
+import sys
 ROOT = pathlib.Path(__file__).parent
+PROFILE = sys.argv[sys.argv.index('--site') + 1] if '--site' in sys.argv else 'main'
 CONTENT, PUBLIC, DIST = ROOT / 'content', ROOT / 'public', ROOT / 'dist'
 SITE = 'https://plglegal.com'
+MAIN_SITE = 'https://plglegal.com'
+LEMON_SITE = 'https://bestlemonlawattorneyca.com'
+SITE_DIR = ROOT / 'sites' / PROFILE if PROFILE != 'main' else None
+if SITE_DIR:   # a second website built from the same engine: its own content, templates and assets layered over the main ones
+    CONTENT, DIST = SITE_DIR / 'content', SITE_DIR / 'dist'
+    SITE = LEMON_SITE
 GA_ID = ''           # Google Analytics 4 ID, e.g. 'G-XXXXXXX' (leave blank until created)
 ADS_ID = 'AW-18436695999'  # Google Ads tag (conversion labels live in public/js/site.js)
 
@@ -136,6 +144,9 @@ NAV = {
     ],
 }
 
+if SITE_DIR and (SITE_DIR / 'profile.py').exists():
+    exec((SITE_DIR / 'profile.py').read_text())   # may change FIRM, NAV, STRINGS, REMOVED
+
 def lang_of(url):
     return 'hy' if url.startswith('/hy/') else 'es' if url.startswith('/es/') else 'en'
 
@@ -191,7 +202,7 @@ def hero_image_for(url, fm):
              ('abogado-accidentes', '/images/practice-areas/car-accidents.jpg'), ('contact', '/images/legal-office.jpg')]
     for k, v in rules:
         if k in url: return v
-    return '/images/hero/glendale-poster.jpg'
+    return globals().get('DEFAULT_HERO', '/images/hero/glendale-poster.jpg')
 
 CRUMB_MAP = {  # folder levels that are not pages themselves
     '/car-accident-lawyer/': ('Car Accidents', '/practice-areas/car-accidents/'),
@@ -429,17 +440,33 @@ def home_sections(html, s):
             out.append(f'<section class="{cls}"><div class="wrap about-band"><figure class="about-photo">{img_tag(src, 720, alt)}{cap}</figure><div class="prose">{c}</div></div></section>')
         elif '<blockquote>' in c:
             out.append(f'<section class="{cls}"><div class="wrap prose wide">{review_cards(c)}</div></section>')
-        elif kind == 'steps':
+        elif kind in ('steps', 'wide'):
             out.append(f'<section class="{cls}"><div class="wrap prose wide">{c}</div></section>')
         else:
             out.append(f'<section class="{cls}"><div class="wrap narrow prose">{c}</div></section>')
     return ''.join(out)
 
+NOTFOUND_LINKS = globals().get('NOTFOUND_LINKS') or '<p><a href="/">Home</a> · <a href="/practice-areas/">Practice Areas</a> · <a href="/practice-areas/car-accidents/">Car Accidents</a> · <a href="/guides/">Guides</a> · <a href="/contact/">Contact</a></p>'
+ASSET_PREFIXES = ('/images/', '/css/', '/js/', '/videos/', '/fonts/')
+def cross_links(html, urls, redirects):
+    """Links to pages that live on the other website become absolute links to that site."""
+    other = MAIN_SITE if SITE_DIR else LEMON_SITE
+    def fix(m):
+        attr, path = m.group(1), m.group(2)
+        base = path.split('#')[0].split('?')[0]
+        if base == '' or base in urls or base in redirects or base.startswith(ASSET_PREFIXES) or '.' in base.rsplit('/', 1)[-1]:
+            return m.group(0)
+        return f'{attr}="{other}{path}"'
+    return re.sub(r'(href)="(/[^"]*)"', fix, html)
+
 # ---------- build ----------
 def main():
     if DIST.exists(): shutil.rmtree(DIST)
-    shutil.copytree(PUBLIC, DIST)
-    env = Environment(loader=FileSystemLoader(ROOT / 'templates'), autoescape=False)
+    shutil.copytree(PUBLIC, DIST, ignore=shutil.ignore_patterns('videos') if SITE_DIR else None)
+    if SITE_DIR and (SITE_DIR / 'public').exists():
+        shutil.copytree(SITE_DIR / 'public', DIST, dirs_exist_ok=True)
+    tdirs = ([SITE_DIR / 'templates'] if SITE_DIR else []) + [ROOT / 'templates']
+    env = Environment(loader=FileSystemLoader(tdirs), autoescape=False)
     tpl = env.get_template('page.html')
     reviews = json.loads((CONTENT / 'google-reviews.json').read_text()) if (CONTENT / 'google-reviews.json').exists() else []
 
@@ -490,6 +517,8 @@ def main():
             is_home=is_home, crumbs=crumbs, jsonld=ld, alternates=alts, side_reviews=side_reviews, headshot=headshot,
             canonical=SITE + url, review_note=fm.get('review_note'), ga_id=GA_ID, ads_id=ADS_ID, reviews=reviews,
             year=datetime.date.today().year, is_contact=url in ('/contact/', '/hy/contact/', '/es/contacto/'))
+        if 'PAGE_HOOK' in globals(): out = PAGE_HOOK(out, url)
+        out = cross_links(out, urls, redirects)
         dest = DIST / url.strip('/') / 'index.html' if url != '/' else DIST / 'index.html'
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_text(out)
@@ -498,7 +527,7 @@ def main():
         d = DIST / old.strip('/') / 'index.html'
         d.parent.mkdir(parents=True, exist_ok=True)
         d.write_text(f'<!doctype html><html><head><meta charset="utf-8"><title>Redirecting</title>'
-                     f'<meta name="robots" content="noindex"><link rel="canonical" href="{SITE}{new}">'
+                     f'<meta name="robots" content="noindex"><link rel="canonical" href="{new if new.startswith("http") else SITE + new}">'
                      f'<meta http-equiv="refresh" content="0;url={new}"></head><body><a href="{new}">Continue</a></body></html>')
     (DIST / '_redirects.json').write_text(json.dumps(redirects, indent=1))
 
@@ -513,7 +542,7 @@ def main():
     fm404 = {'url': '/404/'}
     (DIST / '404.html').write_text(tpl.render(url='/404/', lang='en', s=STRINGS['en'], firm=FIRM, nav=NAV['en'], title='Page Not Found | Prospect Law Group',
         description='', h1='Page Not Found', subtitle='The page you are looking for moved. Try the links below or call us.',
-        hero_image='/images/hero/glendale-poster.jpg', hero_bg='/images/hero/glendale-poster.jpg', content='<p><a href="/">Home</a> · <a href="/practice-areas/">Practice Areas</a> · <a href="/practice-areas/car-accidents/">Car Accidents</a> · <a href="/practice-areas/lemon-law/">Lemon Law</a> · <a href="/lemon-law/mercedes-benz/">Mercedes-Benz Lemon Law</a> · <a href="/guides/">Guides</a> · <a href="/contact/">Contact</a></p>',
+        hero_image='/images/hero/glendale-poster.jpg', hero_bg='/images/hero/glendale-poster.jpg', content=NOTFOUND_LINKS,
         hero_html='', is_home=False, crumbs=[('Home', '/')], jsonld=[], alternates={}, canonical=SITE + '/404/', review_note=None,
         ga_id=GA_ID, ads_id=ADS_ID, reviews=reviews, year=datetime.date.today().year, is_contact=False, noindex=True,
         side_reviews=[r for r in reviews if len(r['text']) < 260][:3], headshot=''))
